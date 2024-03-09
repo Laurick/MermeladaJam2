@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://7bjmaj01klln"]
 
 [ext_resource type="PackedScene" uid="uid://yblo1rvari2x" path="res://components/credits.tscn" id="1_2b1kc"]
-[ext_resource type="Script" path="res://scenes/main_credits.gd" id="1_ga3t8"]
+[ext_resource type="Script" path="res://scripts/main_credits.gd" id="1_ga3t8"]
 
 [node name="MainCredits" type="Control"]
 layout_mode = 3

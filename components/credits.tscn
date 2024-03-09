@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://yblo1rvari2x"]
 
 [ext_resource type="Script" path="res://components/credits.gd" id="1_0q6ea"]
-[ext_resource type="Shader" path="res://components/credits.gdshader" id="2_ox53w"]
-[ext_resource type="FontFile" uid="uid://bhfrosfnlv04g" path="res://components/Kenney Future Narrow.ttf" id="3_iqxyc"]
+[ext_resource type="Shader" path="res://shaders/credits.gdshader" id="2_ox53w"]
+[ext_resource type="FontFile" uid="uid://bhfrosfnlv04g" path="res://fonts/Kenney Future Narrow.ttf" id="3_iqxyc"]
 
 [sub_resource type="Animation" id="Animation_b0q38"]
 resource_name = "creditos_animacion"

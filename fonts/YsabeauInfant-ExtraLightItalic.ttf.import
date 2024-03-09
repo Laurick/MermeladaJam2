@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bhfrosfnlv04g"
-path="res://.godot/imported/Kenney Future Narrow.ttf-a8762fdd78e7a48a20c0ddf4676b1787.fontdata"
+uid="uid://d4ck7eitu4jxx"
+path="res://.godot/imported/YsabeauInfant-ExtraLightItalic.ttf-f06acc8ed4482a616bcb1864d8656776.fontdata"
 
 [deps]
 
-source_file="res://components/Kenney Future Narrow.ttf"
-dest_files=["res://.godot/imported/Kenney Future Narrow.ttf-a8762fdd78e7a48a20c0ddf4676b1787.fontdata"]
+source_file="res://fonts/YsabeauInfant-ExtraLightItalic.ttf"
+dest_files=["res://.godot/imported/YsabeauInfant-ExtraLightItalic.ttf-f06acc8ed4482a616bcb1864d8656776.fontdata"]
 
 [params]
 
