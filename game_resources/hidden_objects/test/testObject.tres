@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HiddenObjectData" load_steps=3 format=3 uid="uid://cwnm8ru77bjkd"]
+
+[ext_resource type="Script" path="res://game_resources/hidden_objects/hidden_object_data.gd" id="1_aqifm"]
+[ext_resource type="Texture2D" uid="uid://orp0d5adlgxq" path="res://images/test/genericItem_color_085.png" id="1_p4hwv"]
+
+[resource]
+script = ExtResource("1_aqifm")
+image = ExtResource("1_p4hwv")
+key = "test"
+name = "Test Object"
+description = "This is a test object for testing"
