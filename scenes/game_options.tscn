@@ -1,3 +1,39 @@
-[gd_scene format=3 uid="uid://clrhsilgfupnc"]
+[gd_scene load_steps=2 format=3 uid="uid://clrhsilgfupnc"]
 
-[node name="GameOptions" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://c4meyla2in6jl" path="res://components/options.tscn" id="1_01oi1"]
+
+[node name="GameOptions" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -222.5
+offset_top = -103.5
+offset_right = 222.5
+offset_bottom = 103.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Options" parent="VBoxContainer" instance=ExtResource("1_01oi1")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="MAIN_MENU" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "VOLVER"
+
+[node name="EXIT" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "SALIR"
