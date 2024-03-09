@@ -40,8 +40,25 @@ vertical_alignment = 1
 custom_minimum_size = Vector2(245, 0)
 layout_mode = 2
 
+[node name="Music" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer/Music"]
+layout_mode = 0
+offset_left = 452.5
+offset_top = -3.5
+offset_right = 498.5
+offset_bottom = 22.5
+text = "Music"
+
 [node name="Sfx" type="HSlider" parent="MarginContainer/CenterContainer/VBoxContainer"]
 layout_mode = 2
+
+[node name="SFX" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer/Sfx"]
+layout_mode = 0
+offset_left = 454.5
+offset_top = -5.5
+offset_right = 494.5
+offset_bottom = 20.5
+text = "SFX
+"
 
 [node name="Idiomas" type="OptionButton" parent="MarginContainer/CenterContainer/VBoxContainer"]
 layout_mode = 2
