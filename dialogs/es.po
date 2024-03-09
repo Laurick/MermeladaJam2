@@ -1,0 +1,104 @@
+# LANGUAGE translation for MermeladaJam2 for the following files:
+# res://dialogs/test.dialogue
+# res://scripts/ui_song_label.gd
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MermeladaJam2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: dialogs/test.dialogue
+msgctxt "dialogue"
+msgid "Nathan"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "[[Hi|Hello|Howdy]], this is some dialogue."
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Here are some choices."
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "First one"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "You picked the first one."
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Second one"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "You picked the second one."
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Start again"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "End the conversation"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "For more information see the online documentation."
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "[[Holiwi|Hola|Hallo]], este es un dialogo."
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Aqui hay algunos opciones."
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Primera"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "pillaste la primera"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Segunda"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "elegiste la segunda"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Comenzar de nuevo"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Finalizar"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "A la documentacion tolai"
+msgstr ""
+
+#: dialogs/test.dialogue
+msgid "Muelas por detras"
+msgstr "Muelas por delante"
+
+#: scripts/ui_song_label.gd
+msgid "Now playing: %s"
+msgstr "Esta sonando: %s"

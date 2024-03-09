@@ -1,0 +1,28 @@
+~ this_is_a_node_title
+
+Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
+Nathan: Here are some choices.
+- First one
+	Nathan: You picked the first one.
+- Second one
+	Nathan: You picked the second one.
+- Start again => this_is_a_node_title
+- End the conversation => END
+Nathan: For more information see the online documentation.
+
+=> END
+
+~ this_is_a_node_title2
+if Globals.test == true:
+	Nathan: [[Holiwi|Hola|Hallo]], este es un dialogo.
+	Nathan: Aqui hay algunos opciones.
+	- Primera
+		Nathan: pillaste la primera
+	- Segunda
+		Nathan: elegiste la segunda
+	- Comenzar de nuevo => this_is_a_node_title2
+	- Finalizar => END
+	Nathan: A la documentacion tolai
+else:
+	Nathan: Muelas por detras
+=> END
