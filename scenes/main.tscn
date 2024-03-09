@@ -48,3 +48,7 @@ text = "PLAY
 [node name="CREDITS" type="Button" parent="MarginContainer/CenterContainer/HBoxContainer"]
 layout_mode = 2
 text = "CREDITS"
+
+[connection signal="pressed" from="MarginContainer/CenterContainer/HBoxContainer/OPTIONS" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="MarginContainer/CenterContainer/HBoxContainer/PLAY" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="MarginContainer/CenterContainer/HBoxContainer/CREDITS" to="." method="_on_credits_pressed"]
