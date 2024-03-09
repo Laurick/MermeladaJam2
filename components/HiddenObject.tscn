@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://creh3h7tfua3w"]
+
+[ext_resource type="Script" path="res://components/HiddenObject.gd" id="1_odlho"]
+
+[node name="HiddenObject" type="Sprite2D"]
+centered = false
+script = ExtResource("1_odlho")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]

@@ -1,3 +1,31 @@
-[gd_scene format=3 uid="uid://7bjmaj01klln"]
+[gd_scene load_steps=3 format=3 uid="uid://7bjmaj01klln"]
 
-[node name="MainCredits" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://yblo1rvari2x" path="res://components/credits.tscn" id="1_2b1kc"]
+[ext_resource type="Script" path="res://scenes/main_credits.gd" id="1_ga3t8"]
+
+[node name="MainCredits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ga3t8")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Credits" parent="VBoxContainer" instance=ExtResource("1_2b1kc")]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "BACK TO GAME"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]

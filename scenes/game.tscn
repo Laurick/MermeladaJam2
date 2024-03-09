@@ -1,9 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://cpxpi88p6jftk"]
+[gd_scene load_steps=7 format=3 uid="uid://cpxpi88p6jftk"]
 
+[ext_resource type="Script" path="res://scripts/GameManager.gd" id="1_8020r"]
 [ext_resource type="PackedScene" uid="uid://d2uumqn3r68vf" path="res://components/jukebox.tscn" id="1_dnmd3"]
+[ext_resource type="PackedScene" uid="uid://creh3h7tfua3w" path="res://components/HiddenObject.tscn" id="1_dpkxo"]
 [ext_resource type="Script" path="res://scripts/ui_song_label.gd" id="2_k5c38"]
+[ext_resource type="Texture2D" uid="uid://orp0d5adlgxq" path="res://images/test/genericItem_color_085.png" id="3_a6sxq"]
+[ext_resource type="Resource" uid="uid://cwnm8ru77bjkd" path="res://game_resources/hidden_objects/test/testObject.tres" id="4_npb1u"]
 
 [node name="Game" type="Node"]
+script = ExtResource("1_8020r")
+
+[node name="HiddenObject" parent="." instance=ExtResource("1_dpkxo")]
+position = Vector2(166, 294)
+texture = ExtResource("3_a6sxq")
+data = ExtResource("4_npb1u")
 
 [node name="Jukebox" parent="." instance=ExtResource("1_dnmd3")]
 position = Vector2(604, 266)
@@ -30,4 +40,5 @@ horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_k5c38")
 
+[connection signal="object_clicked" from="HiddenObject" to="." method="_on_hidden_object_object_clicked"]
 [connection signal="music_changed" from="Jukebox" to="UI/Label" method="_on_jukebox_music_changed"]
