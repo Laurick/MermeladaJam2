@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://dhdlq527ecnf2"]
+[gd_scene load_steps=2 format=3 uid="uid://dhdlq527ecnf2"]
 
-[node name="GameCredits" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://yblo1rvari2x" path="res://components/credits.tscn" id="1_7se7n"]
+
+[node name="GameCredits" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Credits" parent="." instance=ExtResource("1_7se7n")]
+layout_mode = 1
