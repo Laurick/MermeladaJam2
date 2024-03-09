@@ -42,10 +42,10 @@ layout_mode = 2
 
 [node name="Music" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer/Music"]
 layout_mode = 0
-offset_left = 452.5
-offset_top = -3.5
-offset_right = 498.5
-offset_bottom = 22.5
+offset_left = 194.5
+offset_top = -21.5
+offset_right = 240.5
+offset_bottom = 4.5
 text = "Music"
 
 [node name="Sfx" type="HSlider" parent="MarginContainer/CenterContainer/VBoxContainer"]
@@ -53,12 +53,21 @@ layout_mode = 2
 
 [node name="SFX" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer/Sfx"]
 layout_mode = 0
-offset_left = 454.5
-offset_top = -5.5
-offset_right = 494.5
-offset_bottom = 20.5
+offset_left = 204.5
+offset_top = -23.5
+offset_right = 244.5
+offset_bottom = 2.5
 text = "SFX
 "
 
 [node name="Idiomas" type="OptionButton" parent="MarginContainer/CenterContainer/VBoxContainer"]
 layout_mode = 2
+
+[node name="MainMenu" type="Button" parent="MarginContainer/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "INICIO"
+
+[node name="EXIT" type="Button" parent="MarginContainer/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "SALIR
+"
