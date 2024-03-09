@@ -1,6 +1,10 @@
 # LANGUAGE translation for MermeladaJam2 for the following files:
 # res://dialogs/test.dialogue
 # res://scripts/ui_song_label.gd
+# res://components/options.tscn
+# res://scenes/game_options.tscn
+# res://scenes/main.tscn
+# res://scenes/main_options.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -95,4 +99,40 @@ msgstr ""
 
 #: scripts/ui_song_label.gd
 msgid "Now playing: %s"
+msgstr ""
+
+#: components/options.tscn
+msgid "OPTIONS"
+msgstr ""
+
+#: components/options.tscn
+msgid "Music"
+msgstr ""
+
+#: components/options.tscn
+msgid "SFX\n"
+msgstr ""
+
+#: scenes/game_options.tscn
+msgid "BACK TO GAME"
+msgstr ""
+
+#: scenes/game_options.tscn
+msgid "EXIT"
+msgstr ""
+
+#: scenes/main.tscn
+msgid "OPTIONS\n"
+msgstr ""
+
+#: scenes/main.tscn
+msgid "PLAY\n"
+msgstr ""
+
+#: scenes/main.tscn
+msgid "CREDITS"
+msgstr ""
+
+#: scenes/main_options.tscn
+msgid "BACK TO MENU"
 msgstr ""

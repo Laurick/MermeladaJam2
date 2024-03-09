@@ -37,14 +37,14 @@ alignment = 1
 
 [node name="OPTIONS" type="Button" parent="MarginContainer/CenterContainer/HBoxContainer"]
 layout_mode = 2
-text = "OPCIONES
+text = "OPTIONS
 "
 
 [node name="PLAY" type="Button" parent="MarginContainer/CenterContainer/HBoxContainer"]
 layout_mode = 2
-text = "JUGAR
+text = "PLAY
 "
 
 [node name="CREDITS" type="Button" parent="MarginContainer/CenterContainer/HBoxContainer"]
 layout_mode = 2
-text = "CREDITOS"
+text = "CREDITS"

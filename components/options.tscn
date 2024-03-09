@@ -6,10 +6,6 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -222.5
-offset_top = -103.5
-offset_right = 222.5
-offset_bottom = 103.5
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -26,7 +22,7 @@ theme_override_constants/separation = 43
 
 [node name="OPTIONS" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer"]
 layout_mode = 2
-text = "OPCIONES"
+text = "OPTIONS"
 horizontal_alignment = 1
 vertical_alignment = 1
 

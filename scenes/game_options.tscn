@@ -30,10 +30,10 @@ grow_vertical = 2
 layout_mode = 2
 size_flags_horizontal = 4
 
-[node name="MAIN_MENU" type="Button" parent="VBoxContainer"]
+[node name="MainMenu" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-text = "VOLVER"
+text = "BACK TO GAME"
 
-[node name="EXIT" type="Button" parent="VBoxContainer"]
+[node name="Exit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-text = "SALIR"
+text = "EXIT"
