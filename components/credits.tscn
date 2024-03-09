@@ -1,6 +1,55 @@
-[gd_scene load_steps=2 format=3 uid="uid://yblo1rvari2x"]
+[gd_scene load_steps=4 format=3 uid="uid://yblo1rvari2x"]
 
 [ext_resource type="Script" path="res://components/credits.gd" id="1_0q6ea"]
 
-[node name="Credits" type="Node2D"]
+[sub_resource type="Animation" id="Animation_b0q38"]
+resource_name = "creditos_animacion"
+length = 10.0
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sntfv"]
+_data = {
+"creditos_animacion": SubResource("Animation_b0q38")
+}
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_0q6ea")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 647.0
+text = "Mermelada Jam 2
+
+\"Placeholder título del juego\"
+
+Creador por equipo Jam te digo
+
+Ilustración
+\"Usuario de Pilar\"
+
+Historia 
+\"Usuario de capi\"
+
+Música 
+\"Usuario de Jeff\"
+
+Programación
+
+Lead programmer
+\"Usuario de Ildesir\"
+
+Programadores 
+\"Usuario de Sailor\"
+\"Usuario de Chimi\""
+horizontal_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_sntfv")
+}
