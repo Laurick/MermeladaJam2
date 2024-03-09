@@ -37,7 +37,7 @@ libraries = {
 layout_mode = 0
 offset_right = 1155.0
 offset_bottom = 647.0
-color = Color(0.482353, 0.831373, 0.866667, 1)
+color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="ColorRect"]
 material = SubResource("ShaderMaterial_0kyai")
@@ -46,7 +46,13 @@ offset_left = 6.0
 offset_top = 3.0
 offset_right = 1158.0
 offset_bottom = 650.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(1, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 1, 1)
+theme_override_constants/shadow_offset_x = 5
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 4
+theme_override_constants/line_spacing = 0
 theme_override_fonts/font = ExtResource("3_iqxyc")
 theme_override_font_sizes/font_size = 20
 text = "Mermelada Jam 2
@@ -56,20 +62,20 @@ text = "Mermelada Jam 2
 Creador  Jam te digo
 
 Ilustración
-\"Usuario de Pilar\"
+PSuzume
 
 Historia 
-\"Usuario de capi\"
+Capitan Yelmo
 
 Música 
-\"Usuario de Jeff\"
+Jeffbesosenlacalva
 
 Programación
 
 Lead programmer
-\"Usuario de Ildesir\"
+Ildesir
 
 Programadores 
-\"Usuario de Sailor\"
-\"Usuario de Chimi\""
+SailorFu
+SrChimichanga"
 horizontal_alignment = 1
