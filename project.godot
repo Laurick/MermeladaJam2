@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 Globals="*res://scripts/Globals.gd"
+Audio="*res://components/Audio.tscn"
 
 [dialogue_manager]
 

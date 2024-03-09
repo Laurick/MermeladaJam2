@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv1te1l33cgbc"]
+
+[ext_resource type="Script" path="res://components/Audio.gd" id="1_rcu6r"]
+
+[node name="Audio" type="Node"]
+script = ExtResource("1_rcu6r")
+
+[node name="AudioStreamPlayerMusic" type="AudioStreamPlayer" parent="."]
+volume_db = -6.0
+autoplay = true
+bus = &"Music"
+
+[node name="AudioStreamPlayerUI" type="AudioStreamPlayer" parent="."]
+volume_db = -6.0
+bus = &"SFX"

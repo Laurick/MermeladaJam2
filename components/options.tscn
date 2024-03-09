@@ -32,7 +32,9 @@ vertical_alignment = 1
 [node name="Music" type="HSlider" parent="MarginContainer/CenterContainer/VBoxContainer"]
 custom_minimum_size = Vector2(245, 0)
 layout_mode = 2
-value = 50.0
+max_value = 1.0
+step = 0.01
+value = 0.5
 
 [node name="Music" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer/Music"]
 layout_mode = 0
@@ -44,7 +46,9 @@ text = "Music"
 
 [node name="Sfx" type="HSlider" parent="MarginContainer/CenterContainer/VBoxContainer"]
 layout_mode = 2
-value = 50.0
+max_value = 1.0
+step = 0.01
+value = 0.5
 
 [node name="SFX" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer/Sfx"]
 layout_mode = 0
@@ -66,4 +70,6 @@ popup/item_1/id = 1
 popup/item_2/text = "Català"
 popup/item_2/id = 2
 
+[connection signal="value_changed" from="MarginContainer/CenterContainer/VBoxContainer/Music" to="." method="_on_music_value_changed"]
+[connection signal="drag_ended" from="MarginContainer/CenterContainer/VBoxContainer/Sfx" to="." method="_on_sfx_drag_ended"]
 [connection signal="item_selected" from="MarginContainer/CenterContainer/VBoxContainer/Idiomas" to="." method="_on_idiomas_item_selected"]
