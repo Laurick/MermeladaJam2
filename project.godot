@@ -12,7 +12,7 @@ config_version=5
 
 config/name="MermeladaJam2"
 run/main_scene="res://scenes/main.tscn"
-config/features=PackedStringArray("4.1", "Forward Plus")
+config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -31,4 +31,4 @@ enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
 [internationalization]
 
 locale/translations=PackedStringArray("res://dialogs/es.po", "res://dialogs/es.mo")
-locale/translations_pot_files=PackedStringArray("res://dialogs/test.dialogue", "res://scripts/ui_song_label.gd", "res://Diálogos/main.dialogue", "res://maindialogue.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogs/test.dialogue", "res://scripts/ui_song_label.gd")
