@@ -22,13 +22,15 @@ script = ExtResource("1_0q6ea")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_right = 1152.0
-offset_bottom = 647.0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 1154.0
+offset_bottom = 649.0
 text = "Mermelada Jam 2
 
 \"Placeholder título del juego\"
 
-Creador por equipo Jam te digo
+Creador  Jam te digo
 
 Ilustración
 \"Usuario de Pilar\"
