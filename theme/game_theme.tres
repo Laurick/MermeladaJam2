@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=9 format=3 uid="uid://c8nj6sowc210b"]
+[gd_resource type="Theme" load_steps=22 format=3 uid="uid://c8nj6sowc210b"]
 
 [ext_resource type="FontFile" uid="uid://nri1074nkpfl" path="res://fonts/Comfortaa-SemiBold.ttf" id="1_nhob1"]
 [ext_resource type="FontFile" uid="uid://cl2peocapybvs" path="res://fonts/Comfortaa-Medium.ttf" id="2_beikf"]
@@ -14,9 +14,35 @@
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_db7ku"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lghld"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_c0l40"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v72y5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7yecg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jhjni"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wytos"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tista"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6dlgk"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kc0i3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ks3yr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mnv7k"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_un1s1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b4kl2"]
+
 [resource]
 default_font = ExtResource("2_vk36h")
-Button/colors/font_color = Color(1, 0.0117647, 0.835294, 1)
+Button/colors/font_color = Color(0.4, 0.004, 0.334, 1)
 Button/colors/font_focus_color = Color(0.964706, 0.635294, 0.890196, 1)
 Button/colors/font_hover_color = Color(0.988235, 0.4, 0.85098, 1)
 Button/constants/outline_size = 4
@@ -30,8 +56,27 @@ Button/styles/pressed = SubResource("StyleBoxEmpty_db7ku")
 Label/colors/font_color = Color(1, 0.0117647, 0.835294, 1)
 Label/colors/font_outline_color = Color(1, 1, 1, 1)
 Label/constants/line_spacing = 3
-Label/constants/outline_size = 2
+Label/constants/outline_size = 4
 Label/font_sizes/font_size = 20
 Label/fonts/font = ExtResource("2_beikf")
 MenuButton/fonts/font = ExtResource("1_nhob1")
 OptionButton/fonts/font = ExtResource("1_nhob1")
+OptionButton/styles/disabled = SubResource("StyleBoxEmpty_lghld")
+OptionButton/styles/disabled_mirrored = SubResource("StyleBoxEmpty_c0l40")
+OptionButton/styles/focus = SubResource("StyleBoxEmpty_v72y5")
+OptionButton/styles/hover = SubResource("StyleBoxEmpty_7yecg")
+OptionButton/styles/hover_mirrored = SubResource("StyleBoxEmpty_jhjni")
+OptionButton/styles/normal = SubResource("StyleBoxEmpty_wytos")
+PopupDialog/styles/panel = SubResource("StyleBoxEmpty_tista")
+PopupMenu/colors/font_color = Color(1, 0.0117647, 0.835294, 1)
+PopupMenu/colors/font_hover_color = Color(0.988235, 0.4, 0.85098, 1)
+PopupMenu/colors/font_outline_color = Color(1, 1, 1, 1)
+PopupMenu/constants/outline_size = 4
+PopupMenu/font_sizes/font_size = 48
+PopupMenu/fonts/font = ExtResource("1_nhob1")
+PopupMenu/styles/hover = SubResource("StyleBoxEmpty_6dlgk")
+PopupMenu/styles/labeled_separator_left = SubResource("StyleBoxEmpty_kc0i3")
+PopupMenu/styles/labeled_separator_right = SubResource("StyleBoxEmpty_ks3yr")
+PopupMenu/styles/panel = SubResource("StyleBoxEmpty_mnv7k")
+PopupMenu/styles/separator = SubResource("StyleBoxEmpty_un1s1")
+PopupPanel/styles/panel = SubResource("StyleBoxEmpty_b4kl2")

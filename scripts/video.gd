@@ -1,10 +1,12 @@
 extends Control
 
 var time = 0
+@onready var video_stream_player:VideoStreamPlayer 
 
 func _ready():
 	var tween = create_tween()
-	tween.tween_property($ColorRect,"color:a",0,2)
+	tween.parallel().tween_property($ColorRect,"color:a",0,2)
+	tween.parallel().tween_property($VideoStreamPlayer,"volume_db",-6,2)
 	tween.play()
 
 func _process(delta):

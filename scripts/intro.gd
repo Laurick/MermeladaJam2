@@ -3,6 +3,7 @@ extends Control
 @onready var color_rect = $ColorRect
 
 func _ready():
+	Audio.stop_music()
 	fade_out()
 	DialogueManager.dialogue_ended.connect(fade_in.unbind(1))
 	DialogueManager.show_dialogue_balloon_scene(load("res://components/balloon.tscn"),\

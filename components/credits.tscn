@@ -1,23 +1,16 @@
-[gd_scene load_steps=7 format=3 uid="uid://yblo1rvari2x"]
+[gd_scene load_steps=4 format=3 uid="uid://yblo1rvari2x"]
 
-[ext_resource type="Script" path="res://components/credits.gd" id="1_0q6ea"]
-[ext_resource type="Shader" path="res://shaders/credits.gdshader" id="2_ox53w"]
-[ext_resource type="FontFile" uid="uid://bhfrosfnlv04g" path="res://fonts/Kenney Future Narrow.ttf" id="3_iqxyc"]
+[ext_resource type="Texture2D" uid="uid://c7e47f0xqb0ng" path="res://images/pared.png" id="1_wq3wa"]
+[ext_resource type="Theme" uid="uid://c8nj6sowc210b" path="res://theme/game_theme.tres" id="2_vca5q"]
 
-[sub_resource type="Animation" id="Animation_b0q38"]
-resource_name = "creditos_animacion"
-length = 10.0
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_sntfv"]
-_data = {
-"creditos_animacion": SubResource("Animation_b0q38")
-}
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_0kyai"]
-shader = ExtResource("2_ox53w")
-shader_parameter/height = 3.0
-shader_parameter/frequency = 20.0
-shader_parameter/speed = 3.0
+[sub_resource type="Environment" id="Environment_ot4tg"]
+background_mode = 3
+glow_enabled = true
+glow_intensity = 0.7
+glow_blend_mode = 1
+glow_hdr_threshold = 0.05
+glow_hdr_scale = 0.83
+glow_map_strength = 1.0
 
 [node name="Credits" type="Control"]
 layout_mode = 3
@@ -26,78 +19,61 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_0q6ea")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_sntfv")
-}
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_wq3wa")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.686275)
+
+[node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_right = 1155.0
-offset_bottom = 647.0
-color = Color(0, 0, 0, 1)
+offset_left = -195.0
+offset_top = -17.0
+offset_right = 957.0
+offset_bottom = 740.0
+theme = ExtResource("2_vca5q")
+theme_override_font_sizes/font_size = 32
+text = "Equipo \"Jam te digo\" 
 
-[node name="Label" type="Label" parent="ColorRect"]
-material = SubResource("ShaderMaterial_0kyai")
-layout_mode = 0
-offset_left = -147.0
-offset_top = 35.0
-offset_right = 1005.0
-offset_bottom = 682.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_shadow_color = Color(1, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 1, 1)
-theme_override_constants/shadow_offset_x = 5
-theme_override_constants/shadow_offset_y = 0
-theme_override_constants/outline_size = 4
-theme_override_constants/line_spacing = 0
-theme_override_fonts/font = ExtResource("3_iqxyc")
-theme_override_font_sizes/font_size = 20
-text = "Mermelada Jam 2
+Ilustración
+PSuzume
 
-\"Placeholder título del juego\"             
+Historia
+Capitan Yelmo
 
-Creado por  Jam te digo
-
-Ilustración                   
--PSuzume
-
-Historia 
--Capitan Yelmo
-
-Música 
--Jeffbesosenlacalva
-
-Programación
+Música
+Jeffbesosenlacalva
 
 Lead programmer
--Ildesir
+Ildesir
 
 Programadores 
--SailorFu
--SrChimichanga
-"
+SailorFu
+SrChimichanga"
 horizontal_alignment = 1
-vertical_alignment = 3
+vertical_alignment = 1
 
-[node name="Label2" type="Label" parent="ColorRect"]
-material = SubResource("ShaderMaterial_0kyai")
+[node name="Label2" type="Label" parent="."]
 layout_mode = 0
 offset_left = 344.0
 offset_top = 9.0
 offset_right = 1496.0
 offset_bottom = 656.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_shadow_color = Color(1, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 1, 1)
-theme_override_constants/shadow_offset_x = 5
-theme_override_constants/shadow_offset_y = 0
-theme_override_constants/outline_size = 4
-theme_override_constants/line_spacing = 0
-theme_override_fonts/font = ExtResource("3_iqxyc")
-theme_override_font_sizes/font_size = 20
+theme = ExtResource("2_vca5q")
+theme_override_font_sizes/font_size = 32
 text = "
 Imágenes de:
 
@@ -112,3 +88,6 @@ AntoineRomo - freesound -
 "
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ot4tg")
