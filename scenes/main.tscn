@@ -1,6 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://f1dms0ef1ctt"]
+[gd_scene load_steps=4 format=3 uid="uid://f1dms0ef1ctt"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_x66mr"]
+[ext_resource type="Theme" uid="uid://c8nj6sowc210b" path="res://theme/game_theme.tres" id="2_a80mq"]
+
+[sub_resource type="Environment" id="Environment_5pkdd"]
+background_mode = 3
+glow_enabled = true
+glow_intensity = 1.05
+glow_strength = 1.14
+glow_blend_mode = 1
+glow_hdr_threshold = 0.0
+glow_hdr_scale = 1.66
+glow_map_strength = 1.0
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -37,17 +48,23 @@ alignment = 1
 
 [node name="OPTIONS" type="Button" parent="MarginContainer/CenterContainer/HBoxContainer"]
 layout_mode = 2
+theme = ExtResource("2_a80mq")
 text = "OPTIONS
 "
 
 [node name="PLAY" type="Button" parent="MarginContainer/CenterContainer/HBoxContainer"]
 layout_mode = 2
+theme = ExtResource("2_a80mq")
 text = "PLAY
 "
 
 [node name="CREDITS" type="Button" parent="MarginContainer/CenterContainer/HBoxContainer"]
 layout_mode = 2
+theme = ExtResource("2_a80mq")
 text = "CREDITS"
+
+[node name="Brillo efecto neón" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_5pkdd")
 
 [connection signal="pressed" from="MarginContainer/CenterContainer/HBoxContainer/OPTIONS" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="MarginContainer/CenterContainer/HBoxContainer/PLAY" to="." method="_on_play_pressed"]

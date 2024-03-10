@@ -3,12 +3,12 @@
 importer="dialogue_manager_compiler_11"
 type="Resource"
 uid="uid://b4mujogesprme"
-path="res://.godot/imported/escena2cat.dialogue-e2b6d5082d7e22f6e8fbc6ef67dce5d2.tres"
+path="res://.godot/imported/Escena2cat.dialogue-8e08a2e0d7987a18cee638c687f18683.tres"
 
 [deps]
 
-source_file="res://dialogs/escena2cat.dialogue"
-dest_files=["res://.godot/imported/escena2cat.dialogue-e2b6d5082d7e22f6e8fbc6ef67dce5d2.tres"]
+source_file="res://dialogs/Escena2cat.dialogue"
+dest_files=["res://.godot/imported/Escena2cat.dialogue-8e08a2e0d7987a18cee638c687f18683.tres"]
 
 [params]
 
