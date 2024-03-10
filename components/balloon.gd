@@ -45,12 +45,20 @@ var dialogue_line: DialogueLine:
 
 		character_label.visible = not dialogue_line.character.is_empty()
 		character_label.text = tr(dialogue_line.character, "dialogue")
+		var pj = ""
+		var mood = ""
 		if dialogue_line.character == "Desconocido":
-			avatar.texture = load("res://images/Desafecto.png")
+			pj = "Desafecto"
 		else:
-			var path = "res://images/%s.png" % dialogue_line.character
-			if ResourceLoader.exists(path):
-				avatar.texture = load(path)
+			pj = dialogue_line.character
+
+		if dialogue_line.get_tag_value("mood") != "":
+			mood = "_"+dialogue_line.get_tag_value("mood")
+
+		var path = "res://images/"+pj+mood+".png"
+		print(path)
+		if ResourceLoader.exists(path):
+			avatar.texture = load(path)
 			
 		dialogue_label.hide()
 		dialogue_label.dialogue_line = dialogue_line
@@ -81,6 +89,12 @@ var dialogue_line: DialogueLine:
 			balloon.grab_focus()
 	get:
 		return dialogue_line
+
+func jump() -> void:
+	var tween = create_tween()
+	tween.chain().tween_property(avatar,"position",Vector2(0,120),0.2).set_ease(Tween.EASE_OUT)
+	tween.chain().tween_property(avatar,"position",Vector2(0,160),0.1).set_ease(Tween.EASE_IN)
+	tween.play()
 
 
 func _ready() -> void:

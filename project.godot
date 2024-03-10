@@ -24,6 +24,7 @@ Audio="*res://components/Audio.tscn"
 [dialogue_manager]
 
 general/balloon_path="res://components/balloon.tscn"
+general/new_with_template=false
 
 [display]
 
