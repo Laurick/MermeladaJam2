@@ -57,25 +57,32 @@ theme_override_fonts/font = ExtResource("3_iqxyc")
 theme_override_font_sizes/font_size = 20
 text = "Mermelada Jam 2
 
-\"Placeholder título del juego\"
+\"Placeholder título del juego\"             
 
-Creador  Jam te digo
+Creado por  Jam te digo
 
-Ilustración
-PSuzume
+Ilustración                   
+-PSuzume
 
 Historia 
-Capitan Yelmo
+-Capitan Yelmo
 
 Música 
-Jeffbesosenlacalva
+-Jeffbesosenlacalva
 
 Programación
 
 Lead programmer
-Ildesir
+-Ildesir
 
 Programadores 
-SailorFu
-SrChimichanga"
+-SailorFu
+-SrChimichanga
+
+Imágenes de:
+Michael dziedzic
+Oscar Nilsson
+Birger Strahl
+"
 horizontal_alignment = 1
+vertical_alignment = 3

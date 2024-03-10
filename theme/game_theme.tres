@@ -1,6 +1,7 @@
-[gd_resource type="Theme" load_steps=7 format=3 uid="uid://c8nj6sowc210b"]
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://c8nj6sowc210b"]
 
 [ext_resource type="FontFile" uid="uid://bebuk0xlntyxi" path="res://fonts/YsabeauInfant-ExtraBold.ttf" id="1_061p0"]
+[ext_resource type="FontFile" uid="uid://do8l5vb3sx405" path="res://fonts/YsabeauInfant-Bold.ttf" id="2_vk36h"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vxq4p"]
 
@@ -13,14 +14,20 @@
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_db7ku"]
 
 [resource]
+default_font = ExtResource("2_vk36h")
 Button/colors/font_color = Color(1, 0.0117647, 0.835294, 1)
 Button/colors/font_focus_color = Color(0.964706, 0.635294, 0.890196, 1)
 Button/colors/font_hover_color = Color(0.988235, 0.4, 0.85098, 1)
 Button/constants/outline_size = 3
-Button/font_sizes/font_size = 50
+Button/font_sizes/font_size = 40
 Button/fonts/font = ExtResource("1_061p0")
 Button/styles/disabled = SubResource("StyleBoxEmpty_vxq4p")
 Button/styles/focus = SubResource("StyleBoxEmpty_o32qc")
 Button/styles/hover = SubResource("StyleBoxEmpty_srjyr")
 Button/styles/normal = SubResource("StyleBoxEmpty_570vx")
 Button/styles/pressed = SubResource("StyleBoxEmpty_db7ku")
+Label/colors/font_color = Color(1, 0.0117647, 0.835294, 1)
+Label/colors/font_outline_color = Color(1, 1, 1, 1)
+Label/constants/line_spacing = 3
+Label/constants/outline_size = 2
+Label/font_sizes/font_size = 20

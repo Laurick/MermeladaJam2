@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://c4meyla2in6jl"]
+[gd_scene load_steps=4 format=3 uid="uid://c4meyla2in6jl"]
 
 [ext_resource type="Script" path="res://components/options.gd" id="1_b0k6s"]
+[ext_resource type="Theme" uid="uid://c8nj6sowc210b" path="res://theme/game_theme.tres" id="2_775ph"]
+
+[sub_resource type="Environment" id="Environment_gcnfk"]
+background_mode = 3
+glow_enabled = true
+glow_intensity = 0.7
+glow_blend_mode = 1
+glow_hdr_threshold = 0.05
+glow_hdr_scale = 0.83
+glow_map_strength = 1.0
 
 [node name="Options" type="CenterContainer"]
 anchors_preset = 8
@@ -25,6 +35,7 @@ theme_override_constants/separation = 43
 
 [node name="OPTIONS" type="Label" parent="MarginContainer/CenterContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("2_775ph")
 text = "OPTIONS"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -42,6 +53,7 @@ offset_left = 194.5
 offset_top = -21.5
 offset_right = 240.5
 offset_bottom = 4.5
+theme = ExtResource("2_775ph")
 text = "Music"
 
 [node name="Sfx" type="HSlider" parent="MarginContainer/CenterContainer/VBoxContainer"]
@@ -56,11 +68,13 @@ offset_left = 204.5
 offset_top = -23.5
 offset_right = 244.5
 offset_bottom = 2.5
+theme = ExtResource("2_775ph")
 text = "SFX
 "
 
 [node name="Idiomas" type="OptionButton" parent="MarginContainer/CenterContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("2_775ph")
 item_count = 3
 selected = 1
 popup/item_0/text = "Español"
@@ -69,6 +83,9 @@ popup/item_1/text = "English"
 popup/item_1/id = 1
 popup/item_2/text = "Català"
 popup/item_2/id = 2
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_gcnfk")
 
 [connection signal="value_changed" from="MarginContainer/CenterContainer/VBoxContainer/Music" to="." method="_on_music_value_changed"]
 [connection signal="drag_ended" from="MarginContainer/CenterContainer/VBoxContainer/Sfx" to="." method="_on_sfx_drag_ended"]
