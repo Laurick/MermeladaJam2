@@ -2,6 +2,7 @@ extends Node
 
 @onready var audio_stream_player_music:AudioStreamPlayer = $AudioStreamPlayerMusic
 @onready var audio_stream_player_ui:AudioStreamPlayer = $AudioStreamPlayerUI
+@onready var audio_stream_player_sfx = $AudioStreamPlayerSFX
 
 func set_music_value(value:float):
 	audio_stream_player_music.volume_db = linear_to_db(value)
@@ -16,6 +17,10 @@ func play_test_sound():
 func play_music(music):
 	audio_stream_player_music.stream = music
 	audio_stream_player_music.play()
+
+func play_sfx(sound):
+	audio_stream_player_sfx.stream = sound
+	audio_stream_player_sfx.play()
 
 func stop_music():
 	audio_stream_player_music.stop()

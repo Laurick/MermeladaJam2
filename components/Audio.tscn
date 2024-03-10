@@ -13,3 +13,7 @@ bus = &"Music"
 [node name="AudioStreamPlayerUI" type="AudioStreamPlayer" parent="."]
 volume_db = -6.0
 bus = &"SFX"
+
+[node name="AudioStreamPlayerSFX" type="AudioStreamPlayer" parent="."]
+volume_db = -6.0
+bus = &"SFX"
