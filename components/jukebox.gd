@@ -2,8 +2,6 @@ extends Node2D
 
 signal music_changed(title)
 
-@onready var audio_stream_player = $AudioStreamPlayer
-
 #put here musics with name and the path
 var musics = {
 	"Retro Beat": "res://music/test/Retro Beat.ogg",
@@ -23,24 +21,24 @@ func _ready():
 	songs = musics.keys()
 	## load first music
 	var next_music = load(musics[songs[index]])
-	audio_stream_player.stream = next_music
+	Audio.play_music(next_music)
 
 func play_next():
 	index = wrapi(index+1,0,songs.size())
 	var song_name = songs[index]
 	var next_music = load(musics[song_name])
 	stop_jukebox()
-	audio_stream_player.stream = next_music
+	Audio.play_music(next_music)
 	resume_jukebox()
 	music_changed.emit(song_name)
 
 
 func stop_jukebox():
-	audio_stream_player.stop()
+	Audio.stop_music()
 
 
 func resume_jukebox():
-	audio_stream_player.play()
+	Audio.resume_music()
 
 
 func _on_area_2d_mouse_entered():

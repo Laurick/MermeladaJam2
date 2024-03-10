@@ -7,8 +7,7 @@ var objects_discovered = {}
 
 func _ready():
 	fade_out()
-	# DialogueManager.show_dialogue_balloon_scene(load("res://components/balloon.tscn"),load("res://dialogs/test.dialogue"),"Intro")
-	# DialogueManager.show_example_dialogue_balloon(load("res://dialogs/test.dialogue"),"Intro")
+	DialogueManager.show_dialogue_balloon_scene(load("res://components/balloon.tscn"),load("res://dialogs/test2.dialogue"),"Intro")
 
 func has_object_discover(key:String):
 	return objects_discovered.has(key)

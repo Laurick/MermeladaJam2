@@ -22,8 +22,6 @@ texture = ExtResource("3_w8q1j")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NextButton/Area2D"]
 shape = SubResource("CircleShape2D_30hmm")
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-
 [connection signal="input_event" from="NextButton/Area2D" to="." method="_on_area_2d_input_event"]
 [connection signal="mouse_entered" from="NextButton/Area2D" to="." method="_on_area_2d_mouse_entered"]
 [connection signal="mouse_exited" from="NextButton/Area2D" to="." method="_on_area_2d_mouse_exited"]

@@ -45,7 +45,7 @@ var dialogue_line: DialogueLine:
 
 		character_label.visible = not dialogue_line.character.is_empty()
 		character_label.text = tr(dialogue_line.character, "dialogue")
-		if dialogue_line.character == "Stranger":
+		if dialogue_line.character == "Desconocido":
 			avatar.texture = load("res://images/Desafecto.png")
 		else:
 			avatar.texture = load("res://images/%s.png" % dialogue_line.character)
