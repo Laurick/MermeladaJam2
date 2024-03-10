@@ -1,10 +1,9 @@
-[gd_scene load_steps=16 format=3 uid="uid://73jm5qjy52vq"]
+[gd_scene load_steps=15 format=3 uid="uid://73jm5qjy52vq"]
 
 [ext_resource type="Script" path="res://components/balloon.gd" id="1_36de5"]
 [ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="2_a8ve6"]
 [ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_reponses_menu.gd" id="3_72ixx"]
 [ext_resource type="FontFile" uid="uid://d3pvhfahfhtur" path="res://fonts/YsabeauInfant-Medium.ttf" id="4_c037t"]
-[ext_resource type="Texture2D" uid="uid://crabatua5y1st" path="res://images/Desafecto.png" id="4_photi"]
 [ext_resource type="FontFile" uid="uid://do8l5vb3sx405" path="res://fonts/YsabeauInfant-Bold.ttf" id="5_cl44g"]
 [ext_resource type="FontFile" uid="uid://c8anrpkqa0mwf" path="res://fonts/YsabeauInfant-Italic.ttf" id="6_txhcb"]
 [ext_resource type="FontFile" uid="uid://d2ju60siikuei" path="res://fonts/YsabeauInfant-BoldItalic.ttf" id="7_otu33"]
@@ -95,7 +94,6 @@ offset_right = 420.0
 offset_bottom = 121.0
 grow_vertical = 0
 scale = Vector2(0.83, 0.83)
-texture = ExtResource("4_photi")
 
 [node name="Panel" type="Panel" parent="Balloon"]
 clip_children = 2

@@ -1,19 +1,19 @@
 extends Control
 
-var time = 4
+@onready var color_rect = $ColorRect
 
-@onready var label = $Label
+func _ready():
+	fade_out()
+	DialogueManager.dialogue_ended.connect(fade_in.unbind(1))
+	DialogueManager.show_dialogue_balloon_scene(load("res://components/balloon.tscn"),\
+	load("res://dialogs/intro.dialogue"),"Intro")
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	time -= delta
-	if time < 0:
-		get_tree().change_scene_to_file("res://scenes/game.tscn")
-	elif time < 1:
-		label.text = "intro"
-	elif time < 2:
-		label.text = "una"
-	elif time < 3:
-		label.text = "es"
-	elif time < 4:
-		label.text = "Esto"
+
+func fade_in():
+	await get_tree().create_tween().tween_property(color_rect,"color:a",1,2).finished
+	get_tree().change_scene_to_file("res://scenes/game.tscn")
+
+
+func fade_out():
+	await get_tree().create_tween().tween_property(color_rect,"color:a",0,2).finished
+	color_rect.mouse_filter = Control.MOUSE_FILTER_IGNORE

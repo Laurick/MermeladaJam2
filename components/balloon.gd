@@ -48,7 +48,9 @@ var dialogue_line: DialogueLine:
 		if dialogue_line.character == "Desconocido":
 			avatar.texture = load("res://images/Desafecto.png")
 		else:
-			avatar.texture = load("res://images/%s.png" % dialogue_line.character)
+			var path = "res://images/%s.png" % dialogue_line.character
+			if ResourceLoader.exists(path):
+				avatar.texture = load(path)
 			
 		dialogue_label.hide()
 		dialogue_label.dialogue_line = dialogue_line
