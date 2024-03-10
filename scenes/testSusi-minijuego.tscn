@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2vr7rcyf220r"]
+
+[ext_resource type="Script" path="res://scripts/testSusi-minijuego.gd" id="1_ew67l"]
+
+[node name="TestSusi-minijuego" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ew67l")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_right = 1272.0
+offset_bottom = 718.0
+
+[node name="nombre-minijuego" type="Label" parent="CenterContainer"]
+visible = false
+layout_mode = 2
+text = "Más alto más bajo"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="alta" type="Button" parent="CenterContainer/HBoxContainer"]
+layout_mode = 2
+text = "Más alta
+"
+
+[node name="baja" type="Button" parent="CenterContainer/HBoxContainer"]
+layout_mode = 2
+text = "Más baja"
