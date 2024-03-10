@@ -42,10 +42,10 @@ color = Color(0, 0, 0, 1)
 [node name="Label" type="Label" parent="ColorRect"]
 material = SubResource("ShaderMaterial_0kyai")
 layout_mode = 0
-offset_left = 6.0
-offset_top = 3.0
-offset_right = 1158.0
-offset_bottom = 650.0
+offset_left = -147.0
+offset_top = 35.0
+offset_right = 1005.0
+offset_bottom = 682.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(1, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 1, 1)
@@ -78,11 +78,37 @@ Lead programmer
 Programadores 
 -SailorFu
 -SrChimichanga
-
-Imágenes de:
-Michael dziedzic
-Oscar Nilsson
-Birger Strahl
 "
 horizontal_alignment = 1
 vertical_alignment = 3
+
+[node name="Label2" type="Label" parent="ColorRect"]
+material = SubResource("ShaderMaterial_0kyai")
+layout_mode = 0
+offset_left = 344.0
+offset_top = 9.0
+offset_right = 1496.0
+offset_bottom = 656.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(1, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 1, 1)
+theme_override_constants/shadow_offset_x = 5
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 4
+theme_override_constants/line_spacing = 0
+theme_override_fonts/font = ExtResource("3_iqxyc")
+theme_override_font_sizes/font_size = 20
+text = "
+Imágenes de:
+
+Michael dziedzic  -Unsplash -
+Oscar Nilsson  -Unsplash -
+Birger Strahl  -unsplash -
+
+Sonidos de:
+
+221227  - FreeSound -
+AntoineRomo - freesound -
+"
+horizontal_alignment = 1
+vertical_alignment = 1
