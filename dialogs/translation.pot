@@ -4,7 +4,9 @@
 # res://scenes/game_options.tscn
 # res://scenes/main.tscn
 # res://scenes/main_options.tscn
-# res://dialogs/test.dialogue
+# res://dialogs/test2.dialogue
+# res://dialogs/intro.dialogue
+# res://intro.dialogue
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -56,88 +58,178 @@ msgstr ""
 msgid "BACK TO MENU"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgctxt "dialogue"
 msgid "Desconocido"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgctxt "dialogue"
 msgid "Desafecto"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Vaya, vaya, vaya... ¿Qué tenemos aquí?"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Parece que tenemos otra alma descarriada en nuestra humilde casa."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "¿Quién eres?"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Soy le gerente de este lugar, pero tú puedes llamarme Desafecto."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Si me necesitas puedes tocar este timbre, aunque hace tiempo que no emite sonido alguno."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Pero no te preocupes, estoy siempre cerca, nunca os dejo de lado."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "¿Dónde estoy?"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Nunca había conocido a nadieon ese nombre."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Estás en... Bueno, estás de suerte, has llegado a Aión, un lugar especial."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Poca gente puede percibirlo siquiera."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Necesito descansar y tomar algo"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "descansar"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Ya, aunque apostaría lo que quieras a que tampoco has conocido a nadie como Yo."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Perfecto, toma asiento y descansa un poco, que nosotros te preparamos una habitación."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "¿Deseas tomar algo?"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Algo fuerte, necesito ahogar pensamientos."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "bebida_fuerte"
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "Dame algo reconfortante y que me ayude a relajarme."
 msgstr ""
 
-#: dialogs/test.dialogue
+#: dialogs/test2.dialogue
 msgid "bebida_suave"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Narrator"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Protagonist"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You don\'t know how long have been driving, and the landscape is always the same."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "The monotony of the trip starts to feel like a noise that stuns your senses."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You start to see blurry, you barely listen the music on the radio, neither the sound of the engine."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "There\'s only left the wind and the rain, but little by little the veil of tireness starts to wrap everything"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "I need to stop and rest somewhere. I think I can not last much longer"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "The highway is straight and there is no other cars, no other people. It\'s gray wilderness"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "..."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "On the horizon it is drawn a storm."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You think it is."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You wish it is really a storm"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "Your other option is to not reach that horizon"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "That\'s impossible"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You have lost the notion of time a couple of times"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You start to glimpse a dark silhoutte of golden eyes in the distance. That emits a strange cry"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You can\'t go faster, neither stop yet"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "Not untill you reach that thing"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "Come on... Focus."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "That shape, now closer, is a building, whose windows emit light."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "Finally a place to stop!"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "Like answering your exclamation, the car finally stops in front of the door"
 msgstr ""
