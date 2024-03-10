@@ -14,6 +14,10 @@ func play_test_sound():
 	audio_stream_player_ui.stream = load("res://music/test/tone1.ogg")
 	audio_stream_player_ui.play()
 
+func play_click_sound():
+	audio_stream_player_ui.stream = load("res://music/click3.ogg")
+	audio_stream_player_ui.play()
+
 func play_music(music:AudioStream):
 	audio_stream_player_music.stream = music
 	audio_stream_player_music.play()

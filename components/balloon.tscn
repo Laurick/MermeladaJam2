@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://73jm5qjy52vq"]
+[gd_scene load_steps=16 format=3 uid="uid://73jm5qjy52vq"]
 
 [ext_resource type="Script" path="res://components/balloon.gd" id="1_36de5"]
 [ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="2_a8ve6"]
@@ -8,6 +8,7 @@
 [ext_resource type="FontFile" uid="uid://c8anrpkqa0mwf" path="res://fonts/YsabeauInfant-Italic.ttf" id="6_txhcb"]
 [ext_resource type="FontFile" uid="uid://d2ju60siikuei" path="res://fonts/YsabeauInfant-BoldItalic.ttf" id="7_otu33"]
 [ext_resource type="Texture2D" uid="uid://bsmb40ik5bqbv" path="res://images/cuadro_texto.png" id="8_yus64"]
+[ext_resource type="AudioStream" uid="uid://cgpim5onn76ja" path="res://music/rollover5.ogg" id="9_6ufoo"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_spyqn"]
 bg_color = Color(0, 0, 0, 1)
@@ -193,5 +194,9 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("5_cl44g")
 text = "Response example"
 
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_6ufoo")
+
 [connection signal="gui_input" from="Balloon" to="." method="_on_balloon_gui_input"]
+[connection signal="spoke" from="Balloon/Panel/Dialogue/VBoxContainer/DialogueLabel" to="." method="_on_dialogue_label_spoke"]
 [connection signal="response_selected" from="Balloon/Responses/ResponsesMenu" to="." method="_on_responses_menu_response_selected"]

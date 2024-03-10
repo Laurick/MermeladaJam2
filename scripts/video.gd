@@ -12,8 +12,10 @@ func _process(delta):
 
 func _input(event):
 	if event is InputEventMouseButton and time > 1:
+		Audio.play_click_sound()
 		get_tree().change_scene_to_file("res://scenes/main.tscn")
 
 func _unhandled_input(event):
 	if event is InputEventKey:
+		Audio.play_click_sound()
 		get_tree().change_scene_to_file("res://scenes/main.tscn")

@@ -12,6 +12,8 @@ const SKIP_ACTION = &"ui_cancel"
 @onready var dialogue_label: DialogueLabel = %DialogueLabel
 @onready var responses_menu: DialogueResponsesMenu = %ResponsesMenu
 @onready var avatar:TextureRect = $Balloon/Avatar
+@onready var audio_stream_player:AudioStreamPlayer = $AudioStreamPlayer
+
 
 ## The dialogue resource
 var resource: DialogueResource
@@ -117,6 +119,7 @@ func start(dialogue_resource: DialogueResource, title: String, extra_game_states
 
 ## Go to the next line
 func next(next_id: String) -> void:
+	Audio.play_click_sound()
 	self.dialogue_line = await resource.get_next_dialogue_line(next_id, temporary_game_states)
 
 
@@ -156,4 +159,9 @@ func _on_balloon_gui_input(event: InputEvent) -> void:
 
 
 func _on_responses_menu_response_selected(response: DialogueResponse) -> void:
+	Audio.play_click_sound()
 	next(response.next_id)
+
+
+func _on_dialogue_label_spoke(letter, letter_index, speed):
+	audio_stream_player.play()
