@@ -14,12 +14,12 @@ func play_test_sound():
 	audio_stream_player_ui.stream = load("res://music/test/tone1.ogg")
 	audio_stream_player_ui.play()
 
-func play_music(music):
+func play_music(music:AudioStream):
 	audio_stream_player_music.stream = music
 	audio_stream_player_music.play()
 
-func play_sfx(sound):
-	audio_stream_player_sfx.stream = sound
+func play_sfx(sound:String):
+	audio_stream_player_sfx.stream = load("res://music/%s" % sound)
 	audio_stream_player_sfx.play()
 
 func stop_music():
