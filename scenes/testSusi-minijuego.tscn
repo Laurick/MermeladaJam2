@@ -1,11 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://c2vr7rcyf220r"]
+[gd_scene load_steps=9 format=3 uid="uid://c2vr7rcyf220r"]
 
 [ext_resource type="Script" path="res://scripts/testSusi-minijuego.gd" id="1_ew67l"]
 [ext_resource type="Texture2D" uid="uid://b4wdo4nw30oen" path="res://images/fondo_mesa.jpg" id="2_orvqv"]
+[ext_resource type="Texture2D" uid="uid://cq3mudbvbbsmh" path="res://images/1.png" id="3_dl7y2"]
+[ext_resource type="Texture2D" uid="uid://bpyr77ulo0hup" path="res://images/2.png" id="4_b0ff3"]
+[ext_resource type="Texture2D" uid="uid://caq7kq6oidi41" path="res://images/3.png" id="5_djnjd"]
+[ext_resource type="Texture2D" uid="uid://d0giu6uifp0vu" path="res://images/4.png" id="6_rfplh"]
+[ext_resource type="Texture2D" uid="uid://cq6cn265a0dc6" path="res://images/5.png" id="7_8cvc1"]
+[ext_resource type="Texture2D" uid="uid://bwagukupatmxq" path="res://images/6.png" id="8_us516"]
 
 [node name="TestSusi-minijuego" type="Control"]
 layout_mode = 3
 anchors_preset = 0
+size_flags_vertical = 4
 script = ExtResource("1_ew67l")
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
@@ -17,6 +24,72 @@ offset_bottom = 718.0
 position = Vector2(640, 359.5)
 scale = Vector2(0.998437, 0.998611)
 texture = ExtResource("2_orvqv")
+
+[node name="Dado_inicial" type="CenterContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="cara6" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
+position = Vector2(-491.883, -155.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("8_us516")
+
+[node name="cara5" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
+position = Vector2(-491.883, -155.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("7_8cvc1")
+
+[node name="cara4" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
+position = Vector2(-491.883, -155.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("6_rfplh")
+
+[node name="cara3" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
+position = Vector2(-491.883, -155.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("5_djnjd")
+
+[node name="cara2" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
+position = Vector2(-491.883, -155.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("4_b0ff3")
+
+[node name="cara1" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
+position = Vector2(-491.883, -155.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("3_dl7y2")
+
+[node name="Dado_adivinar" type="CenterContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="cara6" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
+position = Vector2(-257.883, -159.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("8_us516")
+
+[node name="cara5" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
+position = Vector2(-257.883, -159.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("7_8cvc1")
+
+[node name="cara4" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
+position = Vector2(-257.883, -159.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("6_rfplh")
+
+[node name="cara3" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
+position = Vector2(-257.883, -159.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("5_djnjd")
+
+[node name="cara2" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
+position = Vector2(-257.883, -159.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("4_b0ff3")
+
+[node name="cara1" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
+position = Vector2(-257.883, -159.125)
+scale = Vector2(0.0692292, 0.0692292)
+texture = ExtResource("3_dl7y2")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer"]
 layout_mode = 2
