@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://f1dms0ef1ctt"]
+[gd_scene load_steps=6 format=3 uid="uid://f1dms0ef1ctt"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_x66mr"]
 [ext_resource type="VideoStream" path="res://video/neon.ogv" id="2_1oe6o"]
 [ext_resource type="Theme" uid="uid://c8nj6sowc210b" path="res://theme/game_theme.tres" id="2_a80mq"]
+[ext_resource type="Script" path="res://components/ButtonHoverAudio.gd" id="4_880u3"]
 
 [sub_resource type="Environment" id="Environment_5pkdd"]
 background_mode = 3
@@ -69,17 +70,20 @@ layout_mode = 2
 theme = ExtResource("2_a80mq")
 text = "OPTIONS
 "
+script = ExtResource("4_880u3")
 
 [node name="PLAY" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 theme = ExtResource("2_a80mq")
 text = "PLAY
 "
+script = ExtResource("4_880u3")
 
 [node name="CREDITS" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 theme = ExtResource("2_a80mq")
 text = "CREDITS"
+script = ExtResource("4_880u3")
 
 [node name="Brillo efecto neón" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_5pkdd")

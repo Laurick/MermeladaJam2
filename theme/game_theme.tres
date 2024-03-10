@@ -33,3 +33,5 @@ Label/constants/line_spacing = 3
 Label/constants/outline_size = 2
 Label/font_sizes/font_size = 20
 Label/fonts/font = ExtResource("2_beikf")
+MenuButton/fonts/font = ExtResource("1_nhob1")
+OptionButton/fonts/font = ExtResource("1_nhob1")
