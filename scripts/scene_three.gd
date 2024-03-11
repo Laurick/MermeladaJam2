@@ -1,6 +1,6 @@
 extends Node
 
-@onready var background:Node2D = $TextureRect
+@onready var background:Texture2D = $TextureRect
 @onready var color_rect:ColorRect = $ColorRect
 
 func _ready():

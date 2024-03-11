@@ -1558,19 +1558,15 @@ msgstr "Adeu, ànima esgarriada. Et desitjo un bon viatge."
 
 #: dialogs/mini_game.dialogue
 msgid ""
-"+ You get back to your car and you go away on the road, leaving Aion behind."
+"You get back to your car and you go away on the road, leaving Aion behind."
 msgstr ""
 "Tornes al teu cotxe i t'allunyes en la carretera, deixant el Aión en "
 "l'horitzó."
 
 #: dialogs/mini_game.dialogue
-msgid "+ In front of you there is a long road, but the nightmare has ended."
+msgid "In front of you there is a long road, but the nightmare has ended."
 msgstr "Davant teu s'estén un llarg camí, però el malson ha acabat."
 
 #: dialogs/mini_game.dialogue
-msgid "+ There is still hope."
+msgid "There is still hope."
 msgstr "Encara queda un indici d'esperança."
-
-#: dialogs/mini_game.dialogue
-msgid "+ ..."
-msgstr "..."
