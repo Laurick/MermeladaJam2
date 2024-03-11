@@ -1,0 +1,181 @@
+~ Intro
+Jimmy: Wow! You found us in a blink!
+Joe: Yeah, Jimmy! This traveler is incredible!
+Timmy: Rules are rules, here you have your coin.
+Joe: But is not made of chocolate, don't try to eat it!
+Jim: Speaking of, who are you and how did you get here?
+- My name is...
+	=> presentation
+- I don't want to talk with you.
+	=> no_talk
+=> END
+
+~ presentation
+Now you think about it, you don't remember your name. You'd swear that you know who you are, but you are unable to utter no information about your past. 
+Traveler: Let's say I'm a traver and I'm just passing by.
+Timmy: Of course, like everybody.
+Jimmy: Like everybody.
+Joe: Of course.
+Traveler: And who you are?
+Joe: We are Jimmy, Timmy, Jim and Joe.
+Timmy: We are brothers!
+Jimmy: Don't you dare to trick us! Our coins are ours!
+Jim: She already won one, so shut up
+Traveler: What? Why is this coin so special?
+Jim: We don't know yet, but Desafecto seems interested in them.
+Joe: Everybody has one!
+Timmy: Even you. Well, you have two now.
+Jim: Hey, traveler, thanks for playing with us. We seem invisible here and it's been so long since the last time someone look at us.
+Timmy: Desafecto is still looking for us for sure!
+Kids: See you, traveler! We wish you arrive to your destiny!
+=> kids_gone
+=> END
+
+~ no_talk
+Joe: Oh, another one that ignore us.
+Jimmy: But she seemed like she was differente!
+Timmy: She vibrates like a newcomer, she's not on the same tune that everything else.
+Jim: So let her tune alone, we need to hide to win our game.
+=> kids_gone
+=> END
+
+~ kids_gone
+The kids dissapear in front of you, like if they will never been there.
+You are left alone with your own thoughts, feeling the absence of those that were here just a second ago.
+How long they have been here? Their names seems familiar
+Four kids, brothers, those names...
+Traveler: Of course! Was that accident, right? It was horrible...
+Traveler: The whole family, yeah, the parents and the four kids...
+It was a very notorious case. It was present in all the news in the television.
+Traveler: What is this place? What's going on?
+Desafecto: Don't you know yet, darling?
+Desafecto: You are in the same tune that those kids. By the way, don't worry to tell me where they are.
+Desafecto: They have their own game.
+Traveler: Are you holding them aginst their will?
+Desafecto: Who? ME? No one is here against their will
+Desafecto: This is a auspice for wandering souls
+Traveler: Yeah, sure. Was that contract part of your good intentions?
+Desafecto: A mere formality, I told you.
+Traveler: You... Are a monster.
+Desafecto: I am not, but I can make you wish that I'd be JUST a monster.
+The doors and windowns shut. Darkness starts to hovering you.
+=> dark
+=> END
+
+~ dark 
+A beep bring back you. You head is spinning and you can't even think.
+Your mouth tastes like blood and you noticed something thick on your lungs.
+You are not okay.
+Traveler: Where...? What...?
+Looks like Desafecto has beated you.
+Traveler: ¡OW! it hurts.
+But now you are alone. Everything indicates that Desafecto left, and you can't notice the kids's presence
+What will you do?
+- Open the door, turn on the car and leave.
+	 => take_car
+- Look for a weapon to defend yourself from Desafecto.
+	 => take_weapon
+- Try to hide as the kids do and pray that Desafecto doesn't find you.
+	 => hide
+=> END
+~ take_car
+You don't waste time to start your plan.
+Indeed, the door is closed and it won't open.
+What will be your next move?
+- Look for a key  or something that would open the doors.
+	=> search_key
+- Giving up. It has no sense to think you can escape. You are traped.
+	=> give_up
+=> END
+
+~ search_key
+You search and search, but don't find anything helpful.
+After few minutes you heard a clearing of a voice that you recognize perfectly.
+Desafecto: If you are going to poke around my stuff, I advance you that those door don't work with a key.
+Desafecto: They only obey me, like everything else.
+Traveler: Are you going to kill me?
+Desafecto: No, traveler. I propose you something you'll be interested into.
+Desafecto smirks, cold an evil.
+=> desafecto_bet
+=> END
+
+~ give_up
+Desafecto: Well, I didn't expect that.
+Traveler: ... What?
+Desafecto: That you gave up that easy.
+Traveler: It doesn't matter. Give me an end. I give up.
+Desafecto: Come on, don't lose yoru hope. You still have a chance.
+Desafecto extends you their hand and dry your tears with their pale fingers.
+Their expresion, although benevolent, hides a cold stare that emits some kind of dissaproval.
+=> desafecto_bet
+=> END
+
+~ take_weapon
+You find what you'd say is a weapon: An ice pick close to a wicked cocktail shaker
+You hide behind the door, waiting to Desafecto to turn her back on you.
+=> waiting_desafecto
+=> END
+
+~ waiting_desafecto
+Desafecto enters the room, in absolute silence.
+- Attack Desafecto from behind.
+	=> attack_desafecto
+- Don't attack. You are not a murderer.
+	=> not_attack_desafecto
+=> END
+
+~ attack_desafecto
+You jump over Desafecto and stab them on the side.
+Their body doesn't react. They even don't staggers with your weight and hit.
+Desafecto: [#mood=angry] So you want to fight? That's good.
+Desafecto: But I warn you that exercise makes me hungry.
+Desafecto is faster thatn you, and soon you are surpased by their moves.
+They keeps you conscious, making you feel every bite in an agony that seems to not have end.
+=> game_over
+=> END
+
+~ game_over
+=> END
+
+~ not_attack_desafecto
+Desafecto: Are you going to stay there still? Is that why I acted like I didn't see you?
+Desafecto: If you are going to behave like a monster, make sure you can.
+Desafecto: You are not worth me has food, neither as toy. Dissapear.
+In that moment, you heard your whole body cracking and the pain wraps you up, deafening your own screams.
+=> game_over
+=> END
+
+~ hide
+You found a specially dark place where hide yourself. It seems that even the light doesn't want to get close.
+You crouch and observe the whole room. Of course you are on a place that allows you to observe everything.
+A perfect hideout for a predator.
+...
+You are not alone.
+Desafecto: Bravo, you found one of my favourite place here.
+Your screams leave that dark place, but luckily it doesn't take long for them to be silenced.
+=> game_over
+=> END
+
+~ desafecto_bet
+You are sitting on a table.
+The tiredness is more and more noticeable.
+Desafecto is sat in front of you.
+Desafecto: [#mood=smirk] Fine, I'm going to propose you a little and innocent game.
+Desafecto: [#mood=smirk] Is evident that you want to leave here, right?
+Desafecto: [#mood=smirk] Don't bother yourself answering. Your voice is annoying.
+Words don't come out of your mouth no matter how hard you try.
+Desafecto: [#mood=smirk] That's better.
+Desafecto: [#mood=smirk] As I was telling you, is just an innocent dice game.
+Desafecto: [#mood=smirk] If you win, you are free. If you lose, you'll stay here.
+Desafecto: [#mood=smirk] Do you accept?
+Traveler: ...
+Desafecto: [#mood=smirk] Oh, sorry, you can talk if you are going to agree.
+Traveler: ...
+Traveler: I agree, monster.
+Desafecto: [#mood=smirk] Fine! And in honor of my benevolence, I'll ignore that insult uttered in my presence.
+Desafecto: [#mood=smirk] And now you agreed, I'll explain you the rules.
+=> mini_game_dice
+=> END
+
+~ mini_game_dice
+=> END

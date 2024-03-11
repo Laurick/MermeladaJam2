@@ -7,21 +7,26 @@ var playing: bool = false
 
 @onready var dice_2 = $Dice2
 @onready var dice_1 = $Dice1
+@onready var color_rect = $ColorRect
 
 func _ready():
-	DialogueManager.passed_title.connect(a)
+	await fade_out()
+	DialogueManager.passed_title.connect(on_change_title)
 	DialogueManager.show_dialogue_balloon_scene(load("res://components/balloon.tscn"),\
-	load("res://dialogs/intro.dialogue"),"Intro")
+	load("res://dialogs/mini_game.dialogue"),"Intro")
 
-func a(b):
-	if b == "play":
+func on_change_title(title:String):
+	if title == "play":
 		start_game()
-	elif b == "lower":
+	elif title == "lower":
 		_on_button_bet_lower_pressed()
-	elif b == "higher":
+	elif title == "higher":
 		_on_button_bet_higher_pressed()
-	elif b == "reset":
+	elif title == "reset":
 		reset()
+	elif title == "end_game":
+		await fade_in()
+		get_tree().change_scene_to_file("res://scenes/intro.tscn")
 	
 func start_game():
 	playing = true
@@ -74,3 +79,11 @@ func reset():
 	dice_1.visible = false
 	dice_2.visible = false
 	playing = false
+
+func fade_in():
+	await get_tree().create_tween().tween_property(color_rect,"color:a",1,2).finished
+	color_rect.mouse_filter = Control.MOUSE_FILTER_STOP
+
+func fade_out():
+	await get_tree().create_tween().tween_property(color_rect,"color:a",0,2).finished
+	color_rect.mouse_filter = Control.MOUSE_FILTER_IGNORE

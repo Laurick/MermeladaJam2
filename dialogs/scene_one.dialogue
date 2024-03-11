@@ -1,0 +1,191 @@
+~ Intro
+You wanted to escape from the grey vastness of the wasteland, but inside the building, it looks worse.
+It's sad and heavy,but you are almost grateful to feel something 
+Unknown: Well, well, well... What do we have here?
+Unknown: Looks like another wanderer soul in our humble home
+- Who are you?
+Desafecto: I'm the manager of this place, but you can call me Desafecto.
+Desafecto: If you need me, you can ring this bell, but it's been too long since it rang.
+Desafecto: But don't worry, I'm always close, I never let you aside.
+
+- Where am I?
+	=> where_am_i
+- I'd never meet anyone with a name like that. 
+	=> never_meet
+
+~ never_meet
+Desafecto: Yeah, but I bet whatever you want that you had never met anyone like ME.
+=> where_am_i
+=> END
+
+~ where_am_i
+Desafecto: You are in.. Well, you are lucky. You came to Aion, a very special place.
+Desafecto: Few people can feel it.
+Desafecto: Would you like a room and rest?
+- I need to rest and drink something.
+
+Desafecto: Perfect, take a sit and rest a little bit, we will get your room ready.
+Desafecto: What would you like to have?
+Traveler: What do you have?
+Desafecto: The best beer you can find this side of the road, darling.
+Traveler: Is there something across the road?
+Desafecto: Have been someone able to walk through the wasteland?
+Desafecto: The answer to both questions is no.
+Traveler: I'll get that beer, then.
+=> bar_one
+=> END
+
+~ bar_one
+[wait=4]
+It's not hard to find the place. The room looks empty.
+Desafecto: Here you have your beer.
+Desafecto: Enjoy it.
+Desafecto ofers you a jug with a extremely dark and thick liquid, like it is tar.
+Traveler: Is this even a beer?
+You shrug your shoulds and quench your thirst, discovering that is not that bad as you expected.
+Looks like your situation has improved. Sure you can rest now.
+=> bar_two
+=> END
+~ bar_two
+[wait=4]
+Through the windows a light comes a diffuse light, the tainted glass alters the ligh, creating an almost dreamlike atmosphere.
+The room feels old and aged, like is has lost its ancient splendor. 
+Traveler: If it ever had it.
+Desafecto: Sorry?
+Traveler: What?
+Desafecto: I think you were thinking out loud, your tongue was talking by itself.
+Desafecto: In fact, I think, you were talking about Aion.
+- Oh, well, sorry. It may be the exhaustiveness
+Desafecto: I see. But yes, you are right. Time doesn't forive anyone.
+Desafecto: Anyone.
+Desafecto: I don't even remember how long have I been here. Looks like eternity.
+Traveler: It's a comfy place.
+Desafecto: You think? I think it's the first time someone describes this place as comfy.
+Traveler: Sorry, I just wanted to be...
+Desafecto: Nice?
+Traveler: ...
+Desafecto: Don't worry, I know. Thanks.
+Desafecto: I'd like to tell you something.
+Desafecto: We have the perfect room for you.
+Desafecto: But first you need to sign here to book the room. 
+=> show_document
+=> END
+~ show_document
+They gives you an aged document, that seems older than everything you have seen.
+You observe the contract. Barely understand anything, it looks too long and complex to just book a room.
+=> hide_document
+=> END
+~ hide_document
+Desafecto: It's just a mere formality, a regular booking contract.
+It doesn't looks like.
+Usually you won't sign such a strange contract.
+But you are not in a usual situation.
+Desafecto: So? You want to keep with the booking or not?
+- Okay, let me sign.
+	=> sign_document
+- I'd like to see that contract with detail.
+	=> see_document_again
+=> END
+
+~ sign_document
+Desafecto: Of course!
+Desafecto: Here you have also a pen.
+Desafecto: This paper is old and special, it doesn't accept any ink.
+A chill travels through your spine the momento you hold the pen.
+The ink looks like... Blood? But it's so dark that looks black.
+Sadly, you noticed this detail after signing.
+Desafecto: Perfect! Now I can get to work.
+Desafecto leaves with the paper and the pen on their hands and a smile on their face.
+Their smile looks like that of a hunter excited by the hunt.
+=> next_day
+=> END
+
+~ see_document_again
+Desafecto: Are you sure?
+Desafecto: You can trust me. Don't worry.
+- Alright, I'll sign it.
+	=> sign_document2
+- No, give me the contract and let me read it.
+	=> read_document
+=> END
+
+~ sign_document2
+A chill travels through your spine the momento you hold the pen 
+The ink looks like... Blood? But it's so dark that looks black.
+Sadly, you noticed this detail after signing.
+=> next_day
+=> END
+
+~ read_document
+Desafecto grabs the contract before you can take a look.
+Desafecto: [#mood:angry] DO YOU THINK YOU CAN EVEN TOUCH ME OR APPROACH ME LIKE THAT?
+Desafecto: [#mood:angry] YOU CAN LEAVE AND GET YOUR UNPLEASANT PRESENC OUT OF MY HOUSE! 
+Desafecto: [#mood:angry] GOOD LUCK FINDING A PLACE TO DROP DEAD!
+- Apologize
+	=> apologize_document
+- Leave
+	=> leave_place
+=> END
+
+~ apologize_document
+Desafecto: Alright, I'm someone comprehensible. You can stay here, but no more complaints
+=> sign_document2
+=> END
+
+~ leave_place
+You go out through the door and find you abandoned to the vast wasteland, that wait patiently to devour you.
+=> game_over
+=> END!
+
+~ game_over
+=> END!
+
+
+~ next_day
+You would say it's been hours, but you are not sure.
+You found a clock whose hands won't move.
+They are on the verge of ticking, but never doing it.
+But that never happens.
+Traveler: What a drag.
+You feel a shadow go through your own place, but you couldn't see how projects it.
+Desafecto: Are you getting bored?
+- Is there someone else staying here?
+	=> some_here
+- No, no, everything is alright.
+	=> all_ok
+- Is something wrong with the clock? Looks like it doesn't move.
+	=> clock
+=> END
+
+~ some_here
+Desafecto: Of course you are not the only one here
+Desafecto: This is a passing place. In the middle of nowhere, but a passing place.
+Desafecto: You are not the first to come, neither the last.
+For a moment their tone seems prophetic. It must be your imagination.
+Desafecto: I'm sure that someone is still here. But I'd say I haven't seen anyone in ages.
+Desafecto: Heh.
+Desafecto: If you feel bored, you can try to sharpen your senses and ind other travelers like you.
+You hear a knock, like if someone was trying to stay still breaks that status for half a second.
+=> mini_game1
+=> END
+
+~ mini_game1
+=> END
+
+~ all_ok
+Desafecto: Are you sure? Anyone would say it
+Desafecto: But it's alright, I'd rather to not worry about other's people joyment.
+=> next_day
+=> END
+
+~ clock
+Desafecto: Nothing happens to it. The clock it's perfectly.
+Viajera: But it doesn't work, the hands doesn't move.
+Desafecto: I know, but there is nothing wrong with it.
+Viajera: ...
+Desafecto: ...
+Desafecto: The clock works by time's rhythm
+Desafecto: You don't have to worry.
+- Is there someone else staying here?
+	=> some_here
+=> END!

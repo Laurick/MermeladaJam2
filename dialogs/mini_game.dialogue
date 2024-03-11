@@ -1,0 +1,92 @@
+~ Intro
+Desafecto: It's very easy: First you need to pay with that coin you have there.
+Desafecto: Once the payment is done, I'll throw a dice and you'll make a small bet: The next dice will have a high or lower value.
+Desafecto: Then I'll thow the second dice and we compare them, okay?
+Desafecto: If the result is according to what you have said, you win.
+Desafecto: On the contrary if you have failed, you lose.
+Desafecto: It's just luck and intuition, darling.
+=> play
+=> END
+
+~ play
+- Higher
+	=> higher
+- Lower
+	=> lower
+=> END!
+
+~ higher
+=> check
+=> END
+
+~ lower
+=> check
+=> END
+
+~ win
+Desafecto: Congratulations! Looks like you won.
+Traveler: Just like that? Can I really leave?
+Desafecto: Of course, I always keep my word. No matter if they are deals or threats.
+Desafecto: Now pick up your stuff and leave.
+Desafecto: I'm getting tired of your presence.
+=> end_game
+=> END
+
+~ lose
+Desafecto: Wow, seems like luck is not by your side today.
+So now that coin belongs to me, and I can do whatever I want with it.
+Traveler: All for you, like if I care.
+Traveler: I just want to leave. Please.
+Desafecto: ...
+Traveler: I beg you.
+Desafecto: ...
+In response to Desafecto's indifference, your tears make their way and flow easily from your eyes.
+You articulate, with difficulty, an incosolable crying, that starts tofill the room.
+Desafecto: Listen, stop, I hate hear you cry.
+Desafecto: If you had someone that can match the value of this coin...
+Desafecto: Maybe it could help you pay the toll. 
+Traveler: What?
+You feel the weight of the coin that you won to the kids in your pocket.
+Desafecto has noticed it too.
+Desafecto: As you heard.
+Desafecto: Darling, maybe luck is not by your side, but you still have me.
+Desafecto: I am benevolent.
+You feel the coin in your pocket, remembing that the kids told you that Desafecto is obsessed with them.
+Desafecto: So?
+Traveler: What are these coins?
+Desafecto: Do you really want to have this talk again?
+Desafecto: They are just coings, a payment you have to do.
+Desafecto: Don't bother yourself trying to comprehend what they are. Just pay and leave.
+Desafecto: Trust me, they are just useless weights for you.
+Filled with tiredness and cling to that burning nail, you give them the coin and leave.
+Traveler: Alright, here you have.
+Desafecto: Goodbye, wandering soul. I wish you a good trip.
+=> end_game
+=> END
+
+~ reset
+Traveler: Come on... Focus.
+=> Intro
+=> END
+
+~ check
+if Globals.dice == 1
+	=> win
+elif Globals.dice == -1
+	=> lose
+else
+	=> reset
+=> END!
+
+~ end_game
++ You get back to your car and you go away on the road, leaving Aion behind.
++ In front of you there is a long road, but the nightmare has ended.
++ There is still hope.
++ ...
++ ...
++ ...
+=> to_start
+=> END
+
+~ to_start
+=> END
