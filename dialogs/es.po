@@ -1554,19 +1554,15 @@ msgstr "Adiós, alma descarriada. Te deseo un buen viaje."
 
 #: dialogs/mini_game.dialogue
 msgid ""
-"+ You get back to your car and you go away on the road, leaving Aion behind."
+"You get back to your car and you go away on the road, leaving Aion behind."
 msgstr ""
 "Vuelves a tu coche y te alejas en la carretera, dejando el Aión en el "
 "horizonte."
 
 #: dialogs/mini_game.dialogue
-msgid "+ In front of you there is a long road, but the nightmare has ended."
+msgid "In front of you there is a long road, but the nightmare has ended."
 msgstr "Ante ti se extiende un largo camino, pero la pesadilla ha terminado."
 
 #: dialogs/mini_game.dialogue
-msgid "+ There is still hope."
+msgid "There is still hope."
 msgstr "Aún queda un atisbo de esperanza."
-
-#: dialogs/mini_game.dialogue
-msgid "+ ..."
-msgstr "..."
