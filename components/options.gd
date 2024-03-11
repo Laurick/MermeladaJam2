@@ -1,6 +1,20 @@
 extends Control
 
+@onready var idiomas = $MarginContainer/CenterContainer/VBoxContainer/Idiomas
 
+func _ready():
+	var locale = TranslationServer.get_locale()
+	match locale: 
+		"es":
+			idiomas.select(0)
+		"en":
+			idiomas.select(1)
+		"ca":
+			idiomas.select(2)
+		_:
+			idiomas.select(1)
+	
+	
 func _on_idiomas_item_selected(index):
 	match index: 
 		0:
@@ -8,7 +22,7 @@ func _on_idiomas_item_selected(index):
 		1:
 			TranslationServer.set_locale("en")
 		2:
-			TranslationServer.set_locale("cat")
+			TranslationServer.set_locale("ca")
 		_:
 			TranslationServer.set_locale("en")
 

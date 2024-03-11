@@ -53,12 +53,10 @@ var dialogue_line: DialogueLine:
 			pj = "Desafecto"
 		else:
 			pj = dialogue_line.character
-
 		if dialogue_line.get_tag_value("mood") != "":
 			mood = "_"+dialogue_line.get_tag_value("mood")
 
 		var path = "res://images/"+pj+mood+".png"
-
 		if ResourceLoader.exists(path):
 			avatar.texture = load(path)
 		else:

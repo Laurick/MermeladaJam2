@@ -118,9 +118,9 @@ Sadly, you noticed this detail after signing.
 
 ~ read_document
 Desafecto grabs the contract before you can take a look.
-Desafecto: [#mood:angry] DO YOU THINK YOU CAN EVEN TOUCH ME OR APPROACH ME LIKE THAT?
-Desafecto: [#mood:angry] YOU CAN LEAVE AND GET YOUR UNPLEASANT PRESENC OUT OF MY HOUSE! 
-Desafecto: [#mood:angry] GOOD LUCK FINDING A PLACE TO DROP DEAD!
+Desafecto: [#mood=angry] DO YOU THINK YOU CAN EVEN TOUCH ME OR APPROACH ME LIKE THAT?
+Desafecto: [#mood=angry] YOU CAN LEAVE AND GET YOUR UNPLEASANT PRESENC OUT OF MY HOUSE! 
+Desafecto: [#mood=angry] GOOD LUCK FINDING A PLACE TO DROP DEAD!
 - Apologize
 	=> apologize_document
 - Leave

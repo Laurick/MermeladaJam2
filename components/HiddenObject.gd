@@ -24,12 +24,10 @@ func _ready():
 
 
 func _on_area_2d_mouse_entered():
-	print("_on_area_2d_mouse_entered")
 	mouse_inside = true
 
 
 func _on_area_2d_mouse_exited():
-	print("_on_area_2d_mouse_exited")
 	mouse_inside = false
 
 
@@ -38,7 +36,6 @@ func _on_area_2d_input_event(viewport, event, shape_idx):
 		event is InputEventMouseButton and \
 		event.button_index == MOUSE_BUTTON_LEFT and \
 		event.pressed:
-		print("click")
 		object_clicked.emit(data)
 		destroy()
 

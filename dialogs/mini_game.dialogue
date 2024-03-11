@@ -16,10 +16,12 @@ Desafecto: It's just luck and intuition, darling.
 => END!
 
 ~ higher
+[wait=1]
 => check
 => END
 
 ~ lower
+[wait=1]
 => check
 => END
 
@@ -34,7 +36,7 @@ Desafecto: I'm getting tired of your presence.
 
 ~ lose
 Desafecto: Wow, seems like luck is not by your side today.
-So now that coin belongs to me, and I can do whatever I want with it.
+Desafecto: So now that coin belongs to me, and I can do whatever I want with it.
 Traveler: All for you, like if I care.
 Traveler: I just want to leave. Please.
 Desafecto: ...

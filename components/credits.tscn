@@ -46,21 +46,21 @@ offset_right = 957.0
 offset_bottom = 740.0
 theme = ExtResource("2_vca5q")
 theme_override_font_sizes/font_size = 24
-text = "Equipo \"Jam te digo\" 
+text = "Team 'Jam te digo' 
 
-Arte y diseño
+Art and design
 PSuzume
 
-Historia
+History
 Capitan Yelmo
 
-Música
+Music
 Monkos
 
 Lead programmer
 Ildesir
 
-Programadores 
+Programmers
 SailorFu
 SrChimichanga"
 horizontal_alignment = 1
@@ -74,23 +74,21 @@ offset_right = 1496.0
 offset_bottom = 656.0
 theme = ExtResource("2_vca5q")
 theme_override_font_sizes/font_size = 24
-text = "
-Imágenes
-    Edgar Chaparro - Barra de bar 
-    Nikola Javanovic - Taberna con mesas
-    Amirreza Amouie - Carretera desértica 
-    Birger Strahl - Casa en el desierto
-    Michael Dziedzic - Mesa de madera
-    Oscar Nilsson - Coche conduciendo 
+text = "Images
+Edgar Chaparro - Bar
+Nikola Javanovic - Tabern
+Amirreza Amouie - Desert road
+Birger Strahl - Desert house
+Michael Dziedzic - Wood table
+Oscar Nilsson - Car driving
 
-Sonidos
+Sounds
 221227  - FreeSound -
 AntoineRomo - FreeSound -
 
-Agradecimientos
+Special thanks
 Kaals
-Kerk1
-"
+Kerk1"
 horizontal_alignment = 1
 vertical_alignment = 1
 

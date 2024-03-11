@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://t14klv0yyfp4"]
+[gd_scene load_steps=18 format=3 uid="uid://t14klv0yyfp4"]
 
 [ext_resource type="Texture2D" uid="uid://bjhuwlwamdls4" path="res://images/fondo_bar.jpg" id="1_lru32"]
 [ext_resource type="Script" path="res://scripts/mini_game2.gd" id="1_q5u1b"]
@@ -15,6 +15,8 @@
 [ext_resource type="Resource" uid="uid://dxxlmaywtrhc8" path="res://game_resources/hidden_objects/nine3.tres" id="11_5xnxp"]
 [ext_resource type="Texture2D" uid="uid://deed36n0aqcgo" path="res://images/Jimmy_hidden.png" id="13_wy56e"]
 [ext_resource type="Resource" uid="uid://cq8g23i8d6akw" path="res://game_resources/hidden_objects/nine4.tres" id="14_veehw"]
+[ext_resource type="Texture2D" uid="uid://bsmb40ik5bqbv" path="res://images/cuadro_texto.png" id="16_kphs1"]
+[ext_resource type="Theme" uid="uid://c8nj6sowc210b" path="res://theme/game_theme.tres" id="16_r02o0"]
 
 [node name="MiniGame2" type="Control"]
 layout_mode = 3
@@ -90,6 +92,28 @@ offset_right = 1280.0
 offset_bottom = 720.0
 mouse_filter = 2
 texture = ExtResource("5_51rg5")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 18.0
+offset_right = 1300.0
+offset_bottom = 287.0
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("16_kphs1")
+
+[node name="Label" type="Label" parent="TextureRect"]
+layout_mode = 0
+offset_left = 92.5
+offset_top = 97.5
+offset_right = 524.5
+offset_bottom = 134.5
+scale = Vector2(2.5, 2.5)
+theme = ExtResource("16_r02o0")
+theme_override_font_sizes/font_size = 32
+text = "Find 4 travelers"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="object_clicked" from="HiddenObject" to="." method="_on_hidden_object_object_clicked"]
 [connection signal="object_clicked" from="HiddenObject2" to="." method="_on_hidden_object_2_object_clicked"]

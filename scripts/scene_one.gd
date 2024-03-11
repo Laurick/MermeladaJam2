@@ -27,6 +27,10 @@ func on_change_title(title:String):
 	elif title == "mini_game1":
 		await fade_in()
 		get_tree().change_scene_to_file("res://scenes/mini_game2.tscn")
+	elif title == "see_document_again":
+		Audio.play_music(load("res://music/desafecto_colerico.ogg"))
+	elif title == "next_day":
+		Audio.play_music(load("res://music/desafecto.ogg"))
 
 
 func show_letter():

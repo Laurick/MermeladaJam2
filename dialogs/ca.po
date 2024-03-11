@@ -202,7 +202,7 @@ msgstr "No pots accelerar més, tampoc creus que puguis parar encara."
 
 #: dialogs/intro.dialogue
 msgid "Not untill you reach that thing"
-msgstr "No fins arribar a \"això\"."
+msgstr "No fins arribar a 'això'."
 
 #: dialogs/intro.dialogue dialogs/introduction.dialogue
 #: dialogs/mini_game.dialogue
@@ -302,8 +302,8 @@ msgid "You can't go faster, and neither you can stop yet."
 msgstr "No pots accelerar més, tampoc creus que puguis parar encara."
 
 #: dialogs/introduction.dialogue
-msgid "Not untill reach \\\"it\\\"."
-msgstr "No fins arribar a \"això\"."
+msgid "Not untill reach 'it'."
+msgstr "No fins arribar a 'això'."
 
 #: dialogs/introduction.dialogue
 msgid "Finally a place to rest!"
@@ -1570,3 +1570,18 @@ msgstr "Davant teu s'estén un llarg camí, però el malson ha acabat."
 #: dialogs/mini_game.dialogue
 msgid "There is still hope."
 msgstr "Encara queda un indici d'esperança."
+
+#: dialogs/mini_game2.dialogue
+msgid "Find 4 travelers"
+msgstr "Troba els 4 viatgers"
+
+#: screens/video.tscn
+msgid "Press any key to start"
+msgstr "Clica qualsevol tecla per continuar"
+
+msgid "Team 'Jam te digo'\n\nArt and design\nPSuzume\n\nHistory\nCapitan Yelmo\n\nMusic\nMonkos\n\nLead programmer\nIldesir\n\nProgrammers\nSailorFu\nSrChimichanga"
+msgstr "Equip 'Jam te digo'\n\nArt i disseny\nPSuzume\n\nHistòria\nCapitan Yelmo\n\nMúsica\nMonkos\n\nProgramador principal\nIldesir\n\nProgramadors\nSailorFu\nSrChimichanga"
+
+#: components/credits.tscn
+msgid "Images\nEdgar Chaparro - Bar\nNikola Javanovic - Tabern\nAmirreza Amouie - Desert road\nBirger Strahl - Desert house\nMichael Dziedzic - Wood table\nOscar Nilsson - Car driving\n\nSounds\n221227  - FreeSound -AntoineRomo - FreeSound -\n\nSpecial thanks\nKaals\nKerk1"
+msgstr "Imatges\nEdgar Chaparro - Bar\nNikola Javanovic - Taverna\nAmirreza Amouie - Carretera desèrtica\nBirger Strahl - Casa al desert\nMichael Dziedzic - Taula de fusta\nOscar Nilsson - Cotxe\n\nSons\n221227  - FreeSound -\nAntoineRomo - FreeSound -\n\nAgradacions\nKaals\nKerk1"

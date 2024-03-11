@@ -201,7 +201,7 @@ msgstr "No puedes acelerar más, tampoco crees que puedas parar aún."
 
 #: dialogs/intro.dialogue
 msgid "Not untill you reach that thing"
-msgstr "No hasta llegar a \"eso\"."
+msgstr "No hasta llegar a 'eso'."
 
 #: dialogs/intro.dialogue dialogs/introduction.dialogue
 #: dialogs/mini_game.dialogue
@@ -292,7 +292,7 @@ msgid ""
 "You start to glimpse a golden-eyed dark silhoutte on the distance. that "
 "emits a strange cry."
 msgstr ""
-"Empiezas a visulmbrar una silueta oscura de ojos dorados a lo lejos. Que "
+"Empiezas a vislumbrar una silueta oscura de ojos dorados a lo lejos. Que "
 "emite un extraño lamento."
 
 #: dialogs/introduction.dialogue
@@ -300,8 +300,8 @@ msgid "You can't go faster, and neither you can stop yet."
 msgstr "No puedes acelerar más, tampoco crees que puedas parar aún."
 
 #: dialogs/introduction.dialogue
-msgid "Not untill reach \\\"it\\\"."
-msgstr "No hasta llegar a \"eso\"."
+msgid "Not untill reach 'it'."
+msgstr "No hasta llegar a 'eso'."
 
 #: dialogs/introduction.dialogue
 msgid "Finally a place to rest!"
@@ -761,7 +761,7 @@ msgstr "Por supuesto que no eres la única aquí."
 
 #: dialogs/scene_one.dialogue
 msgid "This is a passing place. In the middle of nowhere, but a passing place."
-msgstr "Este lugar está de paso. En mitad de la nada, sí, pero de paso."
+msgstr "Este es un lugar está de paso. En mitad de la nada, sí, pero de paso."
 
 #: dialogs/scene_one.dialogue
 msgid "You are not the first to come, neither the last."
@@ -1566,3 +1566,19 @@ msgstr "Ante ti se extiende un largo camino, pero la pesadilla ha terminado."
 #: dialogs/mini_game.dialogue
 msgid "There is still hope."
 msgstr "Aún queda un atisbo de esperanza."
+
+#: dialogs/mini_game2.dialogue
+msgid "Find 4 travelers"
+msgstr "Encuentra 4 viajeros"
+
+#: screens/video.tscn
+msgid "Press any key to start"
+msgstr "Pulsa cualquier tecla para continuar"
+
+#: components/credits.tscn
+msgid "Team 'Jam te digo'\n\nArt and design\nPSuzume\n\nHistory\nCapitan Yelmo\n\nMusic\nMonkos\n\nLead programmer\nIldesir\n\nProgrammers\nSailorFu\nSrChimichanga"
+msgstr "Equipo 'Jam te digo'\n\nArte y diseño\nPSuzume\n\nHistoria\nCapitan Yelmo\n\nMúsica\nMonkos\n\nProgramador principal\nIldesir\n\nProgramadores\nSailorFu\nSrChimichanga"
+
+#: components/credits.tscn
+msgid "Images\nEdgar Chaparro - Bar\nNikola Javanovic - Tabern\nAmirreza Amouie - Desert road\nBirger Strahl - Desert house\nMichael Dziedzic - Wood table\nOscar Nilsson - Car driving\n\nSounds\n221227  - FreeSound -AntoineRomo - FreeSound -\n\nSpecial thanks\nKaals\nKerk1"
+msgstr "Imágenes\nEdgar Chaparro - Bar\nNikola Javanovic - Taberna\nAmirreza Amouie - Carretera desértica\nBirger Strahl - Casa en el desierto\nMichael Dziedzic - Mesa de madera\nOscar Nilsson - Coche\n\nSonidos\n221227  - FreeSound -\nAntoineRomo - FreeSound -\n\nAgradecimientos\nKaals\nKerk1"

@@ -9,6 +9,10 @@
 # res://dialogs/scene_two.dialogue
 # res://dialogs/mini_game.dialogue
 # res://dialogs/intro.dialogue
+# res://scenes/main_credits.tscn
+# res://scenes/mini_game2.tscn
+# res://scenes/video.tscn
+# res://components/credits.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -37,6 +41,7 @@ msgid "SFX\n"
 msgstr ""
 
 #: scenes/game_options.tscn
+#: scenes/main_credits.tscn
 msgid "BACK TO GAME"
 msgstr ""
 
@@ -133,7 +138,7 @@ msgid "You can\'t go faster, and neither you can stop yet."
 msgstr ""
 
 #: dialogs/introduction.dialogue
-msgid "Not untill reach \\\"it\\\"."
+msgid "Not untill reach \'it\'."
 msgstr ""
 
 #: dialogs/introduction.dialogue
@@ -1119,6 +1124,10 @@ msgid "Lower"
 msgstr ""
 
 #: dialogs/mini_game.dialogue
+msgid "[wait=1]"
+msgstr ""
+
+#: dialogs/mini_game.dialogue
 msgid "Congratulations! Looks like you won."
 msgstr ""
 
@@ -1322,4 +1331,52 @@ msgstr ""
 
 #: dialogs/intro.dialogue
 msgid "Not untill you reach that thing"
+msgstr ""
+
+#: scenes/mini_game2.tscn
+msgid "Find 4 travelers"
+msgstr ""
+
+#: scenes/video.tscn
+msgid "Press any key to start"
+msgstr ""
+
+#: components/credits.tscn
+msgid ""
+"Team \'Jam te digo\' \n"
+"\n"
+"Art and design\n"
+"PSuzume\n"
+"\n"
+"History\n"
+"Capitan Yelmo\n"
+"\n"
+"Music\n"
+"Monkos\n"
+"\n"
+"Lead programmer\n"
+"Ildesir\n"
+"\n"
+"Programmers\n"
+"SailorFu\n"
+"SrChimichanga"
+msgstr ""
+
+#: components/credits.tscn
+msgid ""
+"Images\n"
+"Edgar Chaparro - Bar\n"
+"Nikola Javanovic - Tabern\n"
+"Amirreza Amouie - Desert road\n"
+"Birger Strahl - Desert house\n"
+"Michael Dziedzic - Wood table\n"
+"Oscar Nilsson - Car driving\n"
+"\n"
+"Sounds\n"
+"221227  - FreeSound -\n"
+"AntoineRomo - FreeSound -\n"
+"\n"
+"Special thanks\n"
+"Kaals\n"
+"Kerk1"
 msgstr ""
