@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://dpuie02hrlkjw"
+uid="uid://cveesoaq8c0qv"
 path="res://.godot/imported/desafecto.ogg-db9a7b397763eac6dfee75fc1d2b51e9.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/desafecto.ogg-db9a7b397763eac6dfee75fc1d2b51e
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

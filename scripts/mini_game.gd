@@ -11,6 +11,7 @@ var playing: bool = false
 
 func _ready():
 	await fade_out()
+	Audio.play_music(load("res://music/dados.ogg"))
 	DialogueManager.passed_title.connect(on_change_title)
 	DialogueManager.show_dialogue_balloon_scene(load("res://components/balloon.tscn"),\
 	load("res://dialogs/mini_game.dialogue"),"Intro")

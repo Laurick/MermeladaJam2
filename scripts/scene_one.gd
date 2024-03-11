@@ -6,6 +6,7 @@ extends Node
 
 func _ready():
 	fade_out()
+	Audio.play_music(load("res://music/desafecto.ogg"))
 	DialogueManager.passed_title.connect(on_change_title)
 	DialogueManager.show_dialogue_balloon_scene(load("res://components/balloon.tscn"),load("res://dialogs/scene_one.dialogue"),"Intro")
 

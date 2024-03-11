@@ -2,6 +2,9 @@ extends Control
 
 var child_found = 0
 
+func _ready():
+	Audio.play_music(load("res://music/chiquets_minijuego.ogg"))
+
 func check_objects():
 	if child_found == 4:
 		get_tree().change_scene_to_file("res://scenes/scene_two.tscn")
