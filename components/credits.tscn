@@ -45,7 +45,7 @@ offset_top = -17.0
 offset_right = 957.0
 offset_bottom = 740.0
 theme = ExtResource("2_vca5q")
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 24
 text = "Equipo \"Jam te digo\" 
 
 Arte y diseño
@@ -55,7 +55,7 @@ Historia
 Capitan Yelmo
 
 Música
-Jeffbesosenlacalva
+Monkos
 
 Lead programmer
 Ildesir
@@ -73,20 +73,21 @@ offset_top = 9.0
 offset_right = 1496.0
 offset_bottom = 656.0
 theme = ExtResource("2_vca5q")
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 24
 text = "
-Imágenes de:
+Imágenes
+    Edgar Chaparro - Barra de bar 
+    Nikola Javanovic - Taberna con mesas
+    Amirreza Amouie - Carretera desértica 
+    Birger Strahl - Casa en el desierto
+    Michael Dziedzic - Mesa de madera
+    Oscar Nilsson - Coche conduciendo 
 
-Michael dziedzic  -Unsplash -
-Oscar Nilsson  -Unsplash -
-Birger Strahl  -unsplash -
-
-Sonidos de:
-
+Sonidos
 221227  - FreeSound -
 AntoineRomo - FreeSound -
 
-Agradecimientos a:
+Agradecimientos
 Kaals
 Kerk1
 "
