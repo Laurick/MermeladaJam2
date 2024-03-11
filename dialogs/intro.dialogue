@@ -1,23 +1,60 @@
 ~ Intro
-Narrator: You don't know how long have been driving, and the landscape is always the same.
-Narrator: The monotony of the trip starts to feel like a noise that stuns your senses.
-Narrator: You start to see blurry, you barely listen the music on the radio, neither the sound of the engine.
-Narrator: There's only left the wind and the rain, but little by little the veil of tireness starts to wrap everything
+You don't know how long have been driving, and the landscape is always the same.
+The monotony of the trip starts to feel like a noise that stuns your senses.
+You start to see blurry, you barely listen the music on the radio, neither the sound of the engine.
+- OK, lets do it 
+	=> play
+=> END
+
+~ play
+Jimmy: There's only left the wind and the rain, but little by little the veil of tireness starts to wrap everything
 Protagonist: [#mood=tired] I need to stop and rest somewhere. I think I can not last much longer
-Narrator: The highway is straight and there is no other cars, no other people. It's gray wilderness
-Narrator: ...
-Narrator: On the horizon it is drawn a storm.
-Narrator: You think it is.
-Narrator: You wish it is really a storm
-Narrator: Your other option is to not reach that horizon
-Narrator: ...
-Protagonist: That's impossible
-Narrator: You have lost the notion of time a couple of times
-Narrator: You start to glimpse a dark silhoutte of golden eyes in the distance. That emits a strange cry
-Narrator: You can't go faster, neither stop yet
+Jim: The highway is straight and there is no other cars, no other people. It's gray wilderness
+Joe: ...
+Timmy: On the horizon it is drawn a storm.
+You think it is.
+You wish it is really a storm
+Your other option is to not reach that horizon
+- Higher
+	=> higher
+- Lower
+	=> lower
+
+~ higher
+Desafecto: That's impossible
+=> check
+Desafecto: You have lost the notion of time a couple of times
+Desafecto: You start to glimpse a dark silhoutte of golden eyes in the distance. That emits a strange cry
+Desafecto: You can't go faster, neither stop yet
+=> END
+
+~ lower
 Narrator: Not untill you reach that thing
+=> check
+=> END
+
+~ win
 Protagonist: Come on... Focus.
 Narrator: That shape, now closer, is a building, whose windows emit light.
-- Finally a place to stop!
-	Narrator: Like answering your exclamation, the car finally stops in front of the door
+
+=> END
+
+~ lose
+Protagonist: Come on... Focus.
+Narrator: That shape, now closer, is a building, whose windows emit light.
+=> END
+
+~ reset
+Protagonist: Come on... Focus.
+Narrator: That shape, now closer, is a building, whose windows emit light.
+=> play
+=> END
+
+~ check
+if Globals.dice == 1
+	=> win
+elif Globals.dice == -1
+	=> lose
+else
+	=> reset
 => END

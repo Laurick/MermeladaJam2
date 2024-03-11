@@ -7,23 +7,25 @@ var playing: bool = false
 
 @onready var dice_2 = $Dice2
 @onready var dice_1 = $Dice1
-@onready var result = $VBoxContainer/Result
-@onready var v_box_container = $VBoxContainer/VBoxContainer
-@onready var start_label = $VBoxContainer/StartLabel
 
+func _ready():
+	DialogueManager.passed_title.connect(a)
+	DialogueManager.show_dialogue_balloon_scene(load("res://components/balloon.tscn"),\
+	load("res://dialogs/intro.dialogue"),"Intro")
 
-func _unhandled_input(event):
-	if !playing and event is InputEventKey and (event as InputEventKey).is_action_released("ui_accept"):
-		reset()
+func a(b):
+	if b == "play":
 		start_game()
-
-
+	elif b == "lower":
+		_on_button_bet_lower_pressed()
+	elif b == "higher":
+		_on_button_bet_higher_pressed()
+	elif b == "reset":
+		reset()
+	
 func start_game():
 	playing = true
-	result.visible = false
-	start_label.visible = false
 	initial_dice = await throw_dice(dice_1)
-	v_box_container.visible = true
 
 
 func throw_dice(dice:Sprite2D) -> int:
@@ -38,7 +40,6 @@ func throw_dice(dice:Sprite2D) -> int:
 
 
 func _on_button_bet_higher_pressed():
-	v_box_container.visible = false
 	bet_dice = await throw_dice(dice_2)
 	if initial_dice < bet_dice:
 		win()
@@ -49,7 +50,6 @@ func _on_button_bet_higher_pressed():
 
 
 func _on_button_bet_lower_pressed():
-	v_box_container.visible = false
 	bet_dice = await throw_dice(dice_2)
 	if initial_dice > bet_dice:
 		win()
@@ -59,17 +59,15 @@ func _on_button_bet_lower_pressed():
 		draw()
 		
 func win():
-	show_result("YOU WON! :D")
+	Globals.dice = 1
 
 func lose():
-	show_result("YOU LOSE! :(")
+	Globals.dice = -1
 
 func draw():
-	show_result("DRAW, PRESS SPACE AGAIN")
+	Globals.dice = 0
 
 func show_result(result_message:String):
-	result.visible = true
-	result.text = result_message
 	playing = false
 	
 func reset():

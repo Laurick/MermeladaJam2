@@ -10,7 +10,6 @@ func _ready():
 	Audio.play_music(load("res://music/bar_aion.ogg"))
 
 func _set_audio(volume:float):
-	print(str(volume))
 	AudioServer.set_bus_volume_db(index, linear_to_db(volume))
 	
 func _on_options_pressed():

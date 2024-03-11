@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bc5den1nndqvp"]
 
 [ext_resource type="Script" path="res://scripts/intro.gd" id="1_2x6re"]
-[ext_resource type="Texture2D" uid="uid://bcsaqnxyg1qme" path="res://images/fondo2.jpg" id="2_iwioh"]
+[ext_resource type="Texture2D" uid="uid://b2f3uw5j7dw2u" path="res://images/f2_griscoche.jpg" id="2_mm8sc"]
 
 [node name="Start" type="Control"]
 layout_mode = 3
@@ -12,14 +12,17 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_2x6re")
 
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-color = Color(0, 0, 0, 1)
-
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("2_iwioh")
+texture = ExtResource("2_mm8sc")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)

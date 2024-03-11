@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HiddenObjectData" load_steps=3 format=3 uid="uid://b7fo3unlputnv"]
+
+[ext_resource type="Texture2D" uid="uid://cw2ff1j4xci8p" path="res://images/Joe_hidden.png" id="1_5y0om"]
+[ext_resource type="Script" path="res://game_resources/hidden_objects/hidden_object_data.gd" id="1_yjk0h"]
+
+[resource]
+script = ExtResource("1_yjk0h")
+image = ExtResource("1_5y0om")
+key = "nine2"
+name = "nine2"
+description = "nine2"

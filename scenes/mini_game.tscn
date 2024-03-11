@@ -1,11 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://cegtcrawh3jep"]
+[gd_scene load_steps=5 format=3 uid="uid://cegtcrawh3jep"]
 
 [ext_resource type="Script" path="res://scripts/mini_game.gd" id="1_b5171"]
 [ext_resource type="Texture2D" uid="uid://b4wdo4nw30oen" path="res://images/fondo_mesa.jpg" id="2_cbt8g"]
-[ext_resource type="Texture2D" uid="uid://bwagukupatmxq" path="res://images/6.png" id="3_vebbn"]
-[ext_resource type="Texture2D" uid="uid://cq6cn265a0dc6" path="res://images/5.png" id="4_ce4v5"]
-[ext_resource type="Texture2D" uid="uid://d0giu6uifp0vu" path="res://images/4.png" id="5_n18et"]
-[ext_resource type="Texture2D" uid="uid://caq7kq6oidi41" path="res://images/3.png" id="6_85jkd"]
 [ext_resource type="Texture2D" uid="uid://bpyr77ulo0hup" path="res://images/2.png" id="7_jt3f8"]
 [ext_resource type="Texture2D" uid="uid://cq3mudbvbbsmh" path="res://images/1.png" id="8_oemd0"]
 
@@ -19,97 +15,6 @@ grow_vertical = 2
 size_flags_vertical = 4
 script = ExtResource("1_b5171")
 
-[node name="CenterContainer" type="CenterContainer" parent="."]
-visible = false
-layout_mode = 0
-offset_right = 1272.0
-offset_bottom = 718.0
-
-[node name="FondoMesa" type="Sprite2D" parent="CenterContainer"]
-position = Vector2(640, 359.5)
-scale = Vector2(0.998437, 0.998611)
-texture = ExtResource("2_cbt8g")
-
-[node name="Dado_inicial" type="CenterContainer" parent="CenterContainer"]
-layout_mode = 2
-
-[node name="cara6" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
-position = Vector2(-320.883, -16.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("3_vebbn")
-
-[node name="cara5" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
-position = Vector2(-320.883, -16.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("4_ce4v5")
-
-[node name="cara4" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
-position = Vector2(-320.883, -16.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("5_n18et")
-
-[node name="cara3" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
-position = Vector2(-320.883, -16.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("6_85jkd")
-
-[node name="cara2" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
-position = Vector2(-320.883, -16.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("7_jt3f8")
-
-[node name="cara1" type="Sprite2D" parent="CenterContainer/Dado_inicial"]
-position = Vector2(-320.883, -16.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("8_oemd0")
-
-[node name="Dado_adivinar" type="CenterContainer" parent="CenterContainer"]
-layout_mode = 2
-
-[node name="cara6" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
-position = Vector2(325.117, -11.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("3_vebbn")
-
-[node name="cara5" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
-position = Vector2(325.117, -11.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("4_ce4v5")
-
-[node name="cara4" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
-position = Vector2(325.117, -11.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("5_n18et")
-
-[node name="cara3" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
-position = Vector2(325.117, -11.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("6_85jkd")
-
-[node name="cara2" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
-position = Vector2(325.117, -11.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("7_jt3f8")
-
-[node name="cara1" type="Sprite2D" parent="CenterContainer/Dado_adivinar"]
-position = Vector2(325.117, -11.125)
-scale = Vector2(0.0692292, 0.0692292)
-texture = ExtResource("8_oemd0")
-
-[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer"]
-layout_mode = 2
-
-[node name="baja" type="Button" parent="CenterContainer/HBoxContainer"]
-layout_mode = 2
-text = "Más baja"
-
-[node name="alta" type="Button" parent="CenterContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 8
-text = "Más alta
-"
-
 [node name="Background" type="CenterContainer" parent="."]
 layout_mode = 0
 offset_right = 40.0
@@ -118,40 +23,6 @@ offset_bottom = 40.0
 [node name="TextureRect" type="TextureRect" parent="Background"]
 layout_mode = 2
 texture = ExtResource("2_cbt8g")
-
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/separation = 17
-
-[node name="StartLabel" type="Label" parent="VBoxContainer"]
-layout_mode = 2
-text = "PRESS SPACE TO START"
-horizontal_alignment = 1
-
-[node name="VBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
-layout_mode = 2
-size_flags_vertical = 10
-alignment = 1
-
-[node name="ButtonBetHigher" type="Button" parent="VBoxContainer/VBoxContainer"]
-layout_mode = 2
-text = "HIGHER"
-
-[node name="ButtonBetLower" type="Button" parent="VBoxContainer/VBoxContainer"]
-layout_mode = 2
-text = "LOWER"
-
-[node name="Result" type="Label" parent="VBoxContainer"]
-visible = false
-layout_mode = 2
-size_flags_vertical = 10
-text = "YOU WON?"
-horizontal_alignment = 1
 
 [node name="Dice1" type="Sprite2D" parent="."]
 visible = false
@@ -164,6 +35,3 @@ visible = false
 position = Vector2(960, 294)
 scale = Vector2(0.15, 0.15)
 texture = ExtResource("7_jt3f8")
-
-[connection signal="pressed" from="VBoxContainer/VBoxContainer/ButtonBetHigher" to="." method="_on_button_bet_higher_pressed"]
-[connection signal="pressed" from="VBoxContainer/VBoxContainer/ButtonBetLower" to="." method="_on_button_bet_lower_pressed"]

@@ -49,7 +49,7 @@ var dialogue_line: DialogueLine:
 		character_label.text = tr(dialogue_line.character, "dialogue")
 		var pj = ""
 		var mood = ""
-		if dialogue_line.character == "Desconocido":
+		if dialogue_line.character == "Unknown":
 			pj = "Desafecto"
 		else:
 			pj = dialogue_line.character
@@ -58,11 +58,14 @@ var dialogue_line: DialogueLine:
 			mood = "_"+dialogue_line.get_tag_value("mood")
 
 		var path = "res://images/"+pj+mood+".png"
-		print(path)
+
 		if ResourceLoader.exists(path):
 			avatar.texture = load(path)
-			
+		else:
+			avatar.texture = null
 		dialogue_label.hide()
+		if dialogue_line.character == "":
+			dialogue_line.text = "[i]"+dialogue_line.text+"[/i]"
 		dialogue_label.dialogue_line = dialogue_line
 
 		responses_menu.hide()

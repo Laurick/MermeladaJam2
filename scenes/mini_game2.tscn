@@ -1,0 +1,97 @@
+[gd_scene load_steps=16 format=3 uid="uid://t14klv0yyfp4"]
+
+[ext_resource type="Texture2D" uid="uid://bjhuwlwamdls4" path="res://images/fondo_bar.jpg" id="1_lru32"]
+[ext_resource type="Script" path="res://scripts/mini_game2.gd" id="1_q5u1b"]
+[ext_resource type="Texture2D" uid="uid://dvlgmwsjupa58" path="res://images/fondo_bar_1.png" id="2_37b64"]
+[ext_resource type="PackedScene" uid="uid://creh3h7tfua3w" path="res://components/HiddenObject.tscn" id="3_c1sww"]
+[ext_resource type="Texture2D" uid="uid://deleypnmn3mla" path="res://images/fondo_bar_2.png" id="3_vpqjb"]
+[ext_resource type="Texture2D" uid="uid://bkptbvaduk5hr" path="res://images/fondo_bar_3.png" id="4_t8dbr"]
+[ext_resource type="Texture2D" uid="uid://b1qqau05xwrgg" path="res://images/Jim_hidden.png" id="4_wg6to"]
+[ext_resource type="Texture2D" uid="uid://b8t4rnpwl2d8l" path="res://images/fondo_bar_4.png" id="5_51rg5"]
+[ext_resource type="Resource" uid="uid://cra62hc1vfh38" path="res://game_resources/hidden_objects/nine1.tres" id="5_nqde0"]
+[ext_resource type="Texture2D" uid="uid://cw2ff1j4xci8p" path="res://images/Joe_hidden.png" id="7_g8iuu"]
+[ext_resource type="Resource" uid="uid://b7fo3unlputnv" path="res://game_resources/hidden_objects/nine2.tres" id="8_1cbwn"]
+[ext_resource type="Texture2D" uid="uid://b66arlkus1d5n" path="res://images/Timmy_hidden.png" id="10_tq8my"]
+[ext_resource type="Resource" uid="uid://dxxlmaywtrhc8" path="res://game_resources/hidden_objects/nine3.tres" id="11_5xnxp"]
+[ext_resource type="Texture2D" uid="uid://deed36n0aqcgo" path="res://images/Jimmy_hidden.png" id="13_wy56e"]
+[ext_resource type="Resource" uid="uid://cq8g23i8d6akw" path="res://game_resources/hidden_objects/nine4.tres" id="14_veehw"]
+
+[node name="MiniGame2" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("1_q5u1b")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1280.0
+offset_bottom = 720.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("1_lru32")
+
+[node name="HiddenObject" parent="." instance=ExtResource("3_c1sww")]
+position = Vector2(538, 389)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("4_wg6to")
+data = ExtResource("5_nqde0")
+
+[node name="HiddenObject2" parent="." instance=ExtResource("3_c1sww")]
+position = Vector2(133, 319)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("7_g8iuu")
+data = ExtResource("8_1cbwn")
+
+[node name="HiddenObject3" parent="." instance=ExtResource("3_c1sww")]
+position = Vector2(334, 626)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("10_tq8my")
+data = ExtResource("11_5xnxp")
+
+[node name="HiddenObject4" parent="." instance=ExtResource("3_c1sww")]
+position = Vector2(1044, 367)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("13_wy56e")
+data = ExtResource("14_veehw")
+
+[node name="bar1" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1280.0
+offset_bottom = 720.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_37b64")
+
+[node name="bar2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+mouse_filter = 2
+texture = ExtResource("3_vpqjb")
+
+[node name="bar3" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+mouse_filter = 2
+texture = ExtResource("4_t8dbr")
+
+[node name="bar4" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+mouse_filter = 2
+texture = ExtResource("5_51rg5")
+
+[connection signal="object_clicked" from="HiddenObject" to="." method="_on_hidden_object_object_clicked"]
+[connection signal="object_clicked" from="HiddenObject2" to="." method="_on_hidden_object_2_object_clicked"]
+[connection signal="object_clicked" from="HiddenObject3" to="." method="_on_hidden_object_3_object_clicked"]
+[connection signal="object_clicked" from="HiddenObject4" to="." method="_on_hidden_object_4_object_clicked"]

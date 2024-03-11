@@ -14,13 +14,7 @@ func has_object_discover(key:String):
 
 
 func _on_hidden_object_object_clicked(object:HiddenObjectData):
-	#print("object clicked: "+object.name)
 	objects_discovered[object.key] = object
-
-
-func change_scene():
-	pass
-
 
 func fade_in():
 	await get_tree().create_tween().tween_property(color_rect,"color:a",1,2).finished
