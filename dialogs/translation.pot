@@ -633,11 +633,6 @@ msgid "Kids"
 msgstr ""
 
 #: dialogs/scene_two.dialogue
-msgctxt "dialogue"
-msgid "You find what you\'d say is a weapon"
-msgstr ""
-
-#: dialogs/scene_two.dialogue
 msgid "Wow! You found us in a blink!"
 msgstr ""
 
@@ -946,7 +941,7 @@ msgid "Their expresion, although benevolent, hides a cold stare that emits some 
 msgstr ""
 
 #: dialogs/scene_two.dialogue
-msgid "An ice pick close to a wicked cocktail shaker"
+msgid "You find what you\'d say is a weapon, an ice pick close to a wicked cocktail shaker"
 msgstr ""
 
 #: dialogs/scene_two.dialogue

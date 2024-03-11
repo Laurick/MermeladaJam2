@@ -91,8 +91,7 @@ msgctxt "dialogue"
 msgid "Timmy"
 msgstr "Timmy"
 
-#: dialogs/intro.dialogue dialogs/scene_one.dialogue dialogs/scene_two.dialogue
-#: dialogs/mini_game.dialogue
+#: dialogs/intro.dialogue dialogs/scene_one.dialogue dialogs/scene_two.dialogue dialogs/mini_game.dialogue
 msgctxt "dialogue"
 msgid "Desafecto"
 msgstr "Desafecto"
@@ -103,56 +102,34 @@ msgid "Narrator"
 msgstr "Narrador"
 
 #: dialogs/intro.dialogue
-msgid ""
-"You don't know how long have been driving, and the landscape is always the "
-"same."
-msgstr ""
-"No saps molt bé quant de temps portes conduïnt, i el paisatge és sempre el "
-"mateix."
+msgid "You don't know how long have been driving, and the landscape is always the same."
+msgstr "No saps molt bé quant de temps portes conduïnt, i el paisatge és sempre el mateix."
 
 #: dialogs/intro.dialogue
-msgid ""
-"The monotony of the trip starts to feel like a noise that stuns your senses."
-msgstr ""
-"La monotonia del viatge comença a ser com un soroll que atordeix els teus "
-"sentits."
+msgid "The monotony of the trip starts to feel like a noise that stuns your senses."
+msgstr "La monotonia del viatge comença a ser com un soroll que atordeix els teus sentits."
 
 #: dialogs/intro.dialogue
-msgid ""
-"You start to see blurry, you barely listen the music on the radio, neither "
-"the sound of the engine."
-msgstr ""
-"Comences a veure borrós, ja tot just escoltes la música de la ràdio ni el so "
-"del motor."
+msgid "You start to see blurry, you barely listen the music on the radio, neither the sound of the engine."
+msgstr "Comences a veure borrós, ja tot just escoltes la música de la ràdio ni el so del motor."
 
 #: dialogs/intro.dialogue
 msgid "OK, lets do it"
 msgstr "Ok, anemi"
 
 #: dialogs/intro.dialogue
-msgid ""
-"There's only left the wind and the rain, but little by little the veil of "
-"tireness starts to wrap everything"
-msgstr ""
-"Només et queden el vent i la pluja, però a poc a poc el vel del cansament ho "
-"envolta tot."
+msgid "There's only left the wind and the rain, but little by little the veil of tireness starts to wrap everything"
+msgstr "Només et queden el vent i la pluja, però a poc a poc el vel del cansament ho envolta tot."
 
 #: dialogs/intro.dialogue
 msgid "I need to stop and rest somewhere. I think I can not last much longer"
-msgstr ""
-"Necessito parar i descansar a algun lloc. No crec que aguanti molt més."
+msgstr "Necessito parar i descansar a algun lloc. No crec que aguanti molt més."
 
 #: dialogs/intro.dialogue
-msgid ""
-"The highway is straight and there is no other cars, no other people. It's "
-"gray wilderness"
-msgstr ""
-"La carretera és recta i no hi ha cap un altre vehicle, cap una altra "
-"persona. És un erm gris."
+msgid "The highway is straight and there is no other cars, no other people. It's gray wilderness"
+msgstr "La carretera és recta i no hi ha cap un altre vehicle, cap una altra persona. És un erm gris."
 
-#: dialogs/intro.dialogue dialogs/introduction.dialogue
-#: dialogs/scene_one.dialogue dialogs/scene_two.dialogue
-#: dialogs/mini_game.dialogue
+#: dialogs/intro.dialogue dialogs/introduction.dialogue dialogs/scene_one.dialogue dialogs/scene_two.dialogue dialogs/mini_game.dialogue
 msgid "..."
 msgstr "..."
 
@@ -189,12 +166,8 @@ msgid "You have lost the notion of time a couple of times"
 msgstr "Has tornat a perdre la noció del temps un parell de vegades. Pot ser."
 
 #: dialogs/intro.dialogue
-msgid ""
-"You start to glimpse a dark silhoutte of golden eyes in the distance. That "
-"emits a strange cry"
-msgstr ""
-"Comences a entreveure una silueta fosca de ulls daurats al lluny. Que emet "
-"un estrany lament."
+msgid "You start to glimpse a dark silhoutte of golden eyes in the distance. That emits a strange cry"
+msgstr "Comences a entreveure una silueta fosca de ulls daurats al lluny. Que emet un estrany lament."
 
 #: dialogs/intro.dialogue
 msgid "You can't go faster, neither stop yet"
@@ -204,66 +177,42 @@ msgstr "No pots accelerar més, tampoc creus que puguis parar encara."
 msgid "Not untill you reach that thing"
 msgstr "No fins arribar a 'això'."
 
-#: dialogs/intro.dialogue dialogs/introduction.dialogue
-#: dialogs/mini_game.dialogue
+#: dialogs/intro.dialogue dialogs/introduction.dialogue dialogs/mini_game.dialogue
 msgid "Come on... Focus."
 msgstr "Viatgera: Anemi... Centra't."
 
 #: dialogs/intro.dialogue dialogs/introduction.dialogue
 msgid "That shape, now closer, is a building, whose windows emit light."
-msgstr ""
-"Aquella forma, ara més propera, es un edifici, les finestres emeten llum."
+msgstr "Aquella forma, ara més propera, es un edifici, les finestres emeten llum."
 
-#: dialogs/introduction.dialogue dialogs/scene_one.dialogue
-#: dialogs/scene_two.dialogue dialogs/mini_game.dialogue
+#: dialogs/introduction.dialogue dialogs/scene_one.dialogue dialogs/scene_two.dialogue dialogs/mini_game.dialogue
 msgctxt "dialogue"
 msgid "Traveler"
 msgstr "Viatgera"
 
 #: dialogs/introduction.dialogue
-msgid ""
-"You don't know how long you have been driving, and the landscape is always "
-"the same."
-msgstr ""
-"No saps molt bé quant de temps portes conduïnt, i el paisatge és sempre el "
-"mateix."
+msgid "You don't know how long you have been driving, and the landscape is always the same."
+msgstr "No saps molt bé quant de temps portes conduïnt, i el paisatge és sempre el mateix."
 
 #: dialogs/introduction.dialogue
-msgid ""
-"The monotony of the trip starts to become a noise that stuns your senses."
-msgstr ""
-"La monotonia del viatge comença a convertir-se en un soroll que atordeix els "
-"teus sentits."
+msgid "The monotony of the trip starts to become a noise that stuns your senses."
+msgstr "La monotonia del viatge comença a convertir-se en un soroll que atordeix els teus sentits."
 
 #: dialogs/introduction.dialogue
-msgid ""
-"You start to see blurry, and barely listen the music of the radio, neither "
-"the noise of the engine"
-msgstr ""
-"Comences a veure borrós, i amb prou feines escoltes la música de la ràdio, "
-"ni el soroll del motor"
+msgid "You start to see blurry, and barely listen the music of the radio, neither the noise of the engine"
+msgstr "Comences a veure borrós, i amb prou feines escoltes la música de la ràdio, ni el soroll del motor"
 
 #: dialogs/introduction.dialogue
-msgid ""
-"There are only the wind, and the rain, but little by little the veil of "
-"tireness starts to wrap it all."
-msgstr ""
-" Només et queden el vent i la pluja, però a poc a poc el vel del cansament "
-"ho envolta tot."
+msgid "There are only the wind, and the rain, but little by little the veil of tireness starts to wrap it all."
+msgstr " Només et queden el vent i la pluja, però a poc a poc el vel del cansament ho envolta tot."
 
 #: dialogs/introduction.dialogue
-msgid ""
-"I need to stop and rest somewhere. I don't think I can last much longer."
-msgstr ""
-"Necessito parar i descansar a algun lloc. No crec que aguanti molt més."
+msgid "I need to stop and rest somewhere. I don't think I can last much longer."
+msgstr "Necessito parar i descansar a algun lloc. No crec que aguanti molt més."
 
 #: dialogs/introduction.dialogue
-msgid ""
-"The highroad is straight, and there is no other cars, no other people. Is a "
-"gray wasteland."
-msgstr ""
-"La carretera és recta i no hi ha cap un altre vehicle, cap una altra "
-"persona. És un erm gris."
+msgid "The highroad is straight, and there is no other cars, no other people. Is a gray wasteland."
+msgstr "La carretera és recta i no hi ha cap un altre vehicle, cap una altra persona. És un erm gris."
 
 #: dialogs/introduction.dialogue
 msgid "On the horizon is drawn a storm."
@@ -290,12 +239,8 @@ msgid "You lost again the notion of time a couple of times. Maybe."
 msgstr "Has tornat a perdre la noció del temps un parell de vegades. Pot ser."
 
 #: dialogs/introduction.dialogue
-msgid ""
-"You start to glimpse a golden-eyed dark silhoutte on the distance. that "
-"emits a strange cry."
-msgstr ""
-"Comences a entreveure una silueta fosca de ulls daurats al lluny. Que emet "
-"un estrany lament."
+msgid "You start to glimpse a golden-eyed dark silhoutte on the distance. that emits a strange cry."
+msgstr "Comences a entreveure una silueta fosca de ulls daurats al lluny. Que emet un estrany lament."
 
 #: dialogs/introduction.dialogue
 msgid "You can't go faster, and neither you can stop yet."
@@ -310,12 +255,8 @@ msgid "Finally a place to rest!"
 msgstr "Al fi un lloc al que poder aturar-se!"
 
 #: dialogs/introduction.dialogue
-msgid ""
-"Answering your exclamation, the car finally stops at the door of the "
-"building."
-msgstr ""
-"Responent a la teva exclamació, el cotxe finalment s'atura a la porta de "
-"l'edifici."
+msgid "Answering your exclamation, the car finally stops at the door of the building."
+msgstr "Responent a la teva exclamació, el cotxe finalment s'atura a la porta de l'edifici."
 
 #: dialogs/scene_one.dialogue
 msgctxt "dialogue"
@@ -328,12 +269,8 @@ msgid "Viajera"
 msgstr "Viatgera"
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"You wanted to escape from the grey vastness of the wasteland, but inside the "
-"building, it looks worse."
-msgstr ""
-"Volies escapar de la grisa immensitat de l'erm, però dins de l'edifici, "
-"sembla pitjor"
+msgid "You wanted to escape from the grey vastness of the wasteland, but inside the building, it looks worse."
+msgstr "Volies escapar de la grisa immensitat de l'erm, però dins de l'edifici, sembla pitjor"
 
 #: dialogs/scene_one.dialogue
 msgid "It's sad and heavy,but you are almost grateful to feel something"
@@ -356,11 +293,8 @@ msgid "I'm the manager of this place, but you can call me Desafecto."
 msgstr "Sóc el gerent d'aquest lloc, però tu pots anomenar-me Desafecto."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"If you need me, you can ring this bell, but it's been too long since it rang."
-msgstr ""
-"Si em necessites, pots tocar aquest timbre, encara que fa temps que no emet "
-"cap so."
+msgid "If you need me, you can ring this bell, but it's been too long since it rang."
+msgstr "Si em necessites, pots tocar aquest timbre, encara que fa temps que no emet cap so."
 
 #: dialogs/scene_one.dialogue
 msgid "But don't worry, I'm always close, I never let you aside."
@@ -375,15 +309,11 @@ msgid "I'd never meet anyone with a name like that."
 msgstr "Mai hi havia conegut a ningú amb un nom així."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"Yeah, but I bet whatever you want that you had never met anyone like ME."
-msgstr ""
-"Ja, encara que apostaria el que vulguis a que tampoc has conegut a ningú com "
-"JO."
+msgid "Yeah, but I bet whatever you want that you had never met anyone like ME."
+msgstr "Ja, encara que apostaria el que vulguis a que tampoc has conegut a ningú com JO."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"You are in.. Well, you are lucky. You came to Aion, a very special place."
+msgid "You are in.. Well, you are lucky. You came to Aion, a very special place."
 msgstr "Estàs a... Bé, estàs de sort. Has arribat a Aión, un lloc especial."
 
 #: dialogs/scene_one.dialogue
@@ -400,8 +330,7 @@ msgstr "Necessito descansar i prendre alguna cosa."
 
 #: dialogs/scene_one.dialogue
 msgid "Perfect, take a sit and rest a little bit, we will get your room ready."
-msgstr ""
-"Perfecte, seu i descansa una mica, que nosaltres et preparem una habitació."
+msgstr "Perfecte, seu i descansa una mica, que nosaltres et preparem una habitació."
 
 #: dialogs/scene_one.dialogue
 msgid "What would you like to have?"
@@ -413,8 +342,7 @@ msgstr "Què tens?"
 
 #: dialogs/scene_one.dialogue
 msgid "The best beer you can find this side of the road, darling."
-msgstr ""
-"La millor cervesa que puguis trobar a aquest costat de la carretera, tresor."
+msgstr "La millor cervesa que puguis trobar a aquest costat de la carretera, tresor."
 
 #: dialogs/scene_one.dialogue
 msgid "Is there something across the road?"
@@ -449,44 +377,28 @@ msgid "Enjoy it."
 msgstr "Gaudeix-la."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"Desafecto ofers you a jug with a extremely dark and thick liquid, like it is "
-"tar."
-msgstr ""
-"Desafecto t’ofereix una gerra amb un líquid extremadament dens i fosc, com "
-"si fora quitrà."
+msgid "Desafecto ofers you a jug with a extremely dark and thick liquid, like it is tar."
+msgstr "Desafecto t’ofereix una gerra amb un líquid extremadament dens i fosc, com si fora quitrà."
 
 #: dialogs/scene_one.dialogue
 msgid "Is this even a beer?"
 msgstr "És això una cervesa?"
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"You shrug your shoulds and quench your thirst, discovering that is not that "
-"bad as you expected."
-msgstr ""
-"T'encongeixes d'espatlles i sacies la teva set, descobrint que no sap tan "
-"malament com esperaves."
+msgid "You shrug your shoulds and quench your thirst, discovering that is not that bad as you expected."
+msgstr "T'encongeixes d'espatlles i sacies la teva set, descobrint que no sap tan malament com esperaves."
 
 #: dialogs/scene_one.dialogue
 msgid "Looks like your situation has improved. Sure you can rest now."
-msgstr ""
-"Sembla que la teva situació ha canviat a millor. Segur que ara pots "
-"descansar."
+msgstr "Sembla que la teva situació ha canviat a millor. Segur que ara pots descansar."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"Through the windows a light comes a diffuse light, the tainted glass alters "
-"the ligh, creating an almost dreamlike atmosphere."
-msgstr ""
-"Per les finestres entra una llum molt difusa, el vidre tenyit altera la "
-"llum, creant un ambient gairebé oníric."
+msgid "Through the windows a light comes a diffuse light, the tainted glass alters the ligh, creating an almost dreamlike atmosphere."
+msgstr "Per les finestres entra una llum molt difusa, el vidre tenyit altera la llum, creant un ambient gairebé oníric."
 
 #: dialogs/scene_one.dialogue
 msgid "The room feels old and aged, like is has lost its ancient splendor."
-msgstr ""
-"El local se sent vell i atrotinat, com si hi hagués perdut el seu antic "
-"esplendor."
+msgstr "El local se sent vell i atrotinat, com si hi hagués perdut el seu antic esplendor."
 
 #: dialogs/scene_one.dialogue
 msgid "If it ever had it."
@@ -502,9 +414,7 @@ msgstr "Què?"
 
 #: dialogs/scene_one.dialogue
 msgid "I think you were thinking out loud, your tongue was talking by itself."
-msgstr ""
-"Crec que estaves pensant en veu alta, que d'alguna manera la teva llengua ha "
-"parlat sola."
+msgstr "Crec que estaves pensant en veu alta, que d'alguna manera la teva llengua ha parlat sola."
 
 #: dialogs/scene_one.dialogue
 msgid "In fact, I think, you were talking about Aion."
@@ -524,19 +434,15 @@ msgstr "A ningú."
 
 #: dialogs/scene_one.dialogue
 msgid "I don't even remember how long have I been here. Looks like eternity."
-msgstr ""
-"Ja ni record quant de temps fa que estic aquí. Sembla gairebé una eternitat."
+msgstr "Ja ni record quant de temps fa que estic aquí. Sembla gairebé una eternitat."
 
 #: dialogs/scene_one.dialogue
 msgid "It's a comfy place."
 msgstr "És un lloc agradable."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"You think? I think it's the first time someone describes this place as comfy."
-msgstr ""
-"Tu creus? Crec que sa la primera vegada que descriuen aquest lloc com "
-"agradable."
+msgid "You think? I think it's the first time someone describes this place as comfy."
+msgstr "Tu creus? Crec que sa la primera vegada que descriuen aquest lloc com agradable."
 
 #: dialogs/scene_one.dialogue
 msgid "Sorry, I just wanted to be..."
@@ -563,19 +469,12 @@ msgid "But first you need to sign here to book the room."
 msgstr "Però abans has de signar aquí perquè puguis hostatjar-te."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"They gives you an aged document, that seems older than everything you have "
-"seen."
-msgstr ""
-"Et presenta un document envellit, que sembla anterior a tot el que has vist."
+msgid "They gives you an aged document, that seems older than everything you have seen."
+msgstr "Et presenta un document envellit, que sembla anterior a tot el que has vist."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"You observe the contract. Barely understand anything, it looks too long and "
-"complex to just book a room."
-msgstr ""
-"Observes el contracte. Tot just entens res, sembla massa llarg i complex com "
-"per reservar una habitació."
+msgid "You observe the contract. Barely understand anything, it looks too long and complex to just book a room."
+msgstr "Observes el contracte. Tot just entens res, sembla massa llarg i complex com per reservar una habitació."
 
 #: dialogs/scene_one.dialogue
 msgid "It's just a mere formality, a regular booking contract."
@@ -619,8 +518,7 @@ msgstr "Aquest paper és vell i especial, no accepta qualsevol tinta."
 
 #: dialogs/scene_one.dialogue
 msgid "A chill travels through your spine the momento you hold the pen."
-msgstr ""
-"Un calfred recorre la teva esquena al moment en què subjectes la ploma."
+msgstr "Un calfred recorre la teva esquena al moment en què subjectes la ploma."
 
 #: dialogs/scene_one.dialogue
 msgid "The ink looks like... Blood? But it's so dark that looks black."
@@ -635,12 +533,8 @@ msgid "Perfect! Now I can get to work."
 msgstr "Perfecte! Amb això ja puc treballar."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"Desafecto leaves with the paper and the pen on their hands and a smile on "
-"their face."
-msgstr ""
-"Desafecto se'n va amb el paper i la ploma les seves mans i un somriure a la "
-"cara."
+msgid "Desafecto leaves with the paper and the pen on their hands and a smile on their face."
+msgstr "Desafecto se'n va amb el paper i la ploma les seves mans i un somriure a la cara."
 
 #: dialogs/scene_one.dialogue
 msgid "Their smile looks like that of a hunter excited by the hunt."
@@ -664,8 +558,7 @@ msgstr "No, dona'm el paper i deixa que el llegeixi."
 
 #: dialogs/scene_one.dialogue
 msgid "A chill travels through your spine the momento you hold the pen"
-msgstr ""
-"Un calfred recorre la teva esquena al moment en què subjectes la ploma."
+msgstr "Un calfred recorre la teva esquena al moment en què subjectes la ploma."
 
 #: dialogs/scene_one.dialogue
 msgid "Desafecto grabs the contract before you can take a look."
@@ -673,8 +566,7 @@ msgstr "Desafecto retira el contracte abans que puguis fer-te amb ell."
 
 #: dialogs/scene_one.dialogue
 msgid "DO YOU THINK YOU CAN EVEN TOUCH ME OR APPROACH ME LIKE THAT?"
-msgstr ""
-"CREUS QUE POTS NI TAN SOLS TOCAR-ME O ACOSTAR-TE AIXÍ SENSE MÉS NI MÉS!"
+msgstr "CREUS QUE POTS NI TAN SOLS TOCAR-ME O ACOSTAR-TE AIXÍ SENSE MÉS NI MÉS!"
 
 #: dialogs/scene_one.dialogue
 msgid "YOU CAN LEAVE AND GET YOUR UNPLEASANT PRESENC OUT OF MY HOUSE!"
@@ -693,19 +585,12 @@ msgid "Leave"
 msgstr "Marxar-te"
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"Alright, I'm someone comprehensible. You can stay here, but no more "
-"complaints"
-msgstr ""
-"Està bé, sóc comprensiu. Pots quedar-te, però no vull sentir més queixes."
+msgid "Alright, I'm someone comprehensible. You can stay here, but no more complaints"
+msgstr "Està bé, sóc comprensiu. Pots quedar-te, però no vull sentir més queixes."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"You go out through the door and find you abandoned to the vast wasteland, "
-"that wait patiently to devour you."
-msgstr ""
-"Surts per la porta i et veus abandonada a la immensitat grisa, que espera "
-"pacient per devorar-te."
+msgid "You go out through the door and find you abandoned to the vast wasteland, that wait patiently to devour you."
+msgstr "Surts per la porta i et veus abandonada a la immensitat grisa, que espera pacient per devorar-te."
 
 #: dialogs/scene_one.dialogue
 msgid "You would say it's been hours, but you are not sure."
@@ -713,9 +598,7 @@ msgstr "Diries que han passat unes hores, encara que no ho tens molt és clar."
 
 #: dialogs/scene_one.dialogue
 msgid "You found a clock whose hands won't move."
-msgstr ""
-"Et fixes en l'existència d'un rellotge el qual, les manetes no acaben "
-"d'avançar mai."
+msgstr "Et fixes en l'existència d'un rellotge el qual, les manetes no acaben d'avançar mai."
 
 #: dialogs/scene_one.dialogue
 msgid "They are on the verge of ticking, but never doing it."
@@ -730,12 +613,8 @@ msgid "What a drag."
 msgstr "Quina llauna."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"You feel a shadow go through your own place, but you couldn't see how "
-"projects it."
-msgstr ""
-"Notes una ombra passar just pel teu mateix espai, sense arribar a veure qui "
-"la projecta."
+msgid "You feel a shadow go through your own place, but you couldn't see how projects it."
+msgstr "Notes una ombra passar just pel teu mateix espai, sense arribar a veure qui la projecta."
 
 #: dialogs/scene_one.dialogue
 msgid "Are you getting bored?"
@@ -751,8 +630,7 @@ msgstr "No, no, està tot bé."
 
 #: dialogs/scene_one.dialogue
 msgid "Is something wrong with the clock? Looks like it doesn't move."
-msgstr ""
-"Escolta, li passa alguna cosa al rellotge? Sembla que no avança a cap moment."
+msgstr "Escolta, li passa alguna cosa al rellotge? Sembla que no avança a cap moment."
 
 #: dialogs/scene_one.dialogue
 msgid "Of course you are not the only one here"
@@ -768,37 +646,23 @@ msgstr "No ets la primera a arribar, ni seràs l'última."
 
 #: dialogs/scene_one.dialogue
 msgid "For a moment their tone seems prophetic. It must be your imagination."
-msgstr ""
-"Per un moment el seu to sembla gairebé profètic. Han de ser imaginacions "
-"teves."
+msgstr "Per un moment el seu to sembla gairebé profètic. Han de ser imaginacions teves."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"I'm sure that someone is still here. But I'd say I haven't seen anyone in "
-"ages."
-msgstr ""
-"Estic segure que algú ha de seguir aquí. Tot i que es podria dir que fa eons "
-"que no veig a ningú. nadie."
+msgid "I'm sure that someone is still here. But I'd say I haven't seen anyone in ages."
+msgstr "Estic segure que algú ha de seguir aquí. Tot i que es podria dir que fa eons que no veig a ningú. nadie."
 
 #: dialogs/scene_one.dialogue
 msgid "Heh."
 msgstr "Je."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"If you feel bored, you can try to sharpen your senses and ind other "
-"travelers like you."
-msgstr ""
-"Si t’avorreixes, pots intentar afinar els teus sentits i cercar a altres "
-"viatgers com tu."
+msgid "If you feel bored, you can try to sharpen your senses and ind other travelers like you."
+msgstr "Si t’avorreixes, pots intentar afinar els teus sentits i cercar a altres viatgers com tu."
 
 #: dialogs/scene_one.dialogue
-msgid ""
-"You hear a knock, like if someone was trying to stay still breaks that "
-"status for half a second."
-msgstr ""
-"Escoltes un cop, com si algú que tractava de mantenir-se absolutament "
-"immòbil trenqués amb aquest estat durant mig segon."
+msgid "You hear a knock, like if someone was trying to stay still breaks that status for half a second."
+msgstr "Escoltes un cop, com si algú que tractava de mantenir-se absolutament immòbil trenqués amb aquest estat durant mig segon."
 
 #: dialogs/scene_one.dialogue
 msgid "Are you sure? Anyone would say it"
@@ -834,9 +698,8 @@ msgid "Kids"
 msgstr "Nens"
 
 #: dialogs/scene_two.dialogue
-msgctxt "dialogue"
-msgid "You find what you'd say is a weapon"
-msgstr "Trobaràs el que diries que és una arma"
+msgid "You find what you'd say is a weapon, an ice pick close to a wicked cocktail shaker"
+msgstr "Trobaràs el que diries que és una arma, un picahielos cerca d'una coctelera maldita"
 
 #: dialogs/scene_two.dialogue
 msgid "Wow! You found us in a blink!"
@@ -867,12 +730,8 @@ msgid "I don't want to talk with you."
 msgstr "No tinc ganes de parlar amb vosaltres."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Now you think about it, you don't remember your name. You'd swear that you "
-"know who you are, but you are unable to utter no information about your past."
-msgstr ""
-"Ara que ho penses, no recordes el teu nom. Juraries que saps qui ets, però "
-"ets incapaç de pronunciar cap dada sobre el teu passat."
+msgid "Now you think about it, you don't remember your name. You'd swear that you know who you are, but you are unable to utter no information about your past."
+msgstr "Ara que ho penses, no recordes el teu nom. Juraries que saps qui ets, però ets incapaç de pronunciar cap dada sobre el teu passat."
 
 #: dialogs/scene_two.dialogue
 msgid "Let's say I'm a traver and I'm just passing by."
@@ -904,8 +763,7 @@ msgstr "Som germans, eh!"
 
 #: dialogs/scene_two.dialogue
 msgid "Don't you dare to trick us! Our coins are ours!"
-msgstr ""
-"Ni se t'acudeixi pensar a enganyar-nos! Les nostres monedes són nostres."
+msgstr "Ni se t'acudeixi pensar a enganyar-nos! Les nostres monedes són nostres."
 
 #: dialogs/scene_two.dialogue
 msgid "She already won one, so shut up"
@@ -928,12 +786,8 @@ msgid "Even you. Well, you have two now."
 msgstr "Fins i tot tu. Bé, ara tens dos."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Hey, traveler, thanks for playing with us. We seem invisible here and it's "
-"been so long since the last time someone look at us."
-msgstr ""
-"Escolta, viatgera, gràcies per jugar amb nosaltres. Aquí sembla que som "
-"invisibles, i feia molt de temps que ningú no ens dirigia ni una mirada."
+msgid "Hey, traveler, thanks for playing with us. We seem invisible here and it's been so long since the last time someone look at us."
+msgstr "Escolta, viatgera, gràcies per jugar amb nosaltres. Aquí sembla que som invisibles, i feia molt de temps que ningú no ens dirigia ni una mirada."
 
 #: dialogs/scene_two.dialogue
 msgid "Desafecto is still looking for us for sure!"
@@ -952,31 +806,20 @@ msgid "But she seemed like she was differente!"
 msgstr "Però semblava que anava a ser diferent!"
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"She vibrates like a newcomer, she's not on the same tune that everything "
-"else."
-msgstr ""
-"Vibra com a recentment arribada, no està a la mateixa sintonia que tots els "
-"altres."
+msgid "She vibrates like a newcomer, she's not on the same tune that everything else."
+msgstr "Vibra com a recentment arribada, no està a la mateixa sintonia que tots els altres."
 
 #: dialogs/scene_two.dialogue
 msgid "So let her tune alone, we need to hide to win our game."
-msgstr ""
-"Doncs que vibri sola, nosaltres hem d'amagar-nos per poder guanyar el nostre "
-"joc."
+msgstr "Doncs que vibri sola, nosaltres hem d'amagar-nos per poder guanyar el nostre joc."
 
 #: dialogs/scene_two.dialogue
 msgid "The kids dissapear in front of you, like if they will never been there."
-msgstr ""
-"Els nens desapareixen davant tu, com si mai haurien estat ocupant cap espai."
+msgstr "Els nens desapareixen davant tu, com si mai haurien estat ocupant cap espai."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"You are left alone with your own thoughts, feeling the absence of those that "
-"were here just a second ago."
-msgstr ""
-"Et quedes a soles amb els teus pensaments, sentint l'absència dels qui "
-"estaven aquí fa uns instants."
+msgid "You are left alone with your own thoughts, feeling the absence of those that were here just a second ago."
+msgstr "Et quedes a soles amb els teus pensaments, sentint l'absència dels qui estaven aquí fa uns instants."
 
 #: dialogs/scene_two.dialogue
 msgid "How long they have been here? Their names seems familiar"
@@ -995,12 +838,8 @@ msgid "The whole family, yeah, the parents and the four kids..."
 msgstr "Tota la família, sí, els pares i els quatre nens..."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"It was a very notorious case. It was present in all the news in the "
-"television."
-msgstr ""
-"Va ser un cas molt sonat. Va estar present a tots els noticiaris de la "
-"televisió.-"
+msgid "It was a very notorious case. It was present in all the news in the television."
+msgstr "Va ser un cas molt sonat. Va estar present a tots els noticiaris de la televisió.-"
 
 #: dialogs/scene_two.dialogue
 msgid "What is this place? What's going on?"
@@ -1011,12 +850,8 @@ msgid "Don't you know yet, darling?"
 msgstr "Encara no ho saps, tresor?"
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"You are in the same tune that those kids. By the way, don't worry to tell me "
-"where they are."
-msgstr ""
-"Tu estàs a la mateixa ona que aquests nens. Que, per cert, no té molestis a "
-"dir-me on son."
+msgid "You are in the same tune that those kids. By the way, don't worry to tell me where they are."
+msgstr "Tu estàs a la mateixa ona que aquests nens. Que, per cert, no té molestis a dir-me on son."
 
 #: dialogs/scene_two.dialogue
 msgid "They have their own game."
@@ -1036,8 +871,7 @@ msgstr "Aquest lloc ca un auspici per ànimes esgarriades."
 
 #: dialogs/scene_two.dialogue
 msgid "Yeah, sure. Was that contract part of your good intentions?"
-msgstr ""
-"Ja, és clar. Aquest contracte forma part de les teves bones intencions?"
+msgstr "Ja, és clar. Aquest contracte forma part de les teves bones intencions?"
 
 #: dialogs/scene_two.dialogue
 msgid "A mere formality, I told you."
@@ -1057,16 +891,11 @@ msgstr "i finestres es tanquen. La foscor es va tornant sobre tu."
 
 #: dialogs/scene_two.dialogue
 msgid "A beep bring back you. You head is spinning and you can't even think."
-msgstr ""
-"Un soroll et porta a la consciència de nou. La cap te dona voltes i té costa "
-"ni tan sols pensar."
+msgstr "Un soroll et porta a la consciència de nou. La cap te dona voltes i té costa ni tan sols pensar."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Your mouth tastes like blood and you noticed something thick on your lungs."
-msgstr ""
-"La boca té sap a sang i notes alguna cosa viscosa a la teva faringe i els "
-"teus pulmons."
+msgid "Your mouth tastes like blood and you noticed something thick on your lungs."
+msgstr "La boca té sap a sang i notes alguna cosa viscosa a la teva faringe i els teus pulmons."
 
 #: dialogs/scene_two.dialogue
 msgid "You are not okay."
@@ -1085,12 +914,8 @@ msgid "¡OW! it hurts."
 msgstr "OUCH! Fotre si fa mal."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"But now you are alone. Everything indicates that Desafecto left, and you "
-"can't notice the kids's presence"
-msgstr ""
-"Però ara estàs sola. Tot apunta que Desafecto ha marxat, i tampoc "
-"adverteixes la presència dels nens."
+msgid "But now you are alone. Everything indicates that Desafecto left, and you can't notice the kids's presence"
+msgstr "Però ara estàs sola. Tot apunta que Desafecto ha marxat, i tampoc adverteixes la presència dels nens."
 
 #: dialogs/scene_two.dialogue
 msgid "What will you do?"
@@ -1106,8 +931,7 @@ msgstr "Cercar un arma per poder defensar-te de Desafecto."
 
 #: dialogs/scene_two.dialogue
 msgid "Try to hide as the kids do and pray that Desafecto doesn't find you."
-msgstr ""
-"Intentar amagar-te com fan els nens i pregar perquè Desafecto no et trobi."
+msgstr "Intentar amagar-te com fan els nens i pregar perquè Desafecto no et trobi."
 
 #: dialogs/scene_two.dialogue
 msgid "You don't waste time to start your plan."
@@ -1134,20 +958,12 @@ msgid "You search and search, but don't find anything helpful."
 msgstr "Cerques i cerques, però no trobes res que t'ajudi."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"After few minutes you heard a clearing of a voice that you recognize "
-"perfectly."
-msgstr ""
-"En el cap d'uns minuts escoltes un gargamellejo d'una veu suau que "
-"reconeixes perfectament."
+msgid "After few minutes you heard a clearing of a voice that you recognize perfectly."
+msgstr "En el cap d'uns minuts escoltes un gargamellejo d'una veu suau que reconeixes perfectament."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"If you are going to poke around my stuff, I advance you that those door "
-"don't work with a key."
-msgstr ""
-"Si vas a furgar entre les meves coses, t'avanço que aquestes portes no "
-"funcionen amb una clau."
+msgid "If you are going to poke around my stuff, I advance you that those door don't work with a key."
+msgstr "Si vas a furgar entre les meves coses, t'avanço que aquestes portes no funcionen amb una clau."
 
 #: dialogs/scene_two.dialogue
 msgid "They only obey me, like everything else."
@@ -1186,31 +1002,20 @@ msgid "Come on, don't lose yoru hope. You still have a chance."
 msgstr "Va, no perdis l'esperança. Encara tens una opció."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Desafecto extends you their hand and dry your tears with their pale fingers."
-msgstr ""
-"Desafecto et tendeix una mà i seca les teves llàgrimes amb els seus pàl·lids "
-"dits."
+msgid "Desafecto extends you their hand and dry your tears with their pale fingers."
+msgstr "Desafecto et tendeix una mà i seca les teves llàgrimes amb els seus pàl·lids dits."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Their expresion, although benevolent, hides a cold stare that emits some "
-"kind of dissaproval."
-msgstr ""
-"La seva expressió, encara que benèvola, oculta una mirada freda que emet una "
-"certa desaprovació."
+msgid "Their expresion, although benevolent, hides a cold stare that emits some kind of dissaproval."
+msgstr "La seva expressió, encara que benèvola, oculta una mirada freda que emet una certa desaprovació."
 
 #: dialogs/scene_two.dialogue
 msgid "An ice pick close to a wicked cocktail shaker"
-msgstr ""
-"Trobes el que diries una arma: un pica gels al costat d'una coctelera "
-"embruixada."
+msgstr "Trobes el que diries una arma: un pica gels al costat d'una coctelera embruixada."
 
 #: dialogs/scene_two.dialogue
 msgid "You hide behind the door, waiting to Desafecto to turn her back on you."
-msgstr ""
-"T'amagues darrere la porta, esperant que Desafecto arribi i et doni "
-"l'esquena."
+msgstr "T'amagues darrere la porta, esperant que Desafecto arribi i et doni l'esquena."
 
 #: dialogs/scene_two.dialogue
 msgid "Desafecto enters the room, in absolute silence."
@@ -1229,11 +1034,8 @@ msgid "You jump over Desafecto and stab them on the side."
 msgstr "Saltes sobre Desafecte i li claves el pica gels al costat."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Their body doesn't react. They even don't staggers with your weight and hit."
-msgstr ""
-"El seu cos no reacciona. Ni tan sols es trontolla davant el teu pes i el teu "
-"cop."
+msgid "Their body doesn't react. They even don't staggers with your weight and hit."
+msgstr "El seu cos no reacciona. Ni tan sols es trontolla davant el teu pes i el teu cop."
 
 #: dialogs/scene_two.dialogue
 msgid "So you want to fight? That's good."
@@ -1244,23 +1046,15 @@ msgid "But I warn you that exercise makes me hungry."
 msgstr "Encara que t'adverteixo que l'exercici m'obre l'apetit."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Desafecto is faster thatn you, and soon you are surpased by their moves."
-msgstr ""
-"Desafecto és més ràpid que tu, i aviat et veus superada davant dels seus "
-"moviments."
+msgid "Desafecto is faster thatn you, and soon you are surpased by their moves."
+msgstr "Desafecto és més ràpid que tu, i aviat et veus superada davant dels seus moviments."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"They keeps you conscious, making you feel every bite in an agony that seems "
-"to not have end."
-msgstr ""
-"Deixa la teva consciència per al final, fent que sentis cada mos en una "
-"agonia que no sembla acabar mai."
+msgid "They keeps you conscious, making you feel every bite in an agony that seems to not have end."
+msgstr "Deixa la teva consciència per al final, fent que sentis cada mos en una agonia que no sembla acabar mai."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Are you going to stay there still? Is that why I acted like I didn't see you?"
+msgid "Are you going to stay there still? Is that why I acted like I didn't see you?"
 msgstr "Et quedaràs aquí parada? Per a això he fet com si no t'hagués vist?"
 
 #: dialogs/scene_two.dialogue
@@ -1272,28 +1066,16 @@ msgid "You are not worth me has food, neither as toy. Dissapear."
 msgstr "No em vals ni com a menjar ni com a joguina. Desapareix."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"In that moment, you heard your whole body cracking and the pain wraps you "
-"up, deafening your own screams."
-msgstr ""
-"En aquest moment, escoltes cruixir tot el teu cos i el dolor t'embolica per "
-"complet, ensordint els teus propis crits."
+msgid "In that moment, you heard your whole body cracking and the pain wraps you up, deafening your own screams."
+msgstr "En aquest moment, escoltes cruixir tot el teu cos i el dolor t'embolica per complet, ensordint els teus propis crits."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"You found a specially dark place where hide yourself. It seems that even the "
-"light doesn't want to get close."
-msgstr ""
-"Trobes un lloc especialment ombriu en el qual amagar-te. Sembla que ni la "
-"llum vol acostar-se a aquest racó."
+msgid "You found a specially dark place where hide yourself. It seems that even the light doesn't want to get close."
+msgstr "Trobes un lloc especialment ombriu en el qual amagar-te. Sembla que ni la llum vol acostar-se a aquest racó."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"You crouch and observe the whole room. Of course you are on a place that "
-"allows you to observe everything."
-msgstr ""
-"T'agotzones i observes tota l'habitació. Per descomptat estàs en un lloc que "
-"et permet observar-lo tot."
+msgid "You crouch and observe the whole room. Of course you are on a place that allows you to observe everything."
+msgstr "T'agotzones i observes tota l'habitació. Per descomptat estàs en un lloc que et permet observar-lo tot."
 
 #: dialogs/scene_two.dialogue
 msgid "A perfect hideout for a predator."
@@ -1308,12 +1090,8 @@ msgid "Bravo, you found one of my favourite place here."
 msgstr "Desafecto: Bravo, has trobat un dels meus llocs favorits aquí."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Your screams leave that dark place, but luckily it doesn't take long for "
-"them to be silenced."
-msgstr ""
-"Els teus crits s'escapen d'aquest racó fosc, però per sort no triguen a ser "
-"ofegats."
+msgid "Your screams leave that dark place, but luckily it doesn't take long for them to be silenced."
+msgstr "Els teus crits s'escapen d'aquest racó fosc, però per sort no triguen a ser ofegats."
 
 #: dialogs/scene_two.dialogue
 msgid "You are sitting on a table."
@@ -1353,8 +1131,7 @@ msgstr "Com t'anava dient, no és res més que un innocent joc als daus."
 
 #: dialogs/scene_two.dialogue
 msgid "If you win, you are free. If you lose, you'll stay here."
-msgstr ""
-"Si guanyes, ets lliure de marxar-te. Si perds, et quedaràs aquí tancada."
+msgstr "Si guanyes, ets lliure de marxar-te. Si perds, et quedaràs aquí tancada."
 
 #: dialogs/scene_two.dialogue
 msgid "Do you accept?"
@@ -1369,12 +1146,8 @@ msgid "I agree, monster."
 msgstr "Accepto, monstre."
 
 #: dialogs/scene_two.dialogue
-msgid ""
-"Fine! And in honor of my benevolence, I'll ignore that insult uttered in my "
-"presence."
-msgstr ""
-"Bé! I en honor a la meva benevolència, ignoraré l'insult que has proferit "
-"davant la meva presència."
+msgid "Fine! And in honor of my benevolence, I'll ignore that insult uttered in my presence."
+msgstr "Bé! I en honor a la meva benevolència, ignoraré l'insult que has proferit davant la meva presència."
 
 #: dialogs/scene_two.dialogue
 msgid "And now you agreed, I'll explain you the rules."
@@ -1382,17 +1155,11 @@ msgstr "I ara que has acceptat, t'explicaré les normes."
 
 #: dialogs/mini_game.dialogue
 msgid "It's very easy: First you need to pay with that coin you have there."
-msgstr ""
-"És molt senzill: El primer és pagar l'entrada amb aquesta moneda que tens "
-"aquí."
+msgstr "És molt senzill: El primer és pagar l'entrada amb aquesta moneda que tens aquí."
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"Once the payment is done, I'll throw a dice and you'll make a small bet: The "
-"next dice will have a high or lower value."
-msgstr ""
-"Una vegada fet el pagament, tiraré un dau i tu faràs una petita aposta: el "
-"següent dau tindrà un resultat major o menor."
+msgid "Once the payment is done, I'll throw a dice and you'll make a small bet: The next dice will have a high or lower value."
+msgstr "Una vegada fet el pagament, tiraré un dau i tu faràs una petita aposta: el següent dau tindrà un resultat major o menor."
 
 #: dialogs/mini_game.dialogue
 msgid "Then I'll thow the second dice and we compare them, okay?"
@@ -1419,11 +1186,8 @@ msgid "Just like that? Can I really leave?"
 msgstr "Així sense més? De veritat puc marxar-me?"
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"Of course, I always keep my word. No matter if they are deals or threats."
-msgstr ""
-"Per descomptat, jo compleixo la meva paraula sempre. Tant si són tractes o "
-"amenaces."
+msgid "Of course, I always keep my word. No matter if they are deals or threats."
+msgstr "Per descomptat, jo compleixo la meva paraula sempre. Tant si són tractes o amenaces."
 
 #: dialogs/mini_game.dialogue
 msgid "Now pick up your stuff and leave."
@@ -1439,8 +1203,7 @@ msgstr "Vaja, sembla que la fortuna no et somriu avui."
 
 #: dialogs/mini_game.dialogue
 msgid "So now that coin belongs to me, and I can do whatever I want with it."
-msgstr ""
-"Així que aquesta moneda ara em pertany, i puc fer amb ella el que em plagui."
+msgstr "Així que aquesta moneda ara em pertany, i puc fer amb ella el que em plagui."
 
 #: dialogs/mini_game.dialogue
 msgid "All for you, like if I care."
@@ -1455,19 +1218,12 @@ msgid "I beg you."
 msgstr "T'ho suplico."
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"In response to Desafecto's indifference, your tears make their way and flow "
-"easily from your eyes."
-msgstr ""
-"En resposta a la indiferència de Desafecto, les teves llàgrimes s'obren pas "
-"i brollen amb facilitat dels teus ulls."
+msgid "In response to Desafecto's indifference, your tears make their way and flow easily from your eyes."
+msgstr "En resposta a la indiferència de Desafecto, les teves llàgrimes s'obren pas i brollen amb facilitat dels teus ulls."
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"You articulate, with difficulty, an incosolable crying, that starts tofill "
-"the room."
-msgstr ""
-"Articules, amb prou feines, un plor desconsolat, que va omplint tot el local."
+msgid "You articulate, with difficulty, an incosolable crying, that starts tofill the room."
+msgstr "Articules, amb prou feines, un plor desconsolat, que va omplint tot el local."
 
 #: dialogs/mini_game.dialogue
 msgid "Listen, stop, I hate hear you cry."
@@ -1475,18 +1231,15 @@ msgstr "Mira, deixa-ho, odio sentir-te ploriquejar."
 
 #: dialogs/mini_game.dialogue
 msgid "If you had someone that can match the value of this coin..."
-msgstr ""
-"Si tinguessis alguna cosa que pogués igualar el valor d'aquesta moneda..."
+msgstr "Si tinguessis alguna cosa que pogués igualar el valor d'aquesta moneda..."
 
 #: dialogs/mini_game.dialogue
 msgid "Maybe it could help you pay the toll."
 msgstr "Tal vegada podria servir-te per a pagar un peatge."
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"You feel the weight of the coin that you won to the kids in your pocket."
-msgstr ""
-" Notes el pes de la moneda que vas guanyar als nens en la teva butxaca."
+msgid "You feel the weight of the coin that you won to the kids in your pocket."
+msgstr " Notes el pes de la moneda que vas guanyar als nens en la teva butxaca."
 
 #: dialogs/mini_game.dialogue
 msgid "Desafecto has noticed it too."
@@ -1498,20 +1251,15 @@ msgstr "Com ho escoltes."
 
 #: dialogs/mini_game.dialogue
 msgid "Darling, maybe luck is not by your side, but you still have me."
-msgstr ""
-"Tresor, tal vegada la fortuna no t'hagi somrigut, però encara et quedo jo."
+msgstr "Tresor, tal vegada la fortuna no t'hagi somrigut, però encara et quedo jo."
 
 #: dialogs/mini_game.dialogue
 msgid "I am benevolent."
 msgstr "I jo soc benvolent."
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"You feel the coin in your pocket, remembing that the kids told you that "
-"Desafecto is obsessed with them."
-msgstr ""
-"Palpes la moneda en la teva butxaca, recordant que els nens et van dir que "
-"Desafecto està obsesionade amb aquests objectes."
+msgid "You feel the coin in your pocket, remembing that the kids told you that Desafecto is obsessed with them."
+msgstr "Palpes la moneda en la teva butxaca, recordant que els nens et van dir que Desafecto està obsesionade amb aquests objectes."
 
 #: dialogs/mini_game.dialogue
 msgid "So?"
@@ -1530,23 +1278,16 @@ msgid "They are just coings, a payment you have to do."
 msgstr "Són simples monedes, un pagament que has de fer."
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"Don't bother yourself trying to comprehend what they are. Just pay and leave."
-msgstr ""
-"No et molestis a intentar comprendre què són. Només feix el pagament i "
-"marxa't."
+msgid "Don't bother yourself trying to comprehend what they are. Just pay and leave."
+msgstr "No et molestis a intentar comprendre què són. Només feix el pagament i marxa't."
 
 #: dialogs/mini_game.dialogue
 msgid "Trust me, they are just useless weights for you."
 msgstr "Creu-me, són només pesos inútils per a vosaltres."
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"Filled with tiredness and cling to that burning nail, you give them the coin "
-"and leave."
-msgstr ""
-"Assotada pel cansament i aferrant-te a aquest clau cremant, li lliures la "
-"moneda i marxes."
+msgid "Filled with tiredness and cling to that burning nail, you give them the coin and leave."
+msgstr "Assotada pel cansament i aferrant-te a aquest clau cremant, li lliures la moneda i marxes."
 
 #: dialogs/mini_game.dialogue
 msgid "Alright, here you have."
@@ -1557,11 +1298,8 @@ msgid "Goodbye, wandering soul. I wish you a good trip."
 msgstr "Adeu, ànima esgarriada. Et desitjo un bon viatge."
 
 #: dialogs/mini_game.dialogue
-msgid ""
-"You get back to your car and you go away on the road, leaving Aion behind."
-msgstr ""
-"Tornes al teu cotxe i t'allunyes en la carretera, deixant el Aión en "
-"l'horitzó."
+msgid "You get back to your car and you go away on the road, leaving Aion behind."
+msgstr "Tornes al teu cotxe i t'allunyes en la carretera, deixant el Aión en l'horitzó."
 
 #: dialogs/mini_game.dialogue
 msgid "In front of you there is a long road, but the nightmare has ended."
@@ -1579,9 +1317,72 @@ msgstr "Troba els 4 viatgers"
 msgid "Press any key to start"
 msgstr "Clica qualsevol tecla per continuar"
 
-msgid "Team 'Jam te digo'\n\nArt and design\nPSuzume\n\nHistory\nCapitan Yelmo\n\nMusic\nMonkos\n\nLead programmer\nIldesir\n\nProgrammers\nSailorFu\nSrChimichanga"
-msgstr "Equip 'Jam te digo'\n\nArt i disseny\nPSuzume\n\nHistòria\nCapitan Yelmo\n\nMúsica\nMonkos\n\nProgramador principal\nIldesir\n\nProgramadors\nSailorFu\nSrChimichanga"
+msgid ""
+"Team 'Jam te digo'\n"
+"\n"
+"Art and design\n"
+"PSuzume\n"
+"\n"
+"History\n"
+"Capitan Yelmo\n"
+"\n"
+"Music\n"
+"Monkos\n"
+"\n"
+"Lead programmer\n"
+"Ildesir\n"
+"\n"
+"Programmers\n"
+"SailorFu\n"
+"SrChimichanga"
+msgstr ""
+"Equip 'Jam te digo'\n"
+"\n"
+"Art i disseny\n"
+"PSuzume\n"
+"\n"
+"Història\n"
+"Capitan Yelmo\n"
+"\n"
+"Música\n"
+"Monkos\n"
+"\n"
+"Programador principal\n"
+"Ildesir\n"
+"\n"
+"Programadors\n"
+"SailorFu\n"
+"SrChimichanga"
 
 #: components/credits.tscn
-msgid "Images\nEdgar Chaparro - Bar\nNikola Javanovic - Tabern\nAmirreza Amouie - Desert road\nBirger Strahl - Desert house\nMichael Dziedzic - Wood table\nOscar Nilsson - Car driving\n\nSounds\n221227  - FreeSound -AntoineRomo - FreeSound -\n\nSpecial thanks\nKaals\nKerk1"
-msgstr "Imatges\nEdgar Chaparro - Bar\nNikola Javanovic - Taverna\nAmirreza Amouie - Carretera desèrtica\nBirger Strahl - Casa al desert\nMichael Dziedzic - Taula de fusta\nOscar Nilsson - Cotxe\n\nSons\n221227  - FreeSound -\nAntoineRomo - FreeSound -\n\nAgradacions\nKaals\nKerk1"
+msgid ""
+"Images\n"
+"Edgar Chaparro - Bar\n"
+"Nikola Javanovic - Tabern\n"
+"Amirreza Amouie - Desert road\n"
+"Birger Strahl - Desert house\n"
+"Michael Dziedzic - Wood table\n"
+"Oscar Nilsson - Car driving\n"
+"\n"
+"Sounds\n"
+"221227  - FreeSound -AntoineRomo - FreeSound -\n"
+"\n"
+"Special thanks\n"
+"Kaals\n"
+"Kerk1"
+msgstr ""
+"Imatges\n"
+"Edgar Chaparro - Bar\n"
+"Nikola Javanovic - Taverna\n"
+"Amirreza Amouie - Carretera desèrtica\n"
+"Birger Strahl - Casa al desert\n"
+"Michael Dziedzic - Taula de fusta\n"
+"Oscar Nilsson - Cotxe\n"
+"\n"
+"Sons\n"
+"221227  - FreeSound -\n"
+"AntoineRomo - FreeSound -\n"
+"\n"
+"Agradacions\n"
+"Kaals\n"
+"Kerk1"

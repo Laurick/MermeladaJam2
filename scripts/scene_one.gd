@@ -15,7 +15,7 @@ func on_change_title(title:String):
 	if title == "bar_one":
 		change_location(load("res://images/fondo_bar.jpg"))
 	elif title == "bar_two":
-		change_location(load("res://images/fondo_bar.jpg"))
+		change_location(load("res://images/fondo.jpg"))
 	elif title == "show_document":
 		show_letter()
 	elif title == "hide_document":
