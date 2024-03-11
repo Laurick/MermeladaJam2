@@ -4,11 +4,11 @@
 # res://scenes/game_options.tscn
 # res://scenes/main.tscn
 # res://scenes/main_options.tscn
-# res://dialogs/intro.dialogue
 # res://dialogs/introduction.dialogue
 # res://dialogs/scene_one.dialogue
 # res://dialogs/scene_two.dialogue
 # res://dialogs/mini_game.dialogue
+# res://dialogs/intro.dialogue
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -60,141 +60,6 @@ msgstr ""
 msgid "BACK TO MENU"
 msgstr ""
 
-#: dialogs/intro.dialogue
-#: dialogs/scene_two.dialogue
-msgctxt "dialogue"
-msgid "Jimmy"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgctxt "dialogue"
-msgid "Protagonist"
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/scene_two.dialogue
-msgctxt "dialogue"
-msgid "Jim"
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/scene_two.dialogue
-msgctxt "dialogue"
-msgid "Joe"
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/scene_two.dialogue
-msgctxt "dialogue"
-msgid "Timmy"
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/scene_one.dialogue
-#: dialogs/scene_two.dialogue
-#: dialogs/mini_game.dialogue
-msgctxt "dialogue"
-msgid "Desafecto"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgctxt "dialogue"
-msgid "Narrator"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "You don\'t know how long have been driving, and the landscape is always the same."
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "The monotony of the trip starts to feel like a noise that stuns your senses."
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "You start to see blurry, you barely listen the music on the radio, neither the sound of the engine."
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "OK, lets do it"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "There\'s only left the wind and the rain, but little by little the veil of tireness starts to wrap everything"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "I need to stop and rest somewhere. I think I can not last much longer"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "The highway is straight and there is no other cars, no other people. It\'s gray wilderness"
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/introduction.dialogue
-#: dialogs/scene_one.dialogue
-#: dialogs/scene_two.dialogue
-#: dialogs/mini_game.dialogue
-msgid "..."
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "On the horizon it is drawn a storm."
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "You think it is."
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "You wish it is really a storm"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "Your other option is to not reach that horizon"
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/mini_game.dialogue
-msgid "Higher"
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/mini_game.dialogue
-msgid "Lower"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "That\'s impossible"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "You have lost the notion of time a couple of times"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "You start to glimpse a dark silhoutte of golden eyes in the distance. That emits a strange cry"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "You can\'t go faster, neither stop yet"
-msgstr ""
-
-#: dialogs/intro.dialogue
-msgid "Not untill you reach that thing"
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/introduction.dialogue
-#: dialogs/mini_game.dialogue
-msgid "Come on... Focus."
-msgstr ""
-
-#: dialogs/intro.dialogue
-#: dialogs/introduction.dialogue
-msgid "That shape, now closer, is a building, whose windows emit light."
-msgstr ""
-
 #: dialogs/introduction.dialogue
 #: dialogs/scene_one.dialogue
 #: dialogs/scene_two.dialogue
@@ -225,6 +90,14 @@ msgstr ""
 
 #: dialogs/introduction.dialogue
 msgid "The highroad is straight, and there is no other cars, no other people. Is a gray wasteland."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+#: dialogs/scene_one.dialogue
+#: dialogs/scene_two.dialogue
+#: dialogs/mini_game.dialogue
+#: dialogs/intro.dialogue
+msgid "..."
 msgstr ""
 
 #: dialogs/introduction.dialogue
@@ -264,6 +137,17 @@ msgid "Not untill reach \\\"it\\\"."
 msgstr ""
 
 #: dialogs/introduction.dialogue
+#: dialogs/mini_game.dialogue
+#: dialogs/intro.dialogue
+msgid "Come on... Focus."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+#: dialogs/intro.dialogue
+msgid "That shape, now closer, is a building, whose windows emit light."
+msgstr ""
+
+#: dialogs/introduction.dialogue
 msgid "Finally a place to rest!"
 msgstr ""
 
@@ -274,6 +158,14 @@ msgstr ""
 #: dialogs/scene_one.dialogue
 msgctxt "dialogue"
 msgid "Unknown"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+#: dialogs/scene_two.dialogue
+#: dialogs/mini_game.dialogue
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Desafecto"
 msgstr ""
 
 #: dialogs/scene_one.dialogue
@@ -704,6 +596,30 @@ msgstr ""
 
 #: dialogs/scene_one.dialogue
 msgid "You don\'t have to worry."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Jimmy"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Joe"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Timmy"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Jim"
 msgstr ""
 
 #: dialogs/scene_two.dialogue
@@ -1193,6 +1109,16 @@ msgid "It\'s just luck and intuition, darling."
 msgstr ""
 
 #: dialogs/mini_game.dialogue
+#: dialogs/intro.dialogue
+msgid "Higher"
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+#: dialogs/intro.dialogue
+msgid "Lower"
+msgstr ""
+
+#: dialogs/mini_game.dialogue
 msgid "Congratulations! Looks like you won."
 msgstr ""
 
@@ -1313,17 +1239,87 @@ msgid "Goodbye, wandering soul. I wish you a good trip."
 msgstr ""
 
 #: dialogs/mini_game.dialogue
-msgid "+ You get back to your car and you go away on the road, leaving Aion behind."
+msgid "You get back to your car and you go away on the road, leaving Aion behind."
 msgstr ""
 
 #: dialogs/mini_game.dialogue
-msgid "+ In front of you there is a long road, but the nightmare has ended."
+msgid "In front of you there is a long road, but the nightmare has ended."
 msgstr ""
 
 #: dialogs/mini_game.dialogue
-msgid "+ There is still hope."
+msgid "There is still hope."
 msgstr ""
 
-#: dialogs/mini_game.dialogue
-msgid "+ ..."
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Protagonist"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Narrator"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You don\'t know how long have been driving, and the landscape is always the same."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "The monotony of the trip starts to feel like a noise that stuns your senses."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You start to see blurry, you barely listen the music on the radio, neither the sound of the engine."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "OK, lets do it"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "There\'s only left the wind and the rain, but little by little the veil of tireness starts to wrap everything"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "I need to stop and rest somewhere. I think I can not last much longer"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "The highway is straight and there is no other cars, no other people. It\'s gray wilderness"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "On the horizon it is drawn a storm."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You think it is."
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You wish it is really a storm"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "Your other option is to not reach that horizon"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "That\'s impossible"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You have lost the notion of time a couple of times"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You start to glimpse a dark silhoutte of golden eyes in the distance. That emits a strange cry"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "You can\'t go faster, neither stop yet"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgid "Not untill you reach that thing"
 msgstr ""

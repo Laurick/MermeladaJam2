@@ -1003,513 +1003,570 @@ msgstr ""
 
 #: dialogs/scene_two.dialogue
 msgid "What is this place? What's going on?"
-msgstr ""
+msgstr "¿Qué es este lugar? ¿Qué está pasando aquí?"
 
 #: dialogs/scene_two.dialogue
 msgid "Don't you know yet, darling?"
-msgstr ""
+msgstr "¿Aún no lo sabes, querida?"
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "You are in the same tune that those kids. By the way, don't worry to tell me "
 "where they are."
 msgstr ""
+"Tú estás en la misma onda que esos niños. Que por cierto, no te molestes en "
+"decirme dónde están."
 
 #: dialogs/scene_two.dialogue
 msgid "They have their own game."
-msgstr ""
+msgstr "llos tienen su juego."
 
 #: dialogs/scene_two.dialogue
 msgid "Are you holding them aginst their will?"
-msgstr ""
+msgstr "¿Los estás reteniendo aquí contra su voluntad?"
 
 #: dialogs/scene_two.dialogue
 msgid "Who? ME? No one is here against their will"
-msgstr ""
+msgstr "¿Quién? ¿YO? Nadie está aquí en contra de su voluntad."
 
 #: dialogs/scene_two.dialogue
 msgid "This is a auspice for wandering souls"
-msgstr ""
+msgstr "Este lugar es un auspicio para almas descarriadas."
 
 #: dialogs/scene_two.dialogue
 msgid "Yeah, sure. Was that contract part of your good intentions?"
-msgstr ""
+msgstr "Ya, claro. ¿Ese contrato forma parte de tus buenas intenciones?"
 
 #: dialogs/scene_two.dialogue
 msgid "A mere formality, I told you."
-msgstr ""
+msgstr "Una mera formalidad, ya te lo dije."
 
 #: dialogs/scene_two.dialogue
 msgid "You... Are a monster."
-msgstr ""
+msgstr "Tú... Eres un monstruo."
 
 #: dialogs/scene_two.dialogue
 msgid "I am not, but I can make you wish that I'd be JUST a monster."
-msgstr ""
+msgstr "No lo soy, pero podría hacer que desearas que SÓLO fuera un monstruo."
 
 #: dialogs/scene_two.dialogue
 msgid "The doors and windowns shut. Darkness starts to hovering you."
 msgstr ""
+"Las puertas y ventanas se cierran. La oscuridad se va cerniendo sobre ti."
 
 #: dialogs/scene_two.dialogue
 msgid "A beep bring back you. You head is spinning and you can't even think."
 msgstr ""
+"Un pitido te trae a la consciencia de nuevo. La cabeza te da vueltas y te "
+"cuesta siquiera pensar."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "Your mouth tastes like blood and you noticed something thick on your lungs."
 msgstr ""
+"La boca te sabe a sangre y notas algo viscoso en tu faringe y tus pulmones."
 
 #: dialogs/scene_two.dialogue
 msgid "You are not okay."
-msgstr ""
+msgstr "No estás bien."
 
 #: dialogs/scene_two.dialogue
 msgid "Where...? What...?"
-msgstr ""
+msgstr "¿Dónde...? ¿Qué ha...?"
 
 #: dialogs/scene_two.dialogue
 msgid "Looks like Desafecto has beated you."
-msgstr ""
+msgstr "Parece que Desafecto te dio una buena paliza."
 
 #: dialogs/scene_two.dialogue
 msgid "¡OW! it hurts."
-msgstr ""
+msgstr "¡OUCH! Joder si duele."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "But now you are alone. Everything indicates that Desafecto left, and you "
 "can't notice the kids's presence"
 msgstr ""
+"Pero ahora estás sola. Todo apunta a que Desafecto se ha marchado, y tampoco "
+"adviertes la presencia de los niños."
 
 #: dialogs/scene_two.dialogue
 msgid "What will you do?"
-msgstr ""
+msgstr "¿Qué vas a hacer?"
 
 #: dialogs/scene_two.dialogue
 msgid "Open the door, turn on the car and leave."
-msgstr ""
+msgstr "Abrir las puertas, arrancar el coche y salir de aquí."
 
 #: dialogs/scene_two.dialogue
 msgid "Look for a weapon to defend yourself from Desafecto."
-msgstr ""
+msgstr "Buscar un arma para poder defenderte de Desafecto."
 
 #: dialogs/scene_two.dialogue
 msgid "Try to hide as the kids do and pray that Desafecto doesn't find you."
 msgstr ""
+"Intentar esconderte como hacen los niños y rezar para que Desafecto no te "
+"encuentre."
 
 #: dialogs/scene_two.dialogue
 msgid "You don't waste time to start your plan."
-msgstr ""
+msgstr "No pierdes tiempo para poner en marcha tu plan."
 
 #: dialogs/scene_two.dialogue
 msgid "Indeed, the door is closed and it won't open."
-msgstr ""
+msgstr "Efectivamente, la puerta está cerrada y no va a abrirse."
 
 #: dialogs/scene_two.dialogue
 msgid "What will be your next move?"
-msgstr ""
+msgstr "¿Cuál será tu siguiente movimiento?"
 
 #: dialogs/scene_two.dialogue
 msgid "Look for a key  or something that would open the doors."
-msgstr ""
+msgstr "Buscar una llave o lo que quiera que abra estas malditas puertas."
 
 #: dialogs/scene_two.dialogue
 msgid "Giving up. It has no sense to think you can escape. You are traped."
-msgstr ""
+msgstr "Rendirse. No tiene sentido pensar en poder escapar. Estoy atrapada."
 
 #: dialogs/scene_two.dialogue
 msgid "You search and search, but don't find anything helpful."
-msgstr ""
+msgstr "Buscas y buscas, pero no encuentras nada que te ayude."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "After few minutes you heard a clearing of a voice that you recognize "
 "perfectly."
 msgstr ""
+"Al cabo de unos minutos escuchas un carraspeo de una voz suave que reconoces "
+"perfectamente."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "If you are going to poke around my stuff, I advance you that those door "
 "don't work with a key."
 msgstr ""
+"Si vas a urgar entre mis cosas, te adelanto que estas puertas no funcionan "
+"con una llave."
 
 #: dialogs/scene_two.dialogue
 msgid "They only obey me, like everything else."
-msgstr ""
+msgstr "Responden sólo a mi voluntad, como todo lo demás."
 
 #: dialogs/scene_two.dialogue
 msgid "Are you going to kill me?"
-msgstr ""
+msgstr "¿Entonces vas a matarme?"
 
 #: dialogs/scene_two.dialogue
 msgid "No, traveler. I propose you something you'll be interested into."
-msgstr ""
+msgstr "No, mujer. Te propongo algo que seguro te interesará."
 
 #: dialogs/scene_two.dialogue
 msgid "Desafecto smirks, cold an evil."
-msgstr ""
+msgstr "Desafecto dibuja una sonrisa fría y cruel."
 
 #: dialogs/scene_two.dialogue
 msgid "Well, I didn't expect that."
-msgstr ""
+msgstr "Vaya, esto no me lo esperaba."
 
 #: dialogs/scene_two.dialogue
 msgid "... What?"
-msgstr ""
+msgstr "... ¿El qué?"
 
 #: dialogs/scene_two.dialogue
 msgid "That you gave up that easy."
-msgstr ""
+msgstr "Que te rindieras tan fácilmente."
 
 #: dialogs/scene_two.dialogue
 msgid "It doesn't matter. Give me an end. I give up."
-msgstr ""
+msgstr "Ya da igual. Acaba conmigo si quieres. Me rindo."
 
 #: dialogs/scene_two.dialogue
 msgid "Come on, don't lose yoru hope. You still have a chance."
-msgstr ""
+msgstr "Va, no pierdas la esperanza. Aún tienes una opción."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "Desafecto extends you their hand and dry your tears with their pale fingers."
 msgstr ""
+"Desafecto te tiende una mano y seca tus lágrimas con sus pálidos dedos."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "Their expresion, although benevolent, hides a cold stare that emits some "
 "kind of dissaproval."
 msgstr ""
+"Su expresión, aunque benévola, oculta una mirada fría que emite cierta "
+"desaprobación."
 
 #: dialogs/scene_two.dialogue
 msgid "An ice pick close to a wicked cocktail shaker"
 msgstr ""
+"Encuentras lo que dirías un arma: un picahielos al lado de una coctelera "
+"embrujada."
 
 #: dialogs/scene_two.dialogue
 msgid "You hide behind the door, waiting to Desafecto to turn her back on you."
 msgstr ""
+"Te escondes tras la puerta, esperando a que Desafecto llegue y te dé la "
+"espalda."
 
 #: dialogs/scene_two.dialogue
 msgid "Desafecto enters the room, in absolute silence."
-msgstr ""
+msgstr "Desafecto entra en la sala, en absoluto silencio."
 
 #: dialogs/scene_two.dialogue
 msgid "Attack Desafecto from behind."
-msgstr ""
+msgstr "Atacar a Desafecto por la espalda."
 
 #: dialogs/scene_two.dialogue
 msgid "Don't attack. You are not a murderer."
-msgstr ""
+msgstr "No atacar. Tú no eres una asesina."
 
 #: dialogs/scene_two.dialogue
 msgid "You jump over Desafecto and stab them on the side."
-msgstr ""
+msgstr "Saltas sobre Desafecto y le clavas el picahielos en el costado."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "Their body doesn't react. They even don't staggers with your weight and hit."
 msgstr ""
+"Su cuerpo no reacciona. Ni siquiera se tambalea ante tu peso y tu golpe."
 
 #: dialogs/scene_two.dialogue
 msgid "So you want to fight? That's good."
-msgstr ""
+msgstr "¿Así que quieres pelear? Eso está bien."
 
 #: dialogs/scene_two.dialogue
 msgid "But I warn you that exercise makes me hungry."
-msgstr ""
+msgstr "Aunque te advierto que el ejercicio me abre el apetito."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "Desafecto is faster thatn you, and soon you are surpased by their moves."
 msgstr ""
+"Desafecto es más rápide que tú, y pronto te ves superada ante sus "
+"movimientos."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "They keeps you conscious, making you feel every bite in an agony that seems "
 "to not have end."
 msgstr ""
+"Deja tu conciencia para el final, haciendo que sientas cada bocado en una "
+"agonía que no parece acabar nunca."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "Are you going to stay there still? Is that why I acted like I didn't see you?"
 msgstr ""
+"¿Vas a quedarte ahí parada? ¿Para eso he hecho como si no te hubiera visto?"
 
 #: dialogs/scene_two.dialogue
 msgid "If you are going to behave like a monster, make sure you can."
-msgstr ""
+msgstr "Si vas a comportarte como un monstruo, asegúrate de poder hacerlo."
 
 #: dialogs/scene_two.dialogue
 msgid "You are not worth me has food, neither as toy. Dissapear."
-msgstr ""
+msgstr "No me vales ni como comida ni como juguete. Desaparece."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "In that moment, you heard your whole body cracking and the pain wraps you "
 "up, deafening your own screams."
 msgstr ""
+"En ese momento, escuchas crujir todo tu cuerpo y el dolor te envuelve por "
+"completo, ensordeciendo tus propios gritos."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "You found a specially dark place where hide yourself. It seems that even the "
 "light doesn't want to get close."
 msgstr ""
+"Encuentras un lugar especialmente sombrío en el que esconderte. Parece que "
+"ni la luz quiere acercarse a ese rincón."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "You crouch and observe the whole room. Of course you are on a place that "
 "allows you to observe everything."
 msgstr ""
+" Te agazapas y observas toda la habitación. Desde luego estás en un lugar "
+"que te permite observarlo todo."
 
 #: dialogs/scene_two.dialogue
 msgid "A perfect hideout for a predator."
-msgstr ""
+msgstr "Un escondite perfecto para un depredador."
 
 #: dialogs/scene_two.dialogue
 msgid "You are not alone."
-msgstr ""
+msgstr "No estás sola."
 
 #: dialogs/scene_two.dialogue
 msgid "Bravo, you found one of my favourite place here."
-msgstr ""
+msgstr "Bravo, has encontrado uno de mis lugares favoritos aquí."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "Your screams leave that dark place, but luckily it doesn't take long for "
 "them to be silenced."
 msgstr ""
+"Tus gritos se escapan de ese rincón oscuro, pero por suerte no tardan en ser "
+"ahogados."
 
 #: dialogs/scene_two.dialogue
 msgid "You are sitting on a table."
-msgstr ""
+msgstr "Estás sentada en una de las mesas."
 
 #: dialogs/scene_two.dialogue
 msgid "The tiredness is more and more noticeable."
-msgstr ""
+msgstr "El cansancio es cada vez más evidente."
 
 #: dialogs/scene_two.dialogue
 msgid "Desafecto is sat in front of you."
-msgstr ""
+msgstr "Desafecto está sentade delante de ti."
 
 #: dialogs/scene_two.dialogue
 msgid "Fine, I'm going to propose you a little and innocent game."
-msgstr ""
+msgstr "Bien, voy a proponerte un pequeño e inocente juego."
 
 #: dialogs/scene_two.dialogue
 msgid "Is evident that you want to leave here, right?"
-msgstr ""
+msgstr "Es evidente que quieres salir de aquí, ¿verdad?"
 
 #: dialogs/scene_two.dialogue
 msgid "Don't bother yourself answering. Your voice is annoying."
-msgstr ""
+msgstr "No te molestes en responder. Tu voz es irritante."
 
 #: dialogs/scene_two.dialogue
 msgid "Words don't come out of your mouth no matter how hard you try."
-msgstr ""
+msgstr "Las palabras no salen de tus labios por más que te esfuerces."
 
 #: dialogs/scene_two.dialogue
 msgid "That's better."
-msgstr ""
+msgstr "Así está mejor."
 
 #: dialogs/scene_two.dialogue
 msgid "As I was telling you, is just an innocent dice game."
 msgstr ""
+"Como te iba diciendo, no es nada más que un inocente juego a los dados."
 
 #: dialogs/scene_two.dialogue
 msgid "If you win, you are free. If you lose, you'll stay here."
 msgstr ""
+"Si ganas, eres libre de marcharte. Si pierdes, te quedarás aquí encerrada."
 
 #: dialogs/scene_two.dialogue
 msgid "Do you accept?"
-msgstr ""
+msgstr "¿Aceptas mi pequeño reto?"
 
 #: dialogs/scene_two.dialogue
 msgid "Oh, sorry, you can talk if you are going to agree."
-msgstr ""
+msgstr "Ah, perdona, puedes hablar si vas a aceptar."
 
 #: dialogs/scene_two.dialogue
 msgid "I agree, monster."
-msgstr ""
+msgstr "Acepto, monstruo."
 
 #: dialogs/scene_two.dialogue
 msgid ""
 "Fine! And in honor of my benevolence, I'll ignore that insult uttered in my "
 "presence."
 msgstr ""
+"¡Bien! Y en honor a mi benevolencia, ignoraré ese insulto que has proferido "
+"ante mi presencia."
 
 #: dialogs/scene_two.dialogue
 msgid "And now you agreed, I'll explain you the rules."
-msgstr ""
+msgstr "Y ahora que has aceptado, te explicaré las normas."
 
 #: dialogs/mini_game.dialogue
 msgid "It's very easy: First you need to pay with that coin you have there."
 msgstr ""
+" Es muy sencillo: Lo primero es pagar la entrada con esa moneda que tienes "
+"ahí."
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "Once the payment is done, I'll throw a dice and you'll make a small bet: The "
 "next dice will have a high or lower value."
 msgstr ""
+"Una vez hecho el pago, tiraré un dado y tú harás una pequeña apuesta: el "
+"siguiente dado tendrá un resultado mayor o menor."
 
 #: dialogs/mini_game.dialogue
 msgid "Then I'll thow the second dice and we compare them, okay?"
-msgstr ""
+msgstr "Entonces tiro el segundo dado y comparamos los resultados, ¿vale?"
 
 #: dialogs/mini_game.dialogue
 msgid "If the result is according to what you have said, you win."
-msgstr ""
+msgstr "Si el resultado es acorde a lo que has predicho, tú ganas."
 
 #: dialogs/mini_game.dialogue
 msgid "On the contrary if you have failed, you lose."
-msgstr ""
+msgstr "Si por el contrario has fallado, pierdes."
 
 #: dialogs/mini_game.dialogue
 msgid "It's just luck and intuition, darling."
-msgstr ""
+msgstr "Es simple azar e intuición, querida."
 
 #: dialogs/mini_game.dialogue
 msgid "Congratulations! Looks like you won."
-msgstr ""
+msgstr "¡Enhorabuena! Parece que has ganado."
 
 #: dialogs/mini_game.dialogue
 msgid "Just like that? Can I really leave?"
-msgstr ""
+msgstr "¿Así sin más? ¿De verdad puedo marcharme?"
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "Of course, I always keep my word. No matter if they are deals or threats."
 msgstr ""
+"Por supuesto, yo cumplo mi palabra siempre. Tanto si son tratos o amenazas."
 
 #: dialogs/mini_game.dialogue
 msgid "Now pick up your stuff and leave."
-msgstr ""
+msgstr "Ahora recoge tus cosas y márchate de aquí."
 
 #: dialogs/mini_game.dialogue
 msgid "I'm getting tired of your presence."
-msgstr ""
+msgstr "Me he hartado de tu presencia."
 
 #: dialogs/mini_game.dialogue
 msgid "Wow, seems like luck is not by your side today."
-msgstr ""
+msgstr "Vaya, parece que la fortuna no te sonríe hoy."
 
 #: dialogs/mini_game.dialogue
 msgid "So now that coin belongs to me, and I can do whatever I want with it."
 msgstr ""
+"Así que esa moneda ahora me pertenece, y puedo hacer con ella lo que me "
+"plazca."
 
 #: dialogs/mini_game.dialogue
 msgid "All for you, like if I care."
-msgstr ""
+msgstr "Pues toda para ti, como si a mí me importase."
 
 #: dialogs/mini_game.dialogue
 msgid "I just want to leave. Please."
-msgstr ""
+msgstr "Yo sólo quiero salir de aquí. Por favor."
 
 #: dialogs/mini_game.dialogue
 msgid "I beg you."
-msgstr ""
+msgstr "Te lo suplico."
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "In response to Desafecto's indifference, your tears make their way and flow "
 "easily from your eyes."
 msgstr ""
+"En respuesta a la indiferencia de Desafecto, tus lágrimas se abren paso y "
+"brotan con facilidad de tus ojos."
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "You articulate, with difficulty, an incosolable crying, that starts tofill "
 "the room."
 msgstr ""
+"Articulas, a duras penas, un llanto desconsolado, que va llenando todo el "
+"local."
 
 #: dialogs/mini_game.dialogue
 msgid "Listen, stop, I hate hear you cry."
-msgstr ""
+msgstr "Mira, déjalo, odio escucharte lloriquear."
 
 #: dialogs/mini_game.dialogue
 msgid "If you had someone that can match the value of this coin..."
-msgstr ""
+msgstr "Si tuvieras algo que pudiera igualar el valor de esta moneda..."
 
 #: dialogs/mini_game.dialogue
 msgid "Maybe it could help you pay the toll."
-msgstr ""
+msgstr "Tal vez podría servirte para pagar un peaje."
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "You feel the weight of the coin that you won to the kids in your pocket."
-msgstr ""
+msgstr "Notas el peso de la moneda que ganaste a los niños en tu bolsillo."
 
 #: dialogs/mini_game.dialogue
 msgid "Desafecto has noticed it too."
-msgstr ""
+msgstr " Desafecto también lo ha notado."
 
 #: dialogs/mini_game.dialogue
 msgid "As you heard."
-msgstr ""
+msgstr "Como lo oyes."
 
 #: dialogs/mini_game.dialogue
 msgid "Darling, maybe luck is not by your side, but you still have me."
-msgstr ""
+msgstr "Querida, tal vez la fortuna no te haya sonreído, pero aún te quedo yo."
 
 #: dialogs/mini_game.dialogue
 msgid "I am benevolent."
-msgstr ""
+msgstr "Y yo soy benevolente."
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "You feel the coin in your pocket, remembing that the kids told you that "
 "Desafecto is obsessed with them."
 msgstr ""
+"Palpas la moneda en tu bolsillo, recordando que los niños te dijeron que "
+"Desafecto está obsesionade con estos objetos."
 
 #: dialogs/mini_game.dialogue
 msgid "So?"
-msgstr ""
+msgstr "¿Y bien?"
 
 #: dialogs/mini_game.dialogue
 msgid "What are these coins?"
-msgstr ""
+msgstr "¿Qué son estas monedas?"
 
 #: dialogs/mini_game.dialogue
 msgid "Do you really want to have this talk again?"
-msgstr ""
+msgstr "¿Realmente quieres tener esta conversación de nuevo?"
 
 #: dialogs/mini_game.dialogue
 msgid "They are just coings, a payment you have to do."
-msgstr ""
+msgstr "Son simples monedas, un pago que tienes que hacer."
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "Don't bother yourself trying to comprehend what they are. Just pay and leave."
 msgstr ""
+" No te molestes en intentar comprender qué son. Sólo haz el pago y márchate."
 
 #: dialogs/mini_game.dialogue
 msgid "Trust me, they are just useless weights for you."
-msgstr ""
+msgstr "Créeme, son sólo pesos inútiles para vosotros."
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "Filled with tiredness and cling to that burning nail, you give them the coin "
 "and leave."
 msgstr ""
+"Azotada por el cansancio y aferrándote a ese clavo ardiendo, le entregas la "
+"moneda y te marchas."
 
 #: dialogs/mini_game.dialogue
 msgid "Alright, here you have."
-msgstr ""
+msgstr "Está bien, aquí tienes."
 
 #: dialogs/mini_game.dialogue
 msgid "Goodbye, wandering soul. I wish you a good trip."
-msgstr ""
+msgstr "Adiós, alma descarriada. Te deseo un buen viaje."
 
 #: dialogs/mini_game.dialogue
 msgid ""
 "+ You get back to your car and you go away on the road, leaving Aion behind."
 msgstr ""
+"Vuelves a tu coche y te alejas en la carretera, dejando el Aión en el "
+"horizonte."
 
 #: dialogs/mini_game.dialogue
 msgid "+ In front of you there is a long road, but the nightmare has ended."
-msgstr ""
+msgstr "Ante ti se extiende un largo camino, pero la pesadilla ha terminado."
 
 #: dialogs/mini_game.dialogue
 msgid "+ There is still hope."
-msgstr ""
+msgstr "Aún queda un atisbo de esperanza."
 
 #: dialogs/mini_game.dialogue
 msgid "+ ..."
-msgstr ""
+msgstr "..."
