@@ -3,7 +3,7 @@ extends Control
 @onready var idiomas = $MarginContainer/CenterContainer/VBoxContainer/Idiomas
 
 func _ready():
-	var locale = TranslationServer.get_locale()
+	var locale = OS.get_locale()
 	match locale: 
 		"es":
 			idiomas.select(0)

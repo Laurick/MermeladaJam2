@@ -231,7 +231,7 @@ msgstr ""
 msgid ""
 "The monotony of the trip starts to become a noise that stuns your senses."
 msgstr ""
-"La monotomía del viaje empieza a ser como un ruido que aturde tus sentidos."
+"La monotonía del viaje empieza a ser como un ruido que aturde tus sentidos."
 
 #: dialogs/introduction.dialogue
 msgid ""
@@ -1019,7 +1019,7 @@ msgstr ""
 
 #: dialogs/scene_two.dialogue
 msgid "They have their own game."
-msgstr "llos tienen su juego."
+msgstr "Ellos tienen su juego."
 
 #: dialogs/scene_two.dialogue
 msgid "Are you holding them aginst their will?"
