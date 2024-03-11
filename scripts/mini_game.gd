@@ -4,6 +4,7 @@ var initial_dice : int
 var bet_dice : int
 
 var playing: bool = false
+@onready var texture_rect = $Background/TextureRect
 
 @onready var dice_2 = $Dice2
 @onready var dice_1 = $Dice1
@@ -27,7 +28,10 @@ func on_change_title(title:String):
 		reset()
 	elif title == "end_game":
 		Audio.play_music(load("res://music/radio.ogg"))
-		await fade_in()
+		texture_rect.texture = load("res://images/f2_griscoche.jpg")
+		dice_1.visible = false
+		dice_2.visible = false
+	elif title == "to_start":
 		get_tree().change_scene_to_file("res://scenes/intro.tscn")
 	
 func start_game():
