@@ -4,9 +4,11 @@
 # res://scenes/game_options.tscn
 # res://scenes/main.tscn
 # res://scenes/main_options.tscn
-# res://dialogs/test2.dialogue
 # res://dialogs/intro.dialogue
-# res://intro.dialogue
+# res://dialogs/introduction.dialogue
+# res://dialogs/scene_one.dialogue
+# res://dialogs/scene_two.dialogue
+# res://dialogs/mini_game.dialogue
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -58,100 +60,46 @@ msgstr ""
 msgid "BACK TO MENU"
 msgstr ""
 
-#: dialogs/test2.dialogue
-msgctxt "dialogue"
-msgid "Desconocido"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgctxt "dialogue"
-msgid "Desafecto"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Vaya, vaya, vaya... ¿Qué tenemos aquí?"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Parece que tenemos otra alma descarriada en nuestra humilde casa."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "¿Quién eres?"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Soy le gerente de este lugar, pero tú puedes llamarme Desafecto."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Si me necesitas puedes tocar este timbre, aunque hace tiempo que no emite sonido alguno."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Pero no te preocupes, estoy siempre cerca, nunca os dejo de lado."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "¿Dónde estoy?"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Nunca había conocido a nadieon ese nombre."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Estás en... Bueno, estás de suerte, has llegado a Aión, un lugar especial."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Poca gente puede percibirlo siquiera."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Necesito descansar y tomar algo"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "descansar"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Ya, aunque apostaría lo que quieras a que tampoco has conocido a nadie como Yo."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Perfecto, toma asiento y descansa un poco, que nosotros te preparamos una habitación."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "¿Deseas tomar algo?"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Algo fuerte, necesito ahogar pensamientos."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "bebida_fuerte"
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "Dame algo reconfortante y que me ayude a relajarme."
-msgstr ""
-
-#: dialogs/test2.dialogue
-msgid "bebida_suave"
-msgstr ""
-
 #: dialogs/intro.dialogue
+#: dialogs/scene_two.dialogue
 msgctxt "dialogue"
-msgid "Narrator"
+msgid "Jimmy"
 msgstr ""
 
 #: dialogs/intro.dialogue
 msgctxt "dialogue"
 msgid "Protagonist"
+msgstr ""
+
+#: dialogs/intro.dialogue
+#: dialogs/scene_two.dialogue
+msgctxt "dialogue"
+msgid "Jim"
+msgstr ""
+
+#: dialogs/intro.dialogue
+#: dialogs/scene_two.dialogue
+msgctxt "dialogue"
+msgid "Joe"
+msgstr ""
+
+#: dialogs/intro.dialogue
+#: dialogs/scene_two.dialogue
+msgctxt "dialogue"
+msgid "Timmy"
+msgstr ""
+
+#: dialogs/intro.dialogue
+#: dialogs/scene_one.dialogue
+#: dialogs/scene_two.dialogue
+#: dialogs/mini_game.dialogue
+msgctxt "dialogue"
+msgid "Desafecto"
+msgstr ""
+
+#: dialogs/intro.dialogue
+msgctxt "dialogue"
+msgid "Narrator"
 msgstr ""
 
 #: dialogs/intro.dialogue
@@ -167,6 +115,10 @@ msgid "You start to see blurry, you barely listen the music on the radio, neithe
 msgstr ""
 
 #: dialogs/intro.dialogue
+msgid "OK, lets do it"
+msgstr ""
+
+#: dialogs/intro.dialogue
 msgid "There\'s only left the wind and the rain, but little by little the veil of tireness starts to wrap everything"
 msgstr ""
 
@@ -179,6 +131,10 @@ msgid "The highway is straight and there is no other cars, no other people. It\'
 msgstr ""
 
 #: dialogs/intro.dialogue
+#: dialogs/introduction.dialogue
+#: dialogs/scene_one.dialogue
+#: dialogs/scene_two.dialogue
+#: dialogs/mini_game.dialogue
 msgid "..."
 msgstr ""
 
@@ -196,6 +152,16 @@ msgstr ""
 
 #: dialogs/intro.dialogue
 msgid "Your other option is to not reach that horizon"
+msgstr ""
+
+#: dialogs/intro.dialogue
+#: dialogs/mini_game.dialogue
+msgid "Higher"
+msgstr ""
+
+#: dialogs/intro.dialogue
+#: dialogs/mini_game.dialogue
+msgid "Lower"
 msgstr ""
 
 #: dialogs/intro.dialogue
@@ -219,17 +185,1145 @@ msgid "Not untill you reach that thing"
 msgstr ""
 
 #: dialogs/intro.dialogue
+#: dialogs/introduction.dialogue
+#: dialogs/mini_game.dialogue
 msgid "Come on... Focus."
 msgstr ""
 
 #: dialogs/intro.dialogue
+#: dialogs/introduction.dialogue
 msgid "That shape, now closer, is a building, whose windows emit light."
 msgstr ""
 
-#: dialogs/intro.dialogue
-msgid "Finally a place to stop!"
+#: dialogs/introduction.dialogue
+#: dialogs/scene_one.dialogue
+#: dialogs/scene_two.dialogue
+#: dialogs/mini_game.dialogue
+msgctxt "dialogue"
+msgid "Traveler"
 msgstr ""
 
-#: dialogs/intro.dialogue
-msgid "Like answering your exclamation, the car finally stops in front of the door"
+#: dialogs/introduction.dialogue
+msgid "You don\'t know how long you have been driving, and the landscape is always the same."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "The monotony of the trip starts to become a noise that stuns your senses."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "You start to see blurry, and barely listen the music of the radio, neither the noise of the engine"
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "There are only the wind, and the rain, but little by little the veil of tireness starts to wrap it all."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "I need to stop and rest somewhere. I don\'t think I can last much longer."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "The highroad is straight, and there is no other cars, no other people. Is a gray wasteland."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "On the horizon is drawn a storm."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "You think it\'s a storm."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "You want it to be."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "The other option os to not reach that horizon."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "That\'s impossible."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "You lost again the notion of time a couple of times. Maybe."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "You start to glimpse a golden-eyed dark silhoutte on the distance. that emits a strange cry."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "You can\'t go faster, and neither you can stop yet."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "Not untill reach \\\"it\\\"."
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "Finally a place to rest!"
+msgstr ""
+
+#: dialogs/introduction.dialogue
+msgid "Answering your exclamation, the car finally stops at the door of the building."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgctxt "dialogue"
+msgid "Unknown"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgctxt "dialogue"
+msgid "Viajera"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You wanted to escape from the grey vastness of the wasteland, but inside the building, it looks worse."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "It\'s sad and heavy,but you are almost grateful to feel something"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Well, well, well... What do we have here?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Looks like another wanderer soul in our humble home"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Who are you?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I\'m the manager of this place, but you can call me Desafecto."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "If you need me, you can ring this bell, but it\'s been too long since it rang."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "But don\'t worry, I\'m always close, I never let you aside."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Where am I?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I\'d never meet anyone with a name like that."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Yeah, but I bet whatever you want that you had never met anyone like ME."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You are in.. Well, you are lucky. You came to Aion, a very special place."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Few people can feel it."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Would you like a room and rest?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I need to rest and drink something."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Perfect, take a sit and rest a little bit, we will get your room ready."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "What would you like to have?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "What do you have?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "The best beer you can find this side of the road, darling."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Is there something across the road?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Have been someone able to walk through the wasteland?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "The answer to both questions is no."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I\'ll get that beer, then."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "[wait=4]"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "It\'s not hard to find the place. The room looks empty."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Here you have your beer."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Enjoy it."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Desafecto ofers you a jug with a extremely dark and thick liquid, like it is tar."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Is this even a beer?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You shrug your shoulds and quench your thirst, discovering that is not that bad as you expected."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Looks like your situation has improved. Sure you can rest now."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Through the windows a light comes a diffuse light, the tainted glass alters the ligh, creating an almost dreamlike atmosphere."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "The room feels old and aged, like is has lost its ancient splendor."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "If it ever had it."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Sorry?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+#: dialogs/mini_game.dialogue
+msgid "What?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I think you were thinking out loud, your tongue was talking by itself."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "In fact, I think, you were talking about Aion."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Oh, well, sorry. It may be the exhaustiveness"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I see. But yes, you are right. Time doesn\'t forive anyone."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Anyone."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I don\'t even remember how long have I been here. Looks like eternity."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "It\'s a comfy place."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You think? I think it\'s the first time someone describes this place as comfy."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Sorry, I just wanted to be..."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Nice?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Don\'t worry, I know. Thanks."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I\'d like to tell you something."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "We have the perfect room for you."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "But first you need to sign here to book the room."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "They gives you an aged document, that seems older than everything you have seen."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You observe the contract. Barely understand anything, it looks too long and complex to just book a room."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "It\'s just a mere formality, a regular booking contract."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "It doesn\'t looks like."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Usually you won\'t sign such a strange contract."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "But you are not in a usual situation."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "So? You want to keep with the booking or not?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Okay, let me sign."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I\'d like to see that contract with detail."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Of course!"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Here you have also a pen."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "This paper is old and special, it doesn\'t accept any ink."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "A chill travels through your spine the momento you hold the pen."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "The ink looks like... Blood? But it\'s so dark that looks black."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Sadly, you noticed this detail after signing."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Perfect! Now I can get to work."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Desafecto leaves with the paper and the pen on their hands and a smile on their face."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Their smile looks like that of a hunter excited by the hunt."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Are you sure?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You can trust me. Don\'t worry."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Alright, I\'ll sign it."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "No, give me the contract and let me read it."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "A chill travels through your spine the momento you hold the pen"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Desafecto grabs the contract before you can take a look."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "DO YOU THINK YOU CAN EVEN TOUCH ME OR APPROACH ME LIKE THAT?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "YOU CAN LEAVE AND GET YOUR UNPLEASANT PRESENC OUT OF MY HOUSE!"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "GOOD LUCK FINDING A PLACE TO DROP DEAD!"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Apologize"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Leave"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Alright, I\'m someone comprehensible. You can stay here, but no more complaints"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You go out through the door and find you abandoned to the vast wasteland, that wait patiently to devour you."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You would say it\'s been hours, but you are not sure."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You found a clock whose hands won\'t move."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "They are on the verge of ticking, but never doing it."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "But that never happens."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "What a drag."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You feel a shadow go through your own place, but you couldn\'t see how projects it."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Are you getting bored?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Is there someone else staying here?"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "No, no, everything is alright."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Is something wrong with the clock? Looks like it doesn\'t move."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Of course you are not the only one here"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "This is a passing place. In the middle of nowhere, but a passing place."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You are not the first to come, neither the last."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "For a moment their tone seems prophetic. It must be your imagination."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I\'m sure that someone is still here. But I\'d say I haven\'t seen anyone in ages."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Heh."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "If you feel bored, you can try to sharpen your senses and ind other travelers like you."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You hear a knock, like if someone was trying to stay still breaks that status for half a second."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Are you sure? Anyone would say it"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "But it\'s alright, I\'d rather to not worry about other\'s people joyment."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "Nothing happens to it. The clock it\'s perfectly."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "But it doesn\'t work, the hands doesn\'t move."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "I know, but there is nothing wrong with it."
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "The clock works by time\'s rhythm"
+msgstr ""
+
+#: dialogs/scene_one.dialogue
+msgid "You don\'t have to worry."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgctxt "dialogue"
+msgid "Kids"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgctxt "dialogue"
+msgid "You find what you\'d say is a weapon"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Wow! You found us in a blink!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Yeah, Jimmy! This traveler is incredible!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Rules are rules, here you have your coin."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "But is not made of chocolate, don\'t try to eat it!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Speaking of, who are you and how did you get here?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "My name is..."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "I don\'t want to talk with you."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Now you think about it, you don\'t remember your name. You\'d swear that you know who you are, but you are unable to utter no information about your past."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Let\'s say I\'m a traver and I\'m just passing by."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Of course, like everybody."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Like everybody."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Of course."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "And who you are?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "We are Jimmy, Timmy, Jim and Joe."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "We are brothers!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Don\'t you dare to trick us! Our coins are ours!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "She already won one, so shut up"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "What? Why is this coin so special?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "We don\'t know yet, but Desafecto seems interested in them."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Everybody has one!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Even you. Well, you have two now."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Hey, traveler, thanks for playing with us. We seem invisible here and it\'s been so long since the last time someone look at us."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Desafecto is still looking for us for sure!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "See you, traveler! We wish you arrive to your destiny!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Oh, another one that ignore us."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "But she seemed like she was differente!"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "She vibrates like a newcomer, she\'s not on the same tune that everything else."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "So let her tune alone, we need to hide to win our game."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "The kids dissapear in front of you, like if they will never been there."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You are left alone with your own thoughts, feeling the absence of those that were here just a second ago."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "How long they have been here? Their names seems familiar"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Four kids, brothers, those names..."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Of course! Was that accident, right? It was horrible..."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "The whole family, yeah, the parents and the four kids..."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "It was a very notorious case. It was present in all the news in the television."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "What is this place? What\'s going on?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Don\'t you know yet, darling?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You are in the same tune that those kids. By the way, don\'t worry to tell me where they are."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "They have their own game."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Are you holding them aginst their will?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Who? ME? No one is here against their will"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "This is a auspice for wandering souls"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Yeah, sure. Was that contract part of your good intentions?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "A mere formality, I told you."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You... Are a monster."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "I am not, but I can make you wish that I\'d be JUST a monster."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "The doors and windowns shut. Darkness starts to hovering you."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "A beep bring back you. You head is spinning and you can\'t even think."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Your mouth tastes like blood and you noticed something thick on your lungs."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You are not okay."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Where...? What...?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Looks like Desafecto has beated you."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "¡OW! it hurts."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "But now you are alone. Everything indicates that Desafecto left, and you can\'t notice the kids\'s presence"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "What will you do?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Open the door, turn on the car and leave."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Look for a weapon to defend yourself from Desafecto."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Try to hide as the kids do and pray that Desafecto doesn\'t find you."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You don\'t waste time to start your plan."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Indeed, the door is closed and it won\'t open."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "What will be your next move?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Look for a key  or something that would open the doors."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Giving up. It has no sense to think you can escape. You are traped."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You search and search, but don\'t find anything helpful."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "After few minutes you heard a clearing of a voice that you recognize perfectly."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "If you are going to poke around my stuff, I advance you that those door don\'t work with a key."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "They only obey me, like everything else."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Are you going to kill me?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "No, traveler. I propose you something you\'ll be interested into."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Desafecto smirks, cold an evil."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Well, I didn\'t expect that."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "... What?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "That you gave up that easy."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "It doesn\'t matter. Give me an end. I give up."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Come on, don\'t lose yoru hope. You still have a chance."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Desafecto extends you their hand and dry your tears with their pale fingers."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Their expresion, although benevolent, hides a cold stare that emits some kind of dissaproval."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "An ice pick close to a wicked cocktail shaker"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You hide behind the door, waiting to Desafecto to turn her back on you."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Desafecto enters the room, in absolute silence."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Attack Desafecto from behind."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Don\'t attack. You are not a murderer."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You jump over Desafecto and stab them on the side."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Their body doesn\'t react. They even don\'t staggers with your weight and hit."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "So you want to fight? That\'s good."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "But I warn you that exercise makes me hungry."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Desafecto is faster thatn you, and soon you are surpased by their moves."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "They keeps you conscious, making you feel every bite in an agony that seems to not have end."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Are you going to stay there still? Is that why I acted like I didn\'t see you?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "If you are going to behave like a monster, make sure you can."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You are not worth me has food, neither as toy. Dissapear."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "In that moment, you heard your whole body cracking and the pain wraps you up, deafening your own screams."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You found a specially dark place where hide yourself. It seems that even the light doesn\'t want to get close."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You crouch and observe the whole room. Of course you are on a place that allows you to observe everything."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "A perfect hideout for a predator."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You are not alone."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Bravo, you found one of my favourite place here."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Your screams leave that dark place, but luckily it doesn\'t take long for them to be silenced."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "You are sitting on a table."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "The tiredness is more and more noticeable."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Desafecto is sat in front of you."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Fine, I\'m going to propose you a little and innocent game."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Is evident that you want to leave here, right?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Don\'t bother yourself answering. Your voice is annoying."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Words don\'t come out of your mouth no matter how hard you try."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "That\'s better."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "As I was telling you, is just an innocent dice game."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "If you win, you are free. If you lose, you\'ll stay here."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Do you accept?"
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Oh, sorry, you can talk if you are going to agree."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "I agree, monster."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "Fine! And in honor of my benevolence, I\'ll ignore that insult uttered in my presence."
+msgstr ""
+
+#: dialogs/scene_two.dialogue
+msgid "And now you agreed, I\'ll explain you the rules."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "It\'s very easy: First you need to pay with that coin you have there."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Once the payment is done, I\'ll throw a dice and you\'ll make a small bet: The next dice will have a high or lower value."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Then I\'ll thow the second dice and we compare them, okay?"
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "If the result is according to what you have said, you win."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "On the contrary if you have failed, you lose."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "It\'s just luck and intuition, darling."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Congratulations! Looks like you won."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Just like that? Can I really leave?"
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Of course, I always keep my word. No matter if they are deals or threats."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Now pick up your stuff and leave."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "I\'m getting tired of your presence."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Wow, seems like luck is not by your side today."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "So now that coin belongs to me, and I can do whatever I want with it."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "All for you, like if I care."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "I just want to leave. Please."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "I beg you."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "In response to Desafecto\'s indifference, your tears make their way and flow easily from your eyes."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "You articulate, with difficulty, an incosolable crying, that starts tofill the room."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Listen, stop, I hate hear you cry."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "If you had someone that can match the value of this coin..."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Maybe it could help you pay the toll."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "You feel the weight of the coin that you won to the kids in your pocket."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Desafecto has noticed it too."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "As you heard."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Darling, maybe luck is not by your side, but you still have me."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "I am benevolent."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "You feel the coin in your pocket, remembing that the kids told you that Desafecto is obsessed with them."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "So?"
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "What are these coins?"
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Do you really want to have this talk again?"
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "They are just coings, a payment you have to do."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Don\'t bother yourself trying to comprehend what they are. Just pay and leave."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Trust me, they are just useless weights for you."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Filled with tiredness and cling to that burning nail, you give them the coin and leave."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Alright, here you have."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "Goodbye, wandering soul. I wish you a good trip."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "+ You get back to your car and you go away on the road, leaving Aion behind."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "+ In front of you there is a long road, but the nightmare has ended."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "+ There is still hope."
+msgstr ""
+
+#: dialogs/mini_game.dialogue
+msgid "+ ..."
 msgstr ""
