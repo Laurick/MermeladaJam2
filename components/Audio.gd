@@ -19,8 +19,9 @@ func play_click_sound():
 	audio_stream_player_ui.play()
 
 func play_music(music:AudioStream):
-	audio_stream_player_music.stream = music
-	audio_stream_player_music.play()
+	if audio_stream_player_music.stream != music:
+		audio_stream_player_music.stream = music
+		audio_stream_player_music.play()
 
 func play_ui(sound:String, random_pitch:bool = false):
 	audio_stream_player_ui.stream = load("res://music/%s" % sound)

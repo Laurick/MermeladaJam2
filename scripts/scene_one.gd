@@ -30,7 +30,10 @@ func on_change_title(title:String):
 	elif title == "see_document_again":
 		Audio.play_music(load("res://music/desafecto_colerico.ogg"))
 	elif title == "next_day":
+		change_location(load("res://images/fondo.jpg"))
 		Audio.play_music(load("res://music/desafecto.ogg"))
+	elif title == "some_here":
+		Audio.play_music(load("res://music/chiquets_minijuego.ogg"))
 
 
 func show_letter():

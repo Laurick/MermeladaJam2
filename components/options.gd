@@ -12,7 +12,7 @@ func _ready():
 		"ca":
 			idiomas.select(2)
 		_:
-			idiomas.select(1)
+			idiomas.select(0)
 	
 	
 func _on_idiomas_item_selected(index):

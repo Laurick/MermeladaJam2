@@ -26,14 +26,14 @@ texture = ExtResource("2_cbt8g")
 
 [node name="Dice1" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(320, 294)
-scale = Vector2(0.15, 0.15)
+position = Vector2(453.95, 179.6)
+scale = Vector2(0.1, 0.1)
 texture = ExtResource("8_oemd0")
 
 [node name="Dice2" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(960, 294)
-scale = Vector2(0.15, 0.15)
+position = Vector2(821.95, 179.6)
+scale = Vector2(0.1, 0.1)
 texture = ExtResource("7_jt3f8")
 
 [node name="ColorRect" type="ColorRect" parent="."]

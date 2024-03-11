@@ -26,6 +26,7 @@ func on_change_title(title:String):
 	elif title == "reset":
 		reset()
 	elif title == "end_game":
+		Audio.play_music(load("res://music/radio.ogg"))
 		await fade_in()
 		get_tree().change_scene_to_file("res://scenes/intro.tscn")
 	
